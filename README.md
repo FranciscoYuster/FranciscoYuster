@@ -1,6 +1,6 @@
-- 👋 Hi, I’m @FranciscoYuster
-- 👀 I’m appasionated about data science 
-- 🌱 I’m currently learning python
+#- 👋 Hi, I’m @FranciscoYuster
+#- 👀 I’m appasionated about data science 
+#- 🌱 I’m currently learning python
 
   
 # Proyectos
