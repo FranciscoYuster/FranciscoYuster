@@ -9,7 +9,7 @@
 [https://franciscoyuster.github.io/pfy.github.io/](https://franciscoyuster.github.io/pfy.github.io/)
 
 
-## Proyecto  2 PBI
+## Exportador de correos
 
 ## Proyecto  3 PBI
 
