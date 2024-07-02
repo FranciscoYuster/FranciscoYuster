@@ -3,13 +3,8 @@
 #- 🌱 I’m currently learning python 
 
   
-# Proyectos
+# Projects
 
-## Proyecto  1 - Exportador de correos gmail a excel
-
-
-## Exportador de correos
-
-## Proyecto  3 PBI
-
+## Email Exporter to google sheets
+## 
 
