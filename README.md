@@ -3,8 +3,6 @@
 ### 🌱 I’m currently learning python 
 
   
-# Projects
 
-##
 
 
