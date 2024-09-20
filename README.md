@@ -23,7 +23,7 @@
 - 📝 [Portfolio]
 
 ## Currently Learning
-- 📚 Exploring advanced topics in Python, such as web scraping, and automation.
+- 📚 I’m honing my skills in Python to leverage data analysis and automation for solving complex business challenges.
 
 ## Hobbies
 - 🌱 I enjoy skateboarding and chess.
