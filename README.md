@@ -19,7 +19,7 @@
 
 ## Get In Touch
 - 📧 Email: [yusterfrancisco@gmail.com](mailto:yusterfrancisco@gmail.com)
-- 💼 [LinkedIn](https://www.linkedin.com/in/franciscoyuster/)
+- 💼 [LinkedIn](https://www.linkedin.com/in/francisco-yuster-aa0b06258/)
 - 📝 [Portfolio]
 
 ## Currently Learning
