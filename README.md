@@ -1,11 +1,31 @@
-### Hi, I’m Francisco Yuster
-### I’m passionate about data science
-### I’m currently learning Python
+# Hi, I’m Francisco Yuster 👋
+
+## About Me
+- 🎓 Passionate about **Data Science** and continuously learning new techniques.
+- 📦 Specialist in Logistics and Inventory Management, with a strong background in Warehousing, Distribution Tracking, Stock Control, and Supply Planning and Dispatch.
+- 🧑‍💻 Currently enhancing my skills in **Python** for data analysis, and automation.
+- 🚀 Excited about the potential of data to drive decisions and solve complex problems.
+
+## Skills
+- **Languages:** Python (beginner level)
+- **Data Analysis, Manipulation & Visualization:** Power Bi, Power Query, Excel, Pandas, NumPy, Matplotlib, Seaborn, 
+- **Databases:** MySQL, SQL
+- **Tools:** Jupyter(Lab-Notebook), Git, VS Code
+
+## Projects
+- 🔍 [Project 1: Data exploration with Python](https://github.com/FranciscoYuster/EDAwPy)  
+  The repository focuses on data exploration and analysis, using data cleaning, visualization, and transformation techniques.
 
 
+## Get In Touch
+- 📧 Email: [yusterfrancisco@gmail.com](mailto:yusterfrancisco@gmail.com)
+- 💼 [LinkedIn](https://www.linkedin.com/in/franciscoyuster/)
+- 📝 [Portfolio]
 
+## Currently Learning
+- 📚 Exploring advanced topics in Python, such as web scraping, and automation.
 
-  
+## Hobbies
+- 🌱 I enjoy skateboarding and chess.
 
-
-
+Thanks for visiting my profile!
