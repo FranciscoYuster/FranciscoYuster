@@ -7,7 +7,7 @@
 - 🚀 Excited about the potential of data to drive decisions and solve complex problems.
 
 ## Skills
-- **Languages:** Python (beginner level)
+- **Languages:** Python, Html, CSS (beginner level)
 - **Data Analysis, Manipulation & Visualization:** Power Bi, Power Query, Excel, Pandas, NumPy, Matplotlib, Seaborn, 
 - **Databases:** MySQL, SQL
 - **Tools:** Jupyter(Lab-Notebook), Git, VS Code
