@@ -15,7 +15,7 @@
 ## Projects
 - 🔍 [Project 1: Data exploration with Python](https://github.com/FranciscoYuster/EDAwPy)  
   The repository focuses on data exploration and analysis, using data cleaning, visualization, and transformation techniques.
-- 👩🏻‍💻 [Project 2: Inventory System](https://github.com/FranciscoYuster/Inventory)  
+- 👩🏻‍💻 [Project 2: Inventory System](https://github.com/FranciscoYuster/Inventory)  (Cooming Soon)
   A managament inventory system
 
 ## Get In Touch
