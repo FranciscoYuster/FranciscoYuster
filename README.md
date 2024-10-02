@@ -27,7 +27,6 @@
 ## Get In Touch
 - 📧 Email: [yusterfrancisco@gmail.com](mailto:yusterfrancisco@gmail.com)
 - 💼 [LinkedIn](https://www.linkedin.com/in/francisco-yuster-aa0b06258/)
-- 📝 [Portfolio]
 
 ## Currently Learning
 - 📚 I’m honing my skills in Python to leverage data analysis and automation for solving complex business challenges.
