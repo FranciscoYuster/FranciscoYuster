@@ -8,7 +8,7 @@
 
 ## Skills
 - **Languages:** Python, Html, CSS (beginner level)
-- **Data Analysis, Manipulation & Visualization:** Power Bi, Power Query, Excel, Pandas, NumPy, Matplotlib, Seaborn, 
+- **Data Analysis, Manipulation & Visualization:** Power Bi, Power Query, Excel, Python (Pandas, NumPy, Matplotlib, Seaborn)
 - **Databases:** MySQL, SQL
 - **Tools:** Jupyter(Lab-Notebook), Git, VS Code
 
