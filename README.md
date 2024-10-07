@@ -17,7 +17,7 @@
   The repository focuses on data exploration and analysis, using data cleaning, visualization, and transformation techniques.
 - 👩🏻‍💻 [Project 2: Inventory System](https://github.com/FranciscoYuster/Inventory)  (Cooming Soon)
   A managament inventory system
-- 👩 [Project 2: GDP Report ](https://github.com/FranciscoYuster/REPORTPIB)
+- 👩 [Project 2: GDP Report ](https://github.com/FranciscoYuster/reportgdp)
   A Python project analyzing global GDP data from 1960 to 2023 using the World Bank API.
 
 
