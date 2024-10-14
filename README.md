@@ -7,6 +7,7 @@
 <img src=https://img.shields.io/badge/github-%2324292e.svg?&style=for-the-badge&logo=github&logoColor=white alt=github style="margin-bottom: 5px;" />
 </a>
 </p>
+
 - 🎓 Passionate about **Data Science** and continuously learning new techniques.
 - 📦 Specialist in Logistics and Inventory Management, with a strong background in Warehousing, Distribution Tracking, Stock Control, and Supply Planning and Dispatch.
 - 💻 Currently enhancing my skills in **Python** for data analysis, and automation for solving complex business challenges.
