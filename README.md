@@ -11,6 +11,7 @@
 - 🎓 Passionate about **Data Science** and continuously learning new techniques.
 - 📦 Specialist in Logistics and Inventory Management, with a strong background in Warehousing, Distribution Tracking, Stock Control, and Supply Planning and Dispatch.
 - 💻 Currently enhancing my skills in **Python** for data analysis, and automation for solving complex business challenges.
+- 🌱 I enjoy skateboarding and chess.
 
 ## Skills
 | Lenguages                                                                                                            |  Data Analysis, Manipulation & Visualization                                                     | Databases                                                                                          |
@@ -24,6 +25,3 @@
   A managament inventory system
 - 📊 [World GDP Report ](https://github.com/FranciscoYuster/reportgdp)
   A Python project analyzing global GDP data from 1960 to 2023 using the World Bank API.
-
-## Hobbies
-- 🌱 I enjoy skateboarding and chess.
