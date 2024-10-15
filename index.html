@@ -1,135 +1,81 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Francisco Yuster | Data Science & Logistics Specialist</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: #f4f4f9;
-            color: #333;
-            line-height: 1.6;
-        }
-        .container {
-            width: 80%;
-            margin: auto;
-            overflow: hidden;
-            padding: 20px;
-        }
-        .header {
-            background: #333;
-            color: #fff;
-            padding: 10px 0;
-            text-align: center;
-        }
-        .header h1 {
-            margin: 0;
-            font-size: 2.5em;
-        }
-        .links {
-            text-align: center;
-            margin: 10px 0;
-        }
-        .links a {
-            text-decoration: none;
-            color: #fff;
-            padding: 10px 20px;
-            border-radius: 5px;
-            margin: 5px;
-        }
-        .linkedin { background-color: #0077b5; }
-        .github { background-color: #333; }
-        .section {
-            margin: 20px 0;
-        }
-        .skills, .projects {
-            width: 100%;
-            border-collapse: collapse;
-        }
-        .skills th, .skills td, .projects th, .projects td {
-            padding: 10px;
-            border: 1px solid #ddd;
-            text-align: center;
-        }
-        .skills th, .projects th {
-            background-color: #333;
-            color: #fff;
-        }
-        .footer {
-            text-align: center;
-            padding: 10px;
-            background: #333;
-            color: #fff;
-            margin-top: 20px;
-        }
-    </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Francisco Yuster - Página Personal</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 </head>
 <body>
+  <!-- Navbar -->
+  <header>
+    <nav>
+      <h1>Francisco Yuster</h1>
+      <ul>
+        <li><a href="#sobre-mi">Sobre Mí</a></li>
+        <li><a href="#curriculum">Currículum</a></li>
+        <li><a href="#proyectos">Proyectos</a></li>
+        <li><a href="#contacto">Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
 
-<div class="header">
-    <h1>Francisco Yuster</h1>
-    <p>Especialista en Ciencia de Datos y Logística</p>
-</div>
+  <!-- Sección Sobre Mí -->
+  <section id="sobre-mi" class="section">
+    <h2>Sobre Mí</h2>
+    <p>Soy Francisco Yuster, especialista en Logística e Inventario con pasión por el análisis de datos. Me dedico a solucionar desafíos de negocio a través de la automatización y la ciencia de datos.</p>
+  </section>
 
-<div class="links">
-    <a href="https://www.linkedin.com/in/francisco-yuster-aa0b06258/" target="_blank" class="linkedin">LinkedIn</a>
-    <a href="https://github.com/FranciscoYuster" target="_blank" class="github">GitHub</a>
-</div>
+  <!-- Sección Currículum -->
+  <section id="curriculum" class="section">
+    <h2>Currículum</h2>
+    <p>Aquí puedes descargar mi <a href="curriculum.pdf" target="_blank">currículum en PDF</a> y revisar mis habilidades y experiencia.</p>
+    <ul class="skills">
+      <li><i class="fab fa-python"></i> Python</li>
+      <li><i class="fas fa-chart-bar"></i> Análisis de Datos</li>
+      <li><i class="fas fa-database"></i> MySQL</li>
+      <li><i class="fas fa-laptop-code"></i> Power BI</li>
+    </ul>
+  </section>
 
-<div class="container">
-    <div class="section">
-        <h2>Sobre mí</h2>
-        <p>🎓 Apasionado por la ciencia de datos y en constante aprendizaje de nuevas técnicas.</p>
-        <p>📦 Especialista en Logística y Gestión de Inventarios, con experiencia en Almacenamiento, Rastreo de Distribución, Control de Inventario y Planificación de Despachos.</p>
-        <p>💻 Actualmente mejorando mis habilidades en Python para análisis de datos y automatización de procesos complejos.</p>
-        <p>🌱 Disfruto del skateboarding y el ajedrez.</p>
+  <!-- Sección Proyectos -->
+  <section id="proyectos" class="section">
+    <h2>Proyectos</h2>
+    <div class="project-grid">
+      <div class="project">
+        <h3>Exploración de Datos</h3>
+        <p>Repositorio que se centra en la limpieza, visualización y análisis de datos.</p>
+        <a href="https://github.com/FranciscoYuster/EDAwPy" target="_blank">Ver Proyecto</a>
+      </div>
+      <div class="project">
+        <h3>Sistema de Inventario</h3>
+        <p>Sistema de gestión de inventario para control y optimización.</p>
+        <a href="https://github.com/FranciscoYuster/Inventory" target="_blank">Próximamente</a>
+      </div>
+      <div class="project">
+        <h3>Informe de PIB Mundial</h3>
+        <p>Análisis de datos del PIB global desde 1960 hasta 2023.</p>
+        <a href="https://github.com/FranciscoYuster/reportgdp" target="_blank">Ver Proyecto</a>
+      </div>
     </div>
+  </section>
 
-    <div class="section">
-        <h2>Habilidades</h2>
-        <table class="skills">
-            <tr>
-                <th>Lenguajes</th>
-                <th>Análisis, Manipulación y Visualización de Datos</th>
-                <th>Bases de Datos</th>
-            </tr>
-            <tr>
-                <td>Python, HTML, CSS</td>
-                <td>Power BI, Power Query, Excel, Pandas, NumPy, Matplotlib, Seaborn</td>
-                <td>MySQL</td>
-            </tr>
-        </table>
+  <!-- Sección Contacto -->
+  <section id="contacto" class="section">
+    <h2>Contacto</h2>
+    <form id="contact-form" action="https://formspree.io/f/myybzyqr" method="POST">
+      <input type="text" name="name" placeholder="Tu Nombre" required>
+      <input type="email" name="email" placeholder="Tu Email" required>
+      <textarea name="message" placeholder="Tu Mensaje" required></textarea>
+      <button type="submit">Enviar</button>
+    </form>
+    <div class="social-links">
+      <a href="https://www.linkedin.com/in/francisco-yuster-aa0b06258/" target="_blank"><i class="fab fa-linkedin"></i></a>
+      <a href="https://github.com/FranciscoYuster" target="_blank"><i class="fab fa-github"></i></a>
     </div>
+  </section>
 
-    <div class="section">
-        <h2>Proyectos</h2>
-        <table class="projects">
-            <tr>
-                <th>Nombre</th>
-                <th>Descripción</th>
-            </tr>
-            <tr>
-                <td><a href="https://github.com/FranciscoYuster/EDAwPy" target="_blank">Data exploration with Python</a></td>
-                <td>Proyecto de exploración y análisis de datos usando técnicas de limpieza, visualización y transformación de datos.</td>
-            </tr>
-            <tr>
-                <td><a href="https://github.com/FranciscoYuster/Inventory" target="_blank">Inventory System (Próximamente)</a></td>
-                <td>Sistema de gestión de inventarios para optimizar procesos de almacenamiento y control de stock.</td>
-            </tr>
-            <tr>
-                <td><a href="https://github.com/FranciscoYuster/reportgdp" target="_blank">World GDP Report</a></td>
-                <td>Análisis del PIB global desde 1960 hasta 2023 utilizando la API del Banco Mundial.</td>
-            </tr>
-        </table>
-    </div>
-</div>
-
-<div class="footer">
-    <p>Francisco Yuster - © 2023</p>
-</div>
-
+  <script src="script.js"></script>
 </body>
 </html>
