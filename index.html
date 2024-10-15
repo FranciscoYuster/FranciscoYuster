@@ -5,34 +5,143 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Francisco Yuster - Portafolio</title>
     <link rel="stylesheet" href="styles.css">
+    <style>
+        /* Estilos generales */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            color: #333;
+        }
+        header, nav, section, footer {
+            padding: 20px;
+            margin: auto;
+            max-width: 1200px;
+        }
+        nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-color: #333;
+            color: white;
+            padding: 10px 20px;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+        .hero {
+            text-align: center;
+            padding: 60px;
+            background-color: #f4f4f4;
+        }
+        .hero h1 {
+            font-size: 2.5em;
+        }
+        /* Secciones */
+        section {
+            margin: 40px 0;
+        }
+        h2 {
+            font-size: 2em;
+            margin-bottom: 20px;
+            color: #333;
+        }
+        .content {
+            display: flex;
+            gap: 20px;
+        }
+        .content img {
+            max-width: 300px;
+            border-radius: 10px;
+        }
+        .project {
+            background-color: #f9f9f9;
+            padding: 20px;
+            border-radius: 10px;
+            margin-bottom: 20px;
+        }
+        footer {
+            text-align: center;
+            font-size: 0.9em;
+            color: #666;
+        }
+    </style>
 </head>
 <body>
-    <!-- Header -->
+
+    <!-- Encabezado y Navegación -->
     <header>
         <nav>
-            <h1>Francisco Yuster</h1>
-            <ul>
-                <li><a href="index.html">Inicio</a></li>
-                <li><a href="sobre-mi.html">Sobre mí</a></li>
-                <li><a href="curriculum.html">Currículum</a></li>
-                <li><a href="proyectos.html">Proyectos</a></li>
-                <li><a href="contacto.html">Contacto</a></li>
-            </ul>
+            <div>Francisco Yuster</div>
+            <div>
+                <a href="#about">Sobre mí</a>
+                <a href="#resume">Curriculum</a>
+                <a href="#projects">Proyectos</a>
+                <a href="#contact">Contacto</a>
+            </div>
         </nav>
     </header>
 
-    <!-- Main Content -->
-    <main class="container">
-        <section class="intro">
-            <h2>Bienvenido</h2>
-            <p>Soy Francisco Yuster, especialista en ciencia de datos y logística. Explora mis experiencias y proyectos en las diferentes secciones de este sitio.</p>
-            <a href="sobre-mi.html" class="cta-button">Saber más sobre mí</a>
-        </section>
-    </main>
+    <!-- Hero / Introducción -->
+    <section class="hero">
+        <h1>Hola, soy Francisco Yuster 👋</h1>
+        <p>Apasionado por la ciencia de datos y la gestión logística. Busco soluciones basadas en datos para optimizar procesos empresariales.</p>
+    </section>
+
+    <!-- Sección Sobre Mí -->
+    <section id="about">
+        <h2>Sobre Mí</h2>
+        <div class="content">
+            <img src="profile.jpg" alt="Francisco Yuster">
+            <p>Especialista en logística y gestión de inventarios con experiencia en almacenamiento, distribución, control de stock, planificación y despacho. Actualmente, mejorando mis habilidades en Python para análisis de datos y automatización de procesos complejos. En mi tiempo libre disfruto del skateboarding y el ajedrez.</p>
+        </div>
+    </section>
+
+    <!-- Sección Curriculum -->
+    <section id="resume">
+        <h2>Curriculum</h2>
+        <p>Aquí puedes descargar mi <a href="Francisco_Yuster_CV.pdf" target="_blank">CV completo</a> para más detalles sobre mi experiencia y habilidades.</p>
+        <ul>
+            <li><strong>Python:</strong> Análisis de datos, visualización y automatización</li>
+            <li><strong>Logística y Gestión de Inventarios:</strong> Optimización de procesos logísticos</li>
+            <li><strong>Visualización de datos:</strong> Power BI, Excel, Matplotlib, Seaborn</li>
+            <li><strong>Bases de datos:</strong> MySQL</li>
+        </ul>
+    </section>
+
+    <!-- Sección Proyectos -->
+    <section id="projects">
+        <h2>Proyectos</h2>
+        <div class="project">
+            <h3>Data exploration with Python</h3>
+            <p>Un proyecto enfocado en la exploración y análisis de datos, usando técnicas de limpieza, visualización y transformación de datos.</p>
+            <a href="https://github.com/FranciscoYuster/EDAwPy" target="_blank">Ver en GitHub</a>
+        </div>
+        <div class="project">
+            <h3>Inventory System</h3>
+            <p>Sistema de gestión de inventarios (en desarrollo) para optimizar los procesos de almacenamiento y control de stock.</p>
+            <a href="https://github.com/FranciscoYuster/Inventory" target="_blank">Ver en GitHub</a>
+        </div>
+        <div class="project">
+            <h3>World GDP Report</h3>
+            <p>Proyecto de análisis de tendencias del PIB global desde 1960 hasta 2023, utilizando la API del Banco Mundial.</p>
+            <a href="https://github.com/FranciscoYuster/reportgdp" target="_blank">Ver en GitHub</a>
+        </div>
+    </section>
+
+    <!-- Sección Contacto -->
+    <section id="contact">
+        <h2>Contacto</h2>
+        <p>¿Interesado en colaborar o en saber más? Puedes contactarme a través de:</p>
+        <p>Email: <a href="mailto:yusterfrancisco@gmail.com">yusterfrancisco@gmail.com</a></p>
+        <p>LinkedIn: <a href="https://www.linkedin.com/in/francisco-yuster-aa0b06258/" target="_blank">Perfil de LinkedIn</a></p>
+    </section>
 
     <!-- Footer -->
     <footer>
-        <p>© 2024 Francisco Yuster</p>
+        <p>© 2024 Francisco Yuster. Todos los derechos reservados.</p>
     </footer>
+
 </body>
 </html>
