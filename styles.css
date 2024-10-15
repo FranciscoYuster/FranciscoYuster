@@ -1,0 +1,65 @@
+/* Estilo del Contenedor Principal de Inicio */
+.home-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 4rem;
+    background-color: #f0e5d8;
+    min-height: 80vh;
+  }
+  
+  .intro-card {
+    background-color: #fff;
+    padding: 2.5rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    max-width: 600px;
+  }
+  
+  .intro-card h2 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 1rem;
+  }
+  
+  .intro-card p {
+    font-size: 1.2rem;
+    color: #666;
+    margin-bottom: 2rem;
+  }
+  
+  .buttons {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+  }
+  
+  .btn {
+    text-decoration: none;
+    padding: 0.8rem 1.5rem;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s;
+  }
+  
+  .btn-primary {
+    background-color: #0066ff;
+    color: #fff;
+  }
+  
+  .btn-primary:hover {
+    background-color: #004bb5;
+  }
+  
+  .btn-secondary {
+    background-color: #fff;
+    color: #333;
+    border: 2px solid #333;
+  }
+  
+  .btn-secondary:hover {
+    background-color: #f0f0f0;
+  }
+  
