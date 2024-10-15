@@ -1,45 +1,54 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contacto - Francisco Yuster</title>
-    <link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8">
+  <title>Contacto - Maya Nares</title>
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <header>
-        <nav>
-            <ul>
-                <li><a href="index.html">Inicio</a></li>
-                <li><a href="sobre-mi.html">Sobre Mí</a></li>
-                <li><a href="curriculum.html">Currículum</a></li>
-                <li><a href="proyectos.html">Proyectos</a></li>
-                <li><a href="contacto.html">Contacto</a></li>
-            </ul>
-        </nav>
-    </header>
-
-    <main>
-        <section class="contact-section">
-            <h2>Contacto</h2>
-            <p>Si tienes alguna pregunta o deseas contactarme, puedes enviarme un mensaje a través del siguiente formulario:</p>
-            <form action="https://formsubmit.co/tu-email@example.com" method="POST">
-                <label for="name">Nombre:</label>
-                <input type="text" id="name" name="name" required>
-                
-                <label for="email">Correo Electrónico:</label>
-                <input type="email" id="email" name="email" required>
-                
-                <label for="message">Mensaje:</label>
-                <textarea id="message" name="message" rows="4" required></textarea>
-                
-                <button type="submit">Enviar</button>
-            </form>
-        </section>
-    </main>
-
-    <footer>
-        <p>&copy; 2023 Francisco Yuster</p>
-    </footer>
+  <header>
+    <h1>Maya Nares / <span>Gestor de Proyecto</span></h1>
+    <nav>
+      <a href="sobre-mi.html">Sobre Mí</a>
+      <a href="curriculum.html">Currículum</a>
+      <a href="proyectos.html">Proyectos</a>
+      <a href="contacto.html">Contacto</a>
+    </nav>
+  </header>
+  
+  <section class="contact-content">
+    <h2>Platiquemos</h2>
+    <form class="contact-form">
+      <div class="form-group">
+        <label for="nombre">Nombre *</label>
+        <input type="text" id="nombre" name="nombre" required>
+      </div>
+      <div class="form-group">
+        <label for="apellido">Apellido *</label>
+        <input type="text" id="apellido" name="apellido" required>
+      </div>
+      <div class="form-group full-width">
+        <label for="email">Email *</label>
+        <input type="email" id="email" name="email" required>
+      </div>
+      <div class="form-group full-width">
+        <label for="asunto">Asunto</label>
+        <input type="text" id="asunto" name="asunto">
+      </div>
+      <div class="form-group full-width">
+        <label for="mensaje">Mensaje</label>
+        <textarea id="mensaje" name="mensaje" rows="4"></textarea>
+      </div>
+      <button type="submit" class="submit-btn">Enviar</button>
+    </form>
+  </section>
+  
+  <footer>
+    <p>© 2023 Creado por Maya Nares</p>
+    <div class="contact-info">
+      <p>Llama: +52-1-33-12345678</p>
+      <p>Escribe: info@mistio.com</p>
+    </div>
+  </footer>
 </body>
 </html>
