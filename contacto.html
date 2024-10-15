@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Contacto - Francisco Yuster</title>
   <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 </head>
 <body>
   <header>
@@ -15,24 +16,39 @@
         <li><a href="sobre-mi.html">Sobre Mí</a></li>
         <li><a href="curriculum.html">Currículum</a></li>
         <li><a href="proyectos.html">Proyectos</a></li>
+        <li><a href="contacto.html" class="active">Contacto</a></li>
       </ul>
     </nav>
   </header>
 
-  <main>
-    <section class="section">
-      <h2>Contacto</h2>
-      <form id="contact-form" action="https://formspree.io/f/myybzyqr" method="POST">
-        <input type="text" name="name" placeholder="Tu Nombre" required>
-        <input type="email" name="email" placeholder="Tu Email" required>
-        <textarea name="message" placeholder="Tu Mensaje" required></textarea>
-        <button type="submit">Enviar</button>
-      </form>
-      <div class="social-links">
-        <a href="https://www.linkedin.com/in/francisco-yuster-aa0b06258/" target="_blank"><i class="fab fa-linkedin"></i></a>
-        <a href="https://github.com/FranciscoYuster" target="_blank"><i class="fab fa-github"></i></a>
+  <main class="contact-container">
+    <h2>Platiquemos</h2>
+
+    <form class="contact-form" action="https://formspree.io/f/myybzyqr" method="POST">
+      <div class="form-row">
+        <input type="text" name="nombre" placeholder="Nombre *" required>
+        <input type="text" name="apellido" placeholder="Apellido *" required>
       </div>
-    </section>
+      <input type="email" name="email" placeholder="Email *" required>
+      <input type="text" name="asunto" placeholder="Asunto">
+      <textarea name="mensaje" placeholder="Mensaje"></textarea>
+      <button type="submit">Enviar</button>
+    </form>
   </main>
+
+  <footer class="contact-footer">
+    <p>Política de Privacidad</p>
+    <p>&copy; 2035 Creado por Francisco Yuster</p>
+    <div class="contact-info">
+      <p>Llama: +52-1-33-12345678</p>
+      <p>Escribe: info@misitio.com</p>
+      <div class="social-links">
+        <a href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook"></i></a>
+        <a href="https://www.twitter.com" target="_blank"><i class="fab fa-twitter"></i></a>
+        <a href="https://www.linkedin.com/in/francisco-yuster-aa0b06258/" target="_blank"><i class="fab fa-linkedin"></i></a>
+        <a href="https://www.instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
+      </div>
+    </div>
+  </footer>
 </body>
 </html>
