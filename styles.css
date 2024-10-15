@@ -1,26 +1,95 @@
-/* Estilos de la barra de navegación */
-header nav ul {
-    list-style: none;
+/* Estilo general de la página de Contacto */
+.contact-container {
     display: flex;
-    gap: 1.5rem;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem;
+    background-color: #f0e5d8;
+    min-height: 80vh;
   }
   
-  header nav ul li button {
-    background: none;
-    border: none;
+  .contact-container h2 {
+    font-size: 2.5rem;
+    font-weight: bold;
     color: #333;
-    font-size: 1.2rem;
+    margin-bottom: 2rem;
+  }
+  
+  /* Estilo del formulario de contacto */
+  .contact-form {
+    background-color: #fff;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    width: 100%;
+  }
+  
+  .contact-form .form-row {
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 1rem;
+  }
+  
+  .contact-form input,
+  .contact-form textarea {
+    width: 100%;
+    padding: 0.8rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+  }
+  
+  .contact-form textarea {
+    height: 100px;
+    resize: vertical;
+  }
+  
+  .contact-form button {
+    width: 100%;
+    padding: 0.8rem;
+    background-color: #0066ff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
     font-weight: bold;
     cursor: pointer;
-    text-decoration: none;
-    padding: 0;
+    transition: background-color 0.3s;
   }
   
-  header nav ul li button:hover {
-    color: #0077b5; /* Cambia de color al pasar el ratón */
+  .contact-form button:hover {
+    background-color: #004bb5;
   }
   
-  header nav ul li .active {
-    color: #0066ff; /* Color para la página activa */
+  /* Estilo del pie de página de contacto */
+  .contact-footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 1.5rem 2rem;
+    background-color: #fff;
+    color: #666;
+    font-size: 0.9rem;
+    border-top: 1px solid #ddd;
+  }
+  
+  .contact-footer .contact-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 1rem;
+  }
+  
+  .contact-footer .social-links a {
+    margin: 0 0.5rem;
+    color: #333;
+    font-size: 1.2rem;
+  }
+  
+  .contact-footer .social-links a:hover {
+    color: #0077b5;
   }
   
