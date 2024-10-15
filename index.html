@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Francisco Yuster - Inicio</title>
+  <title>Inicio - Francisco Yuster</title>
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
@@ -11,19 +11,23 @@
     <nav>
       <h1>Francisco Yuster</h1>
       <ul>
-        <li><a href="sobre-mi.html">Sobre Mí</a></li>
-        <li><a href="curriculum.html">Currículum</a></li>
-        <li><a href="proyectos.html">Proyectos</a></li>
-        <li><a href="contacto.html">Contacto</a></li>
+        <li><button onclick="navigateTo('index')">Inicio</button></li>
+        <li><button onclick="navigateTo('sobre-mi')">Sobre Mí</button></li>
+        <li><button onclick="navigateTo('curriculum')">Currículum</button></li>
+        <li><button onclick="navigateTo('proyectos')">Proyectos</button></li>
+        <li><button onclick="navigateTo('contacto')">Contacto</button></li>
       </ul>
     </nav>
   </header>
 
-  <main>
+  <main class="home-container">
+    <!-- Contenido de la página de inicio -->
     <section class="section">
       <h2>Bienvenido a Mi Página Personal</h2>
       <p>Descubre mi experiencia en Logística e Inventario, mis habilidades en ciencia de datos, y algunos proyectos destacados.</p>
     </section>
   </main>
+
+  <script src="script.js"></script>
 </body>
 </html>
