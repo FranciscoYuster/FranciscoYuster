@@ -3,128 +3,192 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Currículum de Francisco Yuster</title>
     <style>
+        /* Reset */
         * {
             margin: 0;
             padding: 0;
             box-sizing: border-box;
-        }
-        body {
             font-family: 'Arial', sans-serif;
-            background-color: #f0f0f5;
+        }
+
+        body {
             color: #333;
             line-height: 1.6;
         }
-        .container {
-            width: 90%;
-            max-width: 1000px;
-            margin: auto;
-            padding: 20px;
-        }
-        .header {
-            background: #4CAF50;
-            color: #fff;
+
+        /* Header & Navigation */
+        header {
+            background-color: #4CAF50;
+            color: white;
             padding: 20px;
             text-align: center;
+            position: fixed;
+            width: 100%;
+            top: 0;
+            z-index: 1000;
         }
-        .header h1 {
-            font-size: 2.5em;
-            margin-bottom: 10px;
+
+        nav ul {
+            list-style: none;
+            display: flex;
+            justify-content: center;
+            gap: 20px;
         }
-        .header p {
-            font-size: 1.2em;
+
+        nav ul li {
+            display: inline;
         }
-        .section-title {
-            font-size: 1.8em;
-            margin: 20px 0;
-            color: #4CAF50;
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+            padding: 10px 15px;
+            transition: background 0.3s;
         }
-        .skills, .projects {
-            margin-bottom: 20px;
-        }
-        .skills ul, .projects ul {
-            list-style-type: none;
-        }
-        .skills li, .projects li {
-            background: #e0e0e0;
-            margin: 10px 0;
-            padding: 10px;
+
+        nav ul li a:hover {
+            background-color: #45a049;
             border-radius: 5px;
         }
-        .contact-info {
-            background: #333;
-            color: #fff;
-            padding: 10px;
+
+        /* Sections */
+        .container {
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 100px 20px;
+        }
+
+        section {
+            padding: 50px 20px;
+            margin-bottom: 20px;
+        }
+
+        .section-title {
+            font-size: 2em;
+            color: #4CAF50;
+            margin-bottom: 20px;
+        }
+
+        /* Specific Sections */
+        #sobre-mi {
+            background-color: #f9f9f9;
+        }
+
+        #curriculum {
+            background-color: #e0e0e0;
+        }
+
+        #proyectos {
+            background-color: #f9f9f9;
+        }
+
+        #contacto {
+            background-color: #e0e0e0;
             text-align: center;
         }
-        .contact-info a {
-            color: #fff;
-            text-decoration: none;
+
+        .projects-list, .skills-list {
+            list-style: none;
         }
+
+        .projects-list li, .skills-list li {
+            margin: 10px 0;
+            padding: 15px;
+            background: #fff;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+        }
+
+        .contact-info a {
+            color: #4CAF50;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
         .contact-info a:hover {
             text-decoration: underline;
         }
-        .footer {
+
+        /* Footer */
+        footer {
             text-align: center;
             padding: 20px;
             background: #4CAF50;
             color: white;
         }
-        @media (max-width: 768px) {
-            .header h1 {
-                font-size: 2em;
-            }
-            .container {
-                width: 100%;
-                padding: 10px;
-            }
-        }
     </style>
 </head>
 <body>
+
+    <!-- Header with Navigation -->
+    <header>
+        <h1>Francisco Yuster</h1>
+        <nav>
+            <ul>
+                <li><a href="#sobre-mi">Sobre mí</a></li>
+                <li><a href="#curriculum">Currículum</a></li>
+                <li><a href="#proyectos">Proyectos</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Main Content -->
     <div class="container">
-        <div class="header">
-            <h1>Francisco Yuster</h1>
-            <p>Especialista en Ciencia de Datos y Gestión de Inventarios</p>
-        </div>
-
-        <section class="about">
-            <h2 class="section-title">Acerca de mí</h2>
-            <p>Soy un apasionado de la ciencia de datos con una sólida experiencia en gestión logística, control de inventarios y distribución. Me especializo en automatización con Python para resolver desafíos empresariales complejos.</p>
+        <!-- Sobre Mí Section -->
+        <section id="sobre-mi">
+            <h2 class="section-title">Sobre mí</h2>
+            <p>Hola, soy Francisco Yuster, un apasionado de la ciencia de datos con experiencia en logística, control de inventarios y análisis de datos. Me gusta resolver problemas complejos a través de la automatización y el análisis de datos, utilizando Python y herramientas de visualización de datos para tomar decisiones informadas.</p>
         </section>
 
-        <section class="skills">
-            <h2 class="section-title">Habilidades</h2>
-            <ul>
-                <li>Python</li>
-                <li>Power BI</li>
-                <li>Excel</li>
-                <li>Power Query</li>
-                <li>Pandas, NumPy, Matplotlib</li>
-                <li>MySQL</li>
+        <!-- Currículum Section -->
+        <section id="curriculum">
+            <h2 class="section-title">Currículum</h2>
+            <h3>Habilidades</h3>
+            <ul class="skills-list">
+                <li>Python, Pandas, NumPy, Matplotlib</li>
+                <li>Power BI, Power Query, Excel</li>
+                <li>Gestión de Inventarios y Logística</li>
+                <li>Bases de Datos: MySQL</li>
             </ul>
+            <h3>Experiencia</h3>
+            <p><strong>Especialista en Logística e Inventario</strong> - Inexoo, Santiago, Chile</p>
+            <p>Responsable de la gestión de inventarios, control de stock y optimización de la distribución, utilizando herramientas de automatización y análisis de datos para mejorar la eficiencia.</p>
         </section>
 
-        <section class="projects">
+        <!-- Proyectos Section -->
+        <section id="proyectos">
             <h2 class="section-title">Proyectos</h2>
-            <ul>
-                <li><strong>Exploración de datos con Python</strong> - Un proyecto enfocado en limpieza, visualización y transformación de datos. <a href="#">Ver en GitHub</a></li>
-                <li><strong>Sistema de inventario</strong> - Sistema de gestión de inventarios (Próximamente).</li>
-                <li><strong>Informe del PIB Mundial</strong> - Un análisis del PIB mundial utilizando la API del Banco Mundial. <a href="#">Ver en GitHub</a></li>
+            <ul class="projects-list">
+                <li>
+                    <strong>Exploración de datos con Python</strong> - Un proyecto enfocado en limpieza, visualización y transformación de datos. <a href="https://github.com/FranciscoYuster/EDAwPy" target="_blank">Ver en GitHub</a>
+                </li>
+                <li>
+                    <strong>Sistema de Inventario</strong> - Sistema de gestión de inventarios (Próximamente). <a href="https://github.com/FranciscoYuster/Inventory" target="_blank">Ver en GitHub</a>
+                </li>
+                <li>
+                    <strong>Informe del PIB Mundial</strong> - Un análisis del PIB mundial utilizando la API del Banco Mundial. <a href="https://github.com/FranciscoYuster/reportgdp" target="_blank">Ver en GitHub</a>
+                </li>
             </ul>
         </section>
 
-        <div class="contact-info">
-            <p>Contacto: <a href="mailto:yusterfrancisco@gmail.com">yusterfrancisco@gmail.com</a></p>
-            <p>LinkedIn: <a href="https://www.linkedin.com/in/francisco-yuster-aa0b06258/">Perfil de LinkedIn</a></p>
-            <p>GitHub: <a href="https://github.com/FranciscoYuster">Perfil de GitHub</a></p>
-        </div>
+        <!-- Contacto Section -->
+        <section id="contacto">
+            <h2 class="section-title">Contacto</h2>
+            <p>¿Te gustaría ponerte en contacto? Aquí tienes mis datos:</p>
+            <p class="contact-info">Email: <a href="mailto:yusterfrancisco@gmail.com">yusterfrancisco@gmail.com</a></p>
+            <p class="contact-info">LinkedIn: <a href="https://www.linkedin.com/in/francisco-yuster-aa0b06258/" target="_blank">Perfil de LinkedIn</a></p>
+            <p class="contact-info">GitHub: <a href="https://github.com/FranciscoYuster" target="_blank">Perfil de GitHub</a></p>
+        </section>
     </div>
 
-    <footer class="footer">
+    <!-- Footer -->
+    <footer>
         <p>Francisco Yuster © 2024</p>
     </footer>
+
 </body>
 </html>
