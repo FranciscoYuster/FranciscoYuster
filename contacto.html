@@ -1,54 +1,45 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Contacto - Francisco Yuster</title>
-  <link rel="stylesheet" href="styles.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto - Francisco Yuster</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <header>
-    <nav>
-      <h1>Francisco Yuster</h1>
-      <ul>
-        <li><a href="index.html">Inicio</a></li>
-        <li><a href="sobre-mi.html">Sobre Mí</a></li>
-        <li><a href="curriculum.html">Currículum</a></li>
-        <li><a href="proyectos.html">Proyectos</a></li>
-        <li><a href="contacto.html" class="active">Contacto</a></li>
-      </ul>
-    </nav>
-  </header>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="sobre-mi.html">Sobre Mí</a></li>
+                <li><a href="curriculum.html">Currículum</a></li>
+                <li><a href="proyectos.html">Proyectos</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
 
-  <main class="contact-container">
-    <h2>Platiquemos</h2>
+    <main>
+        <section class="contact-section">
+            <h2>Contacto</h2>
+            <p>Si tienes alguna pregunta o deseas contactarme, puedes enviarme un mensaje a través del siguiente formulario:</p>
+            <form action="https://formsubmit.co/tu-email@example.com" method="POST">
+                <label for="name">Nombre:</label>
+                <input type="text" id="name" name="name" required>
+                
+                <label for="email">Correo Electrónico:</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="message">Mensaje:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+                
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+    </main>
 
-    <form class="contact-form" action="https://formspree.io/f/myybzyqr" method="POST">
-      <div class="form-row">
-        <input type="text" name="nombre" placeholder="Nombre *" required>
-        <input type="text" name="apellido" placeholder="Apellido *" required>
-      </div>
-      <input type="email" name="email" placeholder="Email *" required>
-      <input type="text" name="asunto" placeholder="Asunto">
-      <textarea name="mensaje" placeholder="Mensaje"></textarea>
-      <button type="submit">Enviar</button>
-    </form>
-  </main>
-
-  <footer class="contact-footer">
-    <p>Política de Privacidad</p>
-    <p>&copy; 2035 Creado por Francisco Yuster</p>
-    <div class="contact-info">
-      <p>Llama: +52-1-33-12345678</p>
-      <p>Escribe: info@misitio.com</p>
-      <div class="social-links">
-        <a href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook"></i></a>
-        <a href="https://www.twitter.com" target="_blank"><i class="fab fa-twitter"></i></a>
-        <a href="https://www.linkedin.com/in/francisco-yuster-aa0b06258/" target="_blank"><i class="fab fa-linkedin"></i></a>
-        <a href="https://www.instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
-      </div>
-    </div>
-  </footer>
+    <footer>
+        <p>&copy; 2023 Francisco Yuster</p>
+    </footer>
 </body>
 </html>
