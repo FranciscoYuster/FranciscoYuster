@@ -3,61 +3,133 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Francisco Yuster - Portafolio</title>
-    <link rel="stylesheet" href="styles.css">
+    <title>Francisco Yuster | Data Science & Logistics Specialist</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+            color: #333;
+            line-height: 1.6;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+            padding: 20px;
+        }
+        .header {
+            background: #333;
+            color: #fff;
+            padding: 10px 0;
+            text-align: center;
+        }
+        .header h1 {
+            margin: 0;
+            font-size: 2.5em;
+        }
+        .links {
+            text-align: center;
+            margin: 10px 0;
+        }
+        .links a {
+            text-decoration: none;
+            color: #fff;
+            padding: 10px 20px;
+            border-radius: 5px;
+            margin: 5px;
+        }
+        .linkedin { background-color: #0077b5; }
+        .github { background-color: #333; }
+        .section {
+            margin: 20px 0;
+        }
+        .skills, .projects {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        .skills th, .skills td, .projects th, .projects td {
+            padding: 10px;
+            border: 1px solid #ddd;
+            text-align: center;
+        }
+        .skills th, .projects th {
+            background-color: #333;
+            color: #fff;
+        }
+        .footer {
+            text-align: center;
+            padding: 10px;
+            background: #333;
+            color: #fff;
+            margin-top: 20px;
+        }
+    </style>
 </head>
 <body>
 
-    <!-- Barra de Navegación -->
-    <header>
-        <nav>
-            <h1>Francisco Yuster / Ciencia de Datos</h1>
-            <ul>
-                <li><a href="#about">Sobre Mí</a></li>
-                <li><a href="#resume">Currículum</a></li>
-                <li><a href="#projects">Proyectos</a></li>
-                <li><a href="#contact">Contacto</a></li>
-            </ul>
-        </nav>
-    </header>
+<div class="header">
+    <h1>Francisco Yuster</h1>
+    <p>Especialista en Ciencia de Datos y Logística</p>
+</div>
 
-    <!-- Contenido Principal -->
-    <main class="main-content">
-        <div class="profile-card">
-            <img src="tu_foto.jpg" alt="Foto de Francisco Yuster" class="profile-image">
-            <h2>Francisco Yuster</h2>
-            <p>Ciencia de Datos & Logística</p>
-            <div class="social-links">
-                <a href="https://www.linkedin.com/in/francisco-yuster-aa0b06258/" target="_blank">LinkedIn</a>
-                <a href="https://github.com/FranciscoYuster" target="_blank">GitHub</a>
-            </div>
-        </div>
-        <div class="intro-text">
-            <h1>Hola</h1>
-            <p>Esto es lo que soy y lo que hago</p>
-            <div class="buttons">
-                <a href="#resume" class="button-blue">Currículum</a>
-                <a href="#projects" class="button-outline">Proyectos</a>
-            </div>
-            <p class="description">
-                Soy Francisco Yuster, especialista en ciencia de datos y logística. Me apasiona resolver problemas complejos mediante el análisis de datos y la optimización de procesos. Aquí puedes conocer más sobre mí y mis proyectos.
-            </p>
-        </div>
-    </main>
+<div class="links">
+    <a href="https://www.linkedin.com/in/francisco-yuster-aa0b06258/" target="_blank" class="linkedin">LinkedIn</a>
+    <a href="https://github.com/FranciscoYuster" target="_blank" class="github">GitHub</a>
+</div>
 
-    <!-- Footer -->
-    <footer>
-        <p>Política de Privacidad</p>
-        <p>© 2024 Creado por Francisco Yuster</p>
-        <p>
-            <span>Llama: +52-1-33-12345678</span> |
-            <span>Escribe: <a href="mailto:yusterfrancisco@gmail.com">yusterfrancisco@gmail.com</a></span>
-        </p>
-        <div class="footer-social-links">
-            <a href="https://www.linkedin.com/in/francisco-yuster-aa0b06258/" target="_blank">LinkedIn</a>
-            <a href="https://github.com/FranciscoYuster" target="_blank">GitHub</a>
-        </div>
-    </footer>
+<div class="container">
+    <div class="section">
+        <h2>Sobre mí</h2>
+        <p>🎓 Apasionado por la ciencia de datos y en constante aprendizaje de nuevas técnicas.</p>
+        <p>📦 Especialista en Logística y Gestión de Inventarios, con experiencia en Almacenamiento, Rastreo de Distribución, Control de Inventario y Planificación de Despachos.</p>
+        <p>💻 Actualmente mejorando mis habilidades en Python para análisis de datos y automatización de procesos complejos.</p>
+        <p>🌱 Disfruto del skateboarding y el ajedrez.</p>
+    </div>
+
+    <div class="section">
+        <h2>Habilidades</h2>
+        <table class="skills">
+            <tr>
+                <th>Lenguajes</th>
+                <th>Análisis, Manipulación y Visualización de Datos</th>
+                <th>Bases de Datos</th>
+            </tr>
+            <tr>
+                <td>Python, HTML, CSS</td>
+                <td>Power BI, Power Query, Excel, Pandas, NumPy, Matplotlib, Seaborn</td>
+                <td>MySQL</td>
+            </tr>
+        </table>
+    </div>
+
+    <div class="section">
+        <h2>Proyectos</h2>
+        <table class="projects">
+            <tr>
+                <th>Nombre</th>
+                <th>Descripción</th>
+            </tr>
+            <tr>
+                <td><a href="https://github.com/FranciscoYuster/EDAwPy" target="_blank">Data exploration with Python</a></td>
+                <td>Proyecto de exploración y análisis de datos usando técnicas de limpieza, visualización y transformación de datos.</td>
+            </tr>
+            <tr>
+                <td><a href="https://github.com/FranciscoYuster/Inventory" target="_blank">Inventory System (Próximamente)</a></td>
+                <td>Sistema de gestión de inventarios para optimizar procesos de almacenamiento y control de stock.</td>
+            </tr>
+            <tr>
+                <td><a href="https://github.com/FranciscoYuster/reportgdp" target="_blank">World GDP Report</a></td>
+                <td>Análisis del PIB global desde 1960 hasta 2023 utilizando la API del Banco Mundial.</td>
+            </tr>
+        </table>
+    </div>
+</div>
+
+<div class="footer">
+    <p>Francisco Yuster - © 2023</p>
+</div>
 
 </body>
 </html>
