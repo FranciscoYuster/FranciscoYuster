@@ -202,3 +202,19 @@ footer {
   color: #333;
   font-size: 0.9em;
 }
+
+/* Animación de desvanecimiento */
+.fade-in {
+  animation: fadeIn 0.5s ease-in;
+}
+
+@keyframes fadeIn {
+  from {
+      opacity: 0;
+  }
+  to {
+      opacity: 1;
+  }
+}
+
+
