@@ -73,16 +73,22 @@ nav a:hover {
   padding: 30px;
   text-align: center;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 5%;
 }
 
 .about-content {
   max-width: 600px;
+  flex: 2;
+  display: flex;
+  flex-direction: column;
+  gap: 15px; /* Espacio entre los párrafos */
+  line-height: 1.8; /* Aumenta el interlineado */
 }
 
 .profile-pic {
-  width: 150px;
-  height: 150px;
-  border-radius: 50%;
+  width: 350px;
+  height: 350px;
+  border-radius: 3%;
   margin-bottom: 10px;
 }
 
@@ -105,16 +111,25 @@ nav a:hover {
 }
 
 .btn-primary, .btn-secondary {
-  margin: 10px;
+  background-color: #007bff;
+  color: #fff;
   padding: 10px 20px;
   border: none;
-  border-radius: 5px;
   cursor: pointer;
+  font-size: 16px;
+  transition: transform 0.3s ease, background-color 0.3s ease;
+  
 }
 
 .btn-primary {
   background-color: #0042FF;
   color: white;
+ 
+}
+
+.btn-primary:hover {
+  background-color: #0056b3;
+  transform: scale(1.05);
 }
 
 .btn-secondary {
