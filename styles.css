@@ -1,192 +1,147 @@
+/* General Styles */
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
-  
-  body {
-    font-family: Arial, sans-serif;
-    color: #333;
-    background-color: #ffffff;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-  
-  header {
-    width: 100%;
-    padding: 10px 20px;
-    background-color: #fff;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  }
-  
-  header h1 {
-    font-size: 1.2rem;
-    color: #333;
-  }
-  
-  header span {
-    color: #888;
-  }
-  
-  header nav a {
-    color: #333;
-    text-decoration: none;
-    margin: 0 10px;
-  }
-  
-  header nav a:hover {
-    color: #007bff;
-  }
-  
-  .main-content, .curriculum-content, .projects-content, .contact-content {
-    padding: 50px 20px;
-    width: 80%;
-    max-width: 1000px;
-    text-align: center;
-  }
-  
-  .profile-card, .section-card, .project-card, .contact-form {
-    background-color: #f1e7dd;
-    padding: 20px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    border-radius: 8px;
-    margin-bottom: 20px;
-  }
-  
-  .profile-card {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-  }
-  
-  .profile-photo {
-    width: 100px;
-    height: 100px;
-    border-radius: 50%;
-  }
-  
-  .social-icons a {
-    margin: 0 5px;
-  }
-  
-  .intro-text h1 {
-    font-size: 3rem;
-    color: #333;
-  }
-  
-  .intro-text h3 {
-    font-size: 1.5rem;
-    color: #666;
-    margin-top: 10px;
-  }
-  
-  .buttons {
-    margin-top: 20px;
-  }
-  
-  .btn-primary, .btn-secondary, .submit-btn {
-    padding: 10px 20px;
-    text-decoration: none;
-    border-radius: 5px;
-    font-size: 1rem;
-    margin-right: 10px;
-  }
-  
-  .btn-primary {
-    background-color: #007bff;
-    color: #fff;
-  }
-  
-  .btn-secondary {
-    background-color: #fff;
-    color: #333;
-    border: 2px solid #333;
-  }
-  
-  .submit-btn {
-    background-color: #007bff;
-    color: #fff;
-    border: none;
-    cursor: pointer;
-  }
-  
-  .submit-btn:hover {
-    background-color: #0056b3;
-  }
-  
-  .skills-list, .languages-list {
-    list-style: none;
-    text-align: left;
-  }
-  
-  .skills-list li, .languages-list li {
-    display: flex;
-    align-items: center;
-    font-size: 1rem;
-    color: #555;
-    margin: 8px 0;
-  }
-  
-  .dot {
-    display: inline-block;
-    width: 8px;
-    height: 8px;
-    background-color: #007bff;
-    border-radius: 50%;
-    margin-right: 10px;
-  }
-  
-  .project-card {
-    display: flex;
-    justify-content: space-between;
-    padding: 20px;
-  }
-  
-  .project-card .project-description {
-    flex: 1;
-    padding: 10px;
-    text-align: left;
-  }
-  
-  .project-card img {
-    max-width: 100%;
-    border-radius: 5px;
-  }
-  
-  footer {
-    padding: 20px;
-    text-align: center;
-    width: 100%;
-    background-color: #f1f1f1;
-    font-size: 0.9rem;
-    color: #666;
-  }
-  
-  .contact-info {
-    margin-top: 10px;
-  }
-  
-  .contact-form .form-group {
-    display: flex;
-    flex-direction: column;
-    margin-bottom: 15px;
-  }
-  
-  .contact-form input, .contact-form textarea {
-    padding: 10px;
-    border: 1px solid #ddd;
-    border-radius: 4px;
-    font-size: 1rem;
-    width: 100%;
-  }
-  
-  .contact-form input:focus, .contact-form textarea:focus {
-    outline: none;
-    border-color: #007bff;
-  }
-  
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background-color: #F3EDE3;
+  color: #333;
+  line-height: 1.6;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  background-color: white;
+}
+
+.logo {
+  font-weight: bold;
+  font-size: 1.2em;
+}
+
+.blue-dot {
+  color: #0042FF;
+}
+
+nav a {
+  margin: 0 15px;
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+}
+
+nav a:hover {
+  color: #0042FF;
+}
+
+.section {
+  padding: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+/* About Section */
+.about-card, .about-content {
+  max-width: 500px;
+}
+
+.about-card {
+  background-color: #e6d6c2;
+  padding: 30px;
+  text-align: center;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+
+.profile-pic {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+.social-icons a {
+  margin: 0 5px;
+  color: #333;
+}
+
+.social-icons a:hover {
+  color: #0042FF;
+}
+
+.buttons .btn-primary, .buttons .btn-secondary {
+  margin: 10px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.btn-primary {
+  background-color: #0042FF;
+  color: white;
+}
+
+.btn-secondary {
+  background-color: white;
+  color: #0042FF;
+  border: 1px solid #0042FF;
+}
+
+/* Curriculum Section */
+.experience-card {
+  background-color: white;
+  padding: 20px;
+  margin: 15px 0;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Projects Section */
+.project-card {
+  display: flex;
+  background-color: white;
+  padding: 20px;
+  margin: 15px 0;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.project-card img {
+  width: 100px;
+  height: 100px;
+  margin-left: 20px;
+}
+
+/* Contact Section */
+form {
+  display: flex;
+  flex-direction: column;
+  max-width: 500px;
+}
+
+.form-group {
+  display: flex;
+  justify-content: space-between;
+}
+
+input, textarea {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #fff;
+  color: #333;
+  font-size: 0.9em;
+}
