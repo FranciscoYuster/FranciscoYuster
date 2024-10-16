@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sobre Mí - Maya Nares</title>
     <link rel="stylesheet" href="styles.css">
-    <link rel="stylesheet" href="transitions.css">
+    <script src="script.js" defer></script>
 </head>
 <body>
     <header>
@@ -19,9 +19,28 @@
             <a href="contacto.html">CONTACTO</a>
         </nav>
     </header>
-    <section id="about" class="section">
-        <!-- Contenido de la sección Sobre Mí -->
+
+    <section class="section" id="about">
+        <div class="about-card">
+            <img src="profile.jpg" alt="Maya Nares" class="profile-pic">
+            <h2>Maya Nares</h2>
+            <p>GESTOR DE PROYECTO</p>
+            <div class="social-icons">
+                <a href="#">Facebook</a>
+                <a href="#">Twitter</a>
+                <a href="#">LinkedIn</a>
+                <a href="#">Instagram</a>
+            </div>
+        </div>
+        <div class="about-content">
+            <h1>Hola</h1>
+            <h3>Esto es lo que soy y lo que hago</h3>
+            <p>Parrafo. Haz clic aquí para agregar tu propio texto y editar.</p>
+            <div class="buttons">
+                <button class="btn-primary" onclick="location.href='curriculum.html'">CURRICULUM</button>
+                <button class="btn-secondary" onclick="location.href='proyectos.html'">PROYECTOS</button>
+            </div>
+        </div>
     </section>
-    <script src="script.js"></script>
 </body>
 </html>

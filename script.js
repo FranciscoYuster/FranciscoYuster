@@ -1,15 +1,14 @@
 document.addEventListener("DOMContentLoaded", () => {
-    document.body.classList.add("loaded");
+    document.body.classList.add("fade-in");
 
-    const links = document.querySelectorAll("a");
+    const links = document.querySelectorAll("nav a");
     links.forEach(link => {
-        if (link.getAttribute("href").startsWith("#")) return;
-
         link.addEventListener("click", (e) => {
             e.preventDefault();
+            const href = link.getAttribute("href");
             document.body.classList.add("fade-out");
             setTimeout(() => {
-                window.location.href = link.href;
+                window.location.href = href;
             }, 500);
         });
     });
