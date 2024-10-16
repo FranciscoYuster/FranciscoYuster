@@ -45,29 +45,6 @@
     </footer>
 </body>
 
-<script>
-    // Función para agregar la clase de desvanecimiento al cargar la página
-    document.addEventListener("DOMContentLoaded", () => {
-        document.body.classList.add("fade-in");
-    });
-
-    // Función para manejar el desvanecimiento al hacer clic en un enlace
-    document.querySelectorAll("a").forEach(link => {
-        link.addEventListener("click", (event) => {
-            // Evitar la redirección inmediata
-            event.preventDefault();
-            const href = link.getAttribute("href");
-
-            // Añadir clase de desvanecimiento de salida
-            document.body.classList.add("fade-out");
-
-            // Esperar a que termine la animación antes de redirigir
-            setTimeout(() => {
-                window.location.href = href;
-            }, 500); // Tiempo igual a la duración de fade-out
-        });
-    });
-</script>
 
 
 </html>
