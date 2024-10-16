@@ -48,8 +48,18 @@ nav a:hover {
 }
 
 /* About Section */
+.about-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 50px;
+}
+
 .about-card, .about-content {
-  max-width: 500px;
+  flex: 1;
+  margin: 0 20px;
 }
 
 .about-card {
@@ -57,18 +67,26 @@ nav a:hover {
   padding: 30px;
   text-align: center;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  margin-bottom: 20px;
+}
+
+.about-content {
+  max-width: 600px;
 }
 
 .profile-pic {
-  width: 100px;
-  height: 100px;
+  width: 150px;
+  height: 150px;
   border-radius: 50%;
   margin-bottom: 10px;
 }
 
+.social-icons {
+  margin-top: 15px;
+}
+
 .social-icons a {
-  margin: 0 5px;
+  margin: 0 10px;
+  text-decoration: none;
   color: #333;
 }
 
@@ -76,7 +94,11 @@ nav a:hover {
   color: #0042FF;
 }
 
-.buttons .btn-primary, .buttons .btn-secondary {
+.buttons {
+  margin-top: 20px;
+}
+
+.btn-primary, .btn-secondary {
   margin: 10px;
   padding: 10px 20px;
   border: none;
@@ -138,6 +160,19 @@ input, textarea {
   border-radius: 5px;
 }
 
+html, body {
+  height: 100%;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Sección principal para tomar el espacio restante entre el header y el footer */
+.section {
+  flex: 1;
+}
+
+/* El footer se mantiene al final */
 footer {
   text-align: center;
   padding: 20px;
