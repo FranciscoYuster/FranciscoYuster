@@ -23,22 +23,53 @@
     <section id="curriculum" class="section">
         <h2><span class="blue-dot">■</span> Currículum</h2>
         <button class="btn-primary">DESCARGAR CV</button>
-        <h3>Experiencia</h3>
-        <div class="experience-card">
-            <h4>2035 - A la fecha</h4>
-            <p>PUESTO</p>
-            <p>Nombre de la empresa</p>
-            <p>Ubicación de la empresa</p>
-            <p>Descripción del puesto...</p>
-        </div>
-        <div class="experience-card">
-            <h4>2035 - 2035</h4>
-            <p>PUESTO</p>
-            <p>Nombre de la empresa</p>
-            <p>Ubicación de la empresa</p>
-            <p>Descripción del puesto...</p>
+        
+        <div class="curriculum-container">
+            <!-- Experiencia -->
+            <div class="experience-section">
+                <h3>Experiencia</h3>
+                <div class="experience-card">
+                    <h4>2035 - A la fecha</h4>
+                    <p>PUESTO</p>
+                    <p>Nombre de la empresa</p>
+                    <p>Ubicación de la empresa</p>
+                    <p>Descripción del puesto...</p>
+                </div>
+                <div class="experience-card">
+                    <h4>2035 - 2035</h4>
+                    <p>PUESTO</p>
+                    <p>Nombre de la empresa</p>
+                    <p>Ubicación de la empresa</p>
+                    <p>Descripción del puesto...</p>
+                </div>
+            </div>
+            
+            <!-- Educación -->
+            <div class="education-section">
+                <h3>Educación</h3>
+                <div class="education-card">
+                    <h4>2035 - A la fecha</h4>
+                    <p>PUESTO</p>
+                    <p>Nombre de la empresa</p>
+                    <p>Ubicación de la empresa</p>
+                    <p>Descripción del puesto...</p>
+                </div>
+            </div>
+            
+            <!-- Habilidades -->
+            <div class="skills-section">
+                <h3>Habilidades</h3>
+                <div class="skills-card">
+                    <h4>2035 - A la fecha</h4>
+                    <p>PUESTO</p>
+                    <p>Nombre de la empresa</p>
+                    <p>Ubicación de la empresa</p>
+                    <p>Descripción del puesto...</p>
+                </div>
+            </div>
         </div>
     </section>
+    
 
     <footer>
         <p>© Creado por Francisco Yuster</p>
@@ -47,4 +78,29 @@
         </div>
     </footer>
 </body>
+<script>
+    // Función para agregar la clase de desvanecimiento al cargar la página
+    document.addEventListener("DOMContentLoaded", () => {
+        document.body.classList.add("fade-in");
+    });
+
+    // Función para manejar el desvanecimiento al hacer clic en un enlace
+    document.querySelectorAll("a").forEach(link => {
+        link.addEventListener("click", (event) => {
+            // Evitar la redirección inmediata
+            event.preventDefault();
+            const href = link.getAttribute("href");
+
+            // Añadir clase de desvanecimiento de salida
+            document.body.classList.add("fade-out");
+
+            // Esperar a que termine la animación antes de redirigir
+            setTimeout(() => {
+                window.location.href = href;
+            }, 500); // Tiempo igual a la duración de fade-out
+        });
+    });
+</script>
+
+
 </html>

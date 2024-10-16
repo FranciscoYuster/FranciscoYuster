@@ -118,11 +118,33 @@ nav a:hover {
 }
 
 /* Curriculum Section */
-.experience-card {
+.curriculum-container {
+  display: flex;
+  justify-content: space-between;
+  gap: 200px;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding-top: 20px;
+}
+
+.experience-section, .education-section, .skills-section {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.experience-card, .education-card, .skills-card {
   background-color: white;
   padding: 20px;
-  margin: 15px 0;
+  margin-top: 15px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Ajustes para pantallas pequeñas */
+@media (max-width: 768px) {
+  .curriculum-container {
+    flex-direction: column;
+  }
 }
 
 /* Projects Section */
@@ -179,4 +201,32 @@ footer {
   background-color: #fff;
   color: #333;
   font-size: 0.9em;
+}
+
+/* Fade-in Animation */
+.fade-in {
+  animation: fadeIn 0.5s ease-in;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+/* Fade-out Animation */
+.fade-out {
+  animation: fadeOut 0.5s ease-out;
+}
+
+@keyframes fadeOut {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
 }
