@@ -111,13 +111,13 @@ nav a:hover {
 }
 
 .btn-primary, .btn-secondary {
-  background-color: #007bff;
-  color: #fff;
-  padding: 10px 20px;
-  border: none;
-  cursor: pointer;
-  font-size: 16px;
-  transition: transform 0.3s ease, background-color 0.3s ease;
+background-color: #007bff;
+        color: #fff;
+        padding: 10px 20px;
+        border: none;
+        cursor: pointer;
+        font-size: 16px;
+        transition: transform 0.3s ease, background-color 0.3s ease;
   
 }
 
@@ -175,12 +175,16 @@ nav a:hover {
   padding: 20px;
   margin: 15px 0;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  flex-direction: column;
+    align-items: flex-start; /* Opcional: Alínea el contenido a la izquierda */
+    width: 100%; /* Asegura que ocupe todo el ancho del contenedor */
+    margin-bottom: 20px; /* Espacio entre cada tarjeta */
 }
 
 .project-card img {
-  width: 100px;
-  height: 100px;
-  margin-left: 20px;
+  width: 1000%; /* Ajusta la imagen al ancho del contenedor */
+  max-width: 1000px; /* Controla el tamaño máximo de la imagen */
+  margin-top: 10px; /* Espacio entre el título y la imagen */
 }
 
 /* Contact Section */
