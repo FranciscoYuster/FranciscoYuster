@@ -11,7 +11,6 @@ function loadSection(section) {
             .then(response => response.text())
             .then(data => {
                 content.innerHTML = data;
-                
                 // Reinicia las clases de desvanecimiento
                 content.classList.remove('fade-out');
                 content.classList.add('fade-in');
