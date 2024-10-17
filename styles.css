@@ -76,13 +76,27 @@ nav a:hover {
   border-radius: 5%;
 }
 
+.about-content p {
+  position: relative;
+  padding: 10px;
+  transition: transform 0.3s ease, background-color 0.3s ease;
+  cursor: pointer; /* Cambia el cursor para indicar interactividad */
+}
+
+.about-content p:hover {
+  transform: scale(1.09); /* Agranda el párrafo un 5% para el efecto de enfoque */
+  background-color: #f0f4ff; /* Color de fondo suave para el efecto de resaltar */
+  box-shadow: 0 4px 8px rgba(0, 66, 255, 0.2); /* Sombra para destacar */
+  border-radius: 30px;
+}
+
 .about-content {
   max-width: 600px;
   flex: 2;
   display: flex;
   flex-direction: column;
   gap: 15px; /* Espacio entre los párrafos */
-  line-height: 1.8; /* Aumenta el interlineado */
+  line-height: 1,8; /* Aumenta el interlineado */
 }
 
 .profile-pic {
@@ -118,6 +132,7 @@ background-color: #007bff;
         cursor: pointer;
         font-size: 16px;
         transition: transform 0.3s ease, background-color 0.3s ease;
+        border-radius: 80px
   
 }
 
@@ -138,33 +153,62 @@ background-color: #007bff;
   border: 1px solid #0042FF;
 }
 
-/* Curriculum Section */
+/* Ajuste general para la sección curriculum */
 .curriculum-container {
   display: flex;
-  justify-content: space-between;
-  gap: 200px;
-  max-width: 1200px;
+  flex-direction: column; /* Apila las secciones en columnas */
+  gap: 40px; /* Espacio entre cada sección */
+  max-width: 800px; /* Ajusta el ancho máximo de la sección */
   margin: 0 auto;
   padding-top: 20px;
 }
 
+/* Alineación de las secciones individuales (Experiencia, Educación, Habilidades) */
 .experience-section, .education-section, .skills-section {
-  flex: 1;
   display: flex;
   flex-direction: column;
+  gap: 20px; /* Espacio entre tarjetas */
 }
 
+/* Estilo de las tarjetas individuales */
 .experience-card, .education-card, .skills-card {
   background-color: white;
   padding: 20px;
-  margin-top: 15px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
 }
 
-/* Ajustes para pantallas pequeñas */
+.education-card {
+  background-color: white;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+
+/* Contenedor del título y logo */
+.education-card h3 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between; /* Alinea el título a la izquierda y el logo a la derecha */
+  font-size: 1.1em;
+}
+
+/* Ajuste del logo */
+.institute-logo {
+  max-width: 80px; /* Ajusta el tamaño del logo */
+  height: auto;
+  margin-left: 15px; /* Espacio entre el título y el logo */
+}
+
+/* Opcional: Ajustes para dispositivos pequeños */
 @media (max-width: 768px) {
   .curriculum-container {
-    flex-direction: column;
+      max-width: 100%; /* Ancho completo en dispositivos pequeños */
+      padding: 10px;
   }
 }
 
@@ -249,4 +293,83 @@ footer {
 .fade-out {
   opacity: 0;
   transition: opacity 0.3s ease-out;
+}
+
+
+
+/* Ajustes generales para dispositivos móviles */
+@media (max-width: 768px) {
+
+  /* Header */
+  header {
+      flex-direction: column;
+      padding: 10px;
+      text-align: center;
+  }
+  .logo {
+      font-size: 1.5em;
+  }
+  nav a {
+      display: block;
+      margin: 5px 0;
+  }
+
+  /* About Section */
+  .about-container {
+      flex-direction: column;
+      padding: 20px;
+  }
+  .about-card, .about-content {
+      margin: 10px 0;
+  }
+  .profile-pic {
+      width: 150px;
+      height: 150px;
+      margin-bottom: 15px;
+  }
+
+  /* Curriculum Section */
+  .curriculum-container {
+      padding: 10px;
+      gap: 20px;
+  }
+  .experience-card, .education-card, .skills-card {
+      padding: 15px;
+  }
+  .education-card h3 {
+      flex-direction: column;
+      text-align: center;
+  }
+  .institute-logo {
+      margin-top: 10px;
+      max-width: 60px;
+  }
+
+  /* Projects Section */
+  .project-card {
+      flex-direction: column;
+      align-items: center;
+      padding: 15px;
+  }
+  .project-card img {
+      width: 100%;
+      max-width: 300px;
+  }
+
+  /* Contact Section */
+  .form-group {
+      flex-direction: column;
+  }
+  input, textarea, .btn-primary {
+      width: 100%;
+  }
+  form {
+      padding: 10px;
+  }
+
+  /* Footer */
+  footer {
+      font-size: 0.8em;
+      padding: 10px;
+  }
 }
