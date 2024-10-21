@@ -332,9 +332,6 @@ footer {
   .about-container, .curriculum-container {
     flex-direction: column;
     padding: 25px;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
   }
 
   .about-card, .about-content {
@@ -422,5 +419,47 @@ footer {
   /* Mostrar el navbar cuando esté activo */
   #navbar.active {
       display: flex;
+  }
+}
+
+/* Ajustes para la sección "About" en pantallas pequeñas */
+@media (max-width: 768px) {
+  .about-container {
+    flex-direction: column; /* Apilar los elementos verticalmente */
+    align-items: center; /* Centrar los elementos */
+    padding: 20px; /* Reducir padding */
+  }
+
+  .about-card, .about-content {
+    margin: 0;
+    width: 100%; /* Ocupa todo el ancho disponible */
+  }
+
+  .profile-pic {
+    width: 100%; /* Ajusta el tamaño de la imagen al 100% del contenedor */
+    max-width: 300px; /* Establece un tamaño máximo razonable para que no sea demasiado grande */
+    height: auto;
+    margin-bottom: 20px; /* Añadir un margen inferior para separación */
+  }
+
+  .about-content {
+    text-align: center; /* Centra el texto */
+  }
+}
+
+/* Ajustes para la sección "Proyectos" en pantallas pequeñas */
+@media (max-width: 768px) {
+  .project-card {
+    flex-direction: column; /* Apilar los elementos dentro de la tarjeta de proyectos */
+    align-items: center; /* Centrar el contenido */
+    text-align: center; /* Centrar el texto */
+    padding: 20px; /* Reducir el padding */
+    width: 100%; /* Ocupa todo el ancho disponible */
+  }
+
+  .project-card img {
+    width: 100%; /* La imagen ocupará el 100% del ancho disponible */
+    height: auto; /* Mantén la proporción de la imagen */
+    max-width: 300px; /* Tamaño máximo razonable */
   }
 }
