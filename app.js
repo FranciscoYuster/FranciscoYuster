@@ -15,12 +15,6 @@ function loadSection(section) {
                 content.classList.remove('fade-out');
                 content.classList.add('fade-in');
                 
-                // Desplazamiento suave hacia arriba
-                window.scrollTo({
-                    top: 100, // Ajusta este valor para el desplazamiento deseado
-                    behavior: 'smooth'
-                });
-                
                 // Quita la clase fade-in al finalizar la transición
                 setTimeout(() => {
                     content.classList.remove('fade-in');
