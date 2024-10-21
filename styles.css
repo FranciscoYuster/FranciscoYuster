@@ -332,12 +332,14 @@ footer {
   .about-container, .curriculum-container {
     flex-direction: column;
     padding: 25px;
+    align-items: center;
+    text-align: center;
   }
 
   .about-card, .about-content {
     margin: 0;
     width: 100%;
-    padding: auto;
+    padding: 25px;
   }
 
   .profile-pic {
