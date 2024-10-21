@@ -43,3 +43,25 @@ document.querySelectorAll('nav a').forEach(link => {
 window.addEventListener('DOMContentLoaded', () => {
     loadSection('about'); // Carga la sección 'about' al inicio
 });
+
+// Alterna la visibilidad del menú
+const menuToggle = document.getElementById('menu-toggle');
+const navbar = document.getElementById('navbar');
+
+menuToggle.addEventListener('click', () => {
+    navbar.classList.toggle('active'); // Muestra u oculta el menú
+});
+
+// Cargar una sección HTML al hacer clic en un enlace
+document.querySelectorAll('nav a').forEach(link => {
+    link.addEventListener('click', (e) => {
+        e.preventDefault();
+        const section = e.target.getAttribute('data-section');
+        loadSection(section); // Carga la sección
+
+        // Cierra el menú después de seleccionar una sección
+        if (window.innerWidth <= 768) {
+            navbar.classList.remove('active'); // Oculta el menú en móvil
+        }
+    });
+});

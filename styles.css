@@ -374,3 +374,54 @@ footer {
       padding: 10px;
   }
 }
+
+/* Ocultar el menú de navegación en vista móvil */
+nav {
+  display: flex;
+}
+
+#navbar {
+  display: none; /* Oculto por defecto en dispositivos móviles */
+  flex-direction: column;
+  align-items: center;
+  background-color: white;
+  width: 100%;
+  position: auto;
+  top: 60px; /* Debajo del header */
+  left: 0;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+nav a {
+  padding: 15px;
+  width: 100%;
+  text-align: center;
+}
+
+.menu-toggle {
+  display: none;
+  background: none;
+  border: none;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+@media (max-width: 768px) {
+  nav {
+    display: none; /* Oculta el menú por defecto en móvil */
+  }
+
+  .menu-toggle {
+    display: block; /* Muestra el botón de menú en móviles */
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    z-index: 1001;
+  }
+
+  #navbar.active {
+    display: flex; /* Mostrar el menú al hacer clic */
+  }
+}
