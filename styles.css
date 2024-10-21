@@ -217,18 +217,19 @@ background-color: #007bff;
 .project-card {
   display: flex;
   background-color: white;
-  padding: 20px;
+  padding: 15px;
   margin: 15px 0;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   flex-direction: column;
     align-items: flex-start; /* Opcional: Alínea el contenido a la izquierda */
-    width: 100%; /* Asegura que ocupe todo el ancho del contenedor */
+    width: 1000px; /* Asegura que ocupe todo el ancho del contenedor */
     margin-bottom: 20px; /* Espacio entre cada tarjeta */
+    border-radius: 8px;
 }
 
 .project-card img {
-  width: 1000%; /* Ajusta la imagen al ancho del contenedor */
-  max-width: 1000px; /* Controla el tamaño máximo de la imagen */
+  width: 95%; /* Ajusta la imagen al ancho del contenedor */
+  max-width: 95%; /* Controla el tamaño máximo de la imagen */
   margin-top: 10px; /* Espacio entre el título y la imagen */
 }
 
@@ -236,7 +237,7 @@ background-color: #007bff;
 form {
   display: flex;
   flex-direction: column;
-  max-width: 500px;
+  max-width:5000px;
 }
 
 .form-group {
@@ -246,10 +247,10 @@ form {
 
 input, textarea {
   width: 100%;
-  padding: 10px;
+  padding: 20px;
   margin: 10px 0;
   border: 1px solid #ddd;
-  border-radius: 5px;
+  border-radius: 8px;
 }
 
 html, body {
@@ -294,4 +295,123 @@ footer {
 .fade-out {
   opacity: 0;
   transition: opacity 0.3s ease-out;
+}
+
+/* Ajustes generales para dispositivos móviles */
+@media (max-width: 768px) {
+
+  /* Ajustar el tamaño del logo y los márgenes en el header */
+  header {
+    padding: 15px;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .logo {
+    font-size: 1.5em;
+  }
+
+  nav {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  nav a {
+    margin: 5px 0;
+    font-size: 1.1em;
+  }
+
+  /* Ajustar el padding del contenido principal */
+  main {
+    padding: 10px;
+  }
+
+  /* Ajustar el ancho de las secciones "About" y "Curriculum" para que se apilen */
+  .about-container, .curriculum-container {
+    flex-direction: column;
+    padding: 25px;
+  }
+
+  .about-card, .about-content {
+    margin: 0;
+    width: 100%;
+    padding: auto;
+  }
+
+  .profile-pic {
+    width: auto;
+    height: auto;
+  }
+
+  /* Proyectos: Ajustar la disposición de las tarjetas de proyectos */
+  .project-card {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+  }
+
+  .project-card img {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+  }
+
+  /* Formularios: ajustar campos en la sección de contacto */
+  form {
+    max-width: 100%;
+    padding: 10px;
+  }
+
+  input, textarea {
+    padding: 10px;
+    margin: 5px 0;
+  }
+}
+
+/* Estilos para el menú hamburguesa */
+.hamburger-menu {
+  display: none; /* Por defecto, oculto en pantallas grandes */
+  background: none;
+  border: none;
+  font-size: 1.5em;
+  cursor: pointer;
+  color: #333;
+  position: absolute;
+  right: 20px;
+  top: 20px;
+  z-index: 1100; /* Asegura que esté sobre el contenido */
+}
+
+/* Media queries para mostrar el menú hamburguesa en pantallas pequeñas */
+@media (max-width: 768px) {
+  .hamburger-menu {
+      display: block; /* Mostrar en pantallas pequeñas */
+  }
+
+  /* Ocultar el navbar por defecto en pantallas pequeñas */
+  #navbar {
+      display: none;
+      flex-direction: column;
+      position: absolute;
+      top: 60px;
+      right: 0;
+      background-color: white;
+      width: 100%;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      z-index: 1000;
+  }
+
+  #navbar a {
+      padding: 15px;
+      text-align: center;
+      border-bottom: 1px solid #ddd;
+  }
+
+  /* Mostrar el navbar cuando esté activo */
+  #navbar.active {
+      display: flex;
+  }
 }

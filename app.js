@@ -38,24 +38,21 @@ window.addEventListener('DOMContentLoaded', () => {
     loadSection('about'); // Carga la sección 'about' al inicio
 });
 
-// Alterna la visibilidad del menú
-const menuToggle = document.getElementById('menu-toggle');
+// Selecciona el botón del menú hamburguesa y el navbar
+const hamburgerMenu = document.getElementById('hamburger-menu');
 const navbar = document.getElementById('navbar');
 
-menuToggle.addEventListener('click', () => {
-    navbar.classList.toggle('active'); // Muestra u oculta el menú
+// Añadir evento de clic al menú hamburguesa
+hamburgerMenu.addEventListener('click', () => {
+    navbar.classList.toggle('active'); // Muestra/oculta el menú
 });
 
-// Cargar una sección HTML al hacer clic en un enlace
-document.querySelectorAll('nav a').forEach(link => {
-    link.addEventListener('click', (e) => {
-        e.preventDefault();
-        const section = e.target.getAttribute('data-section');
-        loadSection(section); // Carga la sección
-
-        // Cierra el menú después de seleccionar una sección
-        if (window.innerWidth <= 768) {
-            navbar.classList.remove('active'); // Oculta el menú en móvil
+// Añadir evento de clic a cada enlace del menú de navegación
+document.querySelectorAll('#navbar a').forEach(link => {
+    link.addEventListener('click', () => {
+        // Cierra el menú hamburguesa si está abierto en dispositivos móviles
+        if (navbar.classList.contains('active')) {
+            navbar.classList.remove('active');
         }
     });
 });
