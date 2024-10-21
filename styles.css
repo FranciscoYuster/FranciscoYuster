@@ -332,6 +332,7 @@ footer {
   .about-container, .curriculum-container {
     flex-direction: column;
     padding: 25px;
+    flex-direction: column;
     align-items: center;
     text-align: center;
   }
@@ -340,11 +341,17 @@ footer {
     margin: 0;
     width: 100%;
     padding: 25px;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
   }
 
   .profile-pic {
     width: auto;
     height: auto;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
   }
 
   /* Proyectos: Ajustar la disposición de las tarjetas de proyectos */
