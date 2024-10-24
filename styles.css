@@ -45,6 +45,33 @@ nav a:hover {
   color: #0042FF;
 }
 
+
+/* Estilo para enlaces dentro del h3 */
+h3 a {
+  text-decoration: none; /* Elimina el subrayado */
+  color: inherit; /* Hereda el color del contenedor padre, en este caso el h3 */
+  font-weight: bold; /* Opcional: Aumenta el grosor de la fuente si lo prefieres */
+}
+
+h4 {
+  text-decoration: none; /* Elimina el subrayado */
+  color: inherit; /* Hereda el color del contenedor padre, en este caso el h3 */
+  font-weight: bold; /* Opcional: Aumenta el grosor de la fuente si lo prefieres */
+  font-size: 17px
+}
+
+h1 {
+  text-decoration: none; /* Elimina el subrayado */
+  color: inherit; /* Hereda el color del contenedor padre, en este caso el h3 */
+  font-size: 35px;
+  font-weight: bold; /* Opcional: Aumenta el grosor de la fuente si lo prefieres */
+}
+
+h3 a:hover {
+  color: #0042FF; /* Opcional: Cambia el color en hover si deseas un efecto al pasar el ratón */
+  text-decoration: underline; /* Opcional: subrayar el texto al hacer hover si deseas */
+}
+
 .section {
   padding: 50px;
   display: flex;
@@ -74,13 +101,18 @@ nav a:hover {
   text-align: center;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   border-radius: 5%;
+  
 }
 
 .about-content p {
   position: relative;
   padding: 10px;
   transition: transform 0.3s ease, background-color 0.3s ease;
-  cursor: pointer; /* Cambia el cursor para indicar interactividad */
+  cursor: default; /* Cambia el cursor para indicar interactividad */
+  background-color: white;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 30px;
 }
 
 .about-content p:hover {
@@ -133,7 +165,6 @@ background-color: #007bff;
         font-size: 16px;
         transition: transform 0.3s ease, background-color 0.3s ease;
         border-radius: 80px
-  
 }
 
 .btn-primary {
@@ -172,37 +203,31 @@ background-color: #007bff;
 
 /* Estilo de las tarjetas individuales */
 .experience-card, .education-card, .skills-card {
-  background-color: white;
+  position: relative;
   padding: 20px;
+  background-color: white;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  border-radius: 8px;
+  border-radius: 30px; /* Cambia el radio del borde */
+  transition: transform 0.3s ease, background-color 0.3s ease;
+  cursor: default; /* Cambia el cursor para indicar que no es interactivo como un botón */
 }
 
-.education-card {
-  background-color: white;
-  padding: 20px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  border-radius: 8px;
-  display: flex;
-  flex-direction: column;
-  gap: 10px;
+.experience-card:hover, .education-card:hover, .skills-card:hover {
+  transform: scale(1.09); /* Efecto de zoom */
+  background-color: #f0f4ff; /* Color de fondo al hacer hover */
+  box-shadow: 0 4px 8px rgba(0, 66, 255, 0.2); /* Sombra más pronunciada en hover */
+  border-radius: 30px;
 }
 
 
 /* Contenedor del título y logo */
 .education-card h3 {
   display: flex;
-  align-items: center;
+  align-items: top;
   justify-content: space-between; /* Alinea el título a la izquierda y el logo a la derecha */
   font-size: 1.1em;
 }
 
-/* Ajuste del logo */
-.institute-logo {
-  max-width: 80px; /* Ajusta el tamaño del logo */
-  height: auto;
-  margin-left: 15px; /* Espacio entre el título y el logo */
-}
 
 /* Opcional: Ajustes para dispositivos pequeños */
 @media (max-width: 768px) {
@@ -218,13 +243,16 @@ background-color: #007bff;
   display: flex;
   background-color: white;
   padding: 15px;
-  margin: 15px 0;
+  margin: 10px 0;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   flex-direction: column;
     align-items: flex-start; /* Opcional: Alínea el contenido a la izquierda */
     width: 1000px; /* Asegura que ocupe todo el ancho del contenedor */
     margin-bottom: 20px; /* Espacio entre cada tarjeta */
-    border-radius: 8px;
+    border-radius: 30px;
+    align-items: center; /* Centra los elementos horizontalmente */
+    font-size: 19px;
+    justify-content: center; /* Centra los elementos verticalmente */
 }
 
 .project-card img {
@@ -234,24 +262,43 @@ background-color: #007bff;
 }
 
 /* Contact Section */
-form {
-  display: flex;
-  flex-direction: column;
-  max-width:5000px;
+.contact-info {
+  text-align: center;
+  margin-top: 10px;
 }
 
-.form-group {
+.social-icons {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
+  gap: 20px; /* Espacio entre los iconos */
+  margin-top: 10px;
 }
 
-input, textarea {
-  width: 100%;
-  padding: 20px;
-  margin: 10px 0;
-  border: 1px solid #ddd;
-  border-radius: 8px;
+.social-icons a {
+  font-size: 1.5em;
+  color: #333;
+  text-decoration: none;
+  transition: color 0.3s ease;
 }
+
+.social-icons a:hover {
+  color: #0042FF; /* Cambia el color al pasar el ratón */
+}
+
+/* Estilos para pantallas móviles */
+@media (max-width: 768px) {
+  .social-icons {
+    flex-direction: column; /* Apilar los iconos en pantallas pequeñas */
+    gap: 10px; /* Ajusta el espacio entre los iconos en móviles */
+  }
+
+  .social-icons a {
+    font-size: 1.2em; /* Ajusta el tamaño de los iconos en móviles */
+  }
+}
+
+
+/* end contact section*/
 
 html, body {
   height: 100%;
@@ -283,7 +330,7 @@ footer {
 /* La sección principal ocupa el espacio restante entre el header y el footer */
 #content {
   flex: 1;
-  padding-bottom: 60px; /* Espacio extra para no tapar contenido con el footer */
+  padding-bottom: 150px; /* Espacio extra para no tapar contenido con el footer */
 }
 
 /* Efecto de desvanecimiento */
@@ -463,3 +510,61 @@ footer {
     max-width: 300px; /* Tamaño máximo razonable */
   }
 }
+
+.skills-section table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px 0;
+  text-align: center;
+}
+
+.skills-section th, .skills-section td {
+  padding: 10px;
+  border: 1px solid #ddd;
+  background-color:XXX;
+}
+
+.skills-section th {
+  background-color: #f3f3f3;
+  font-weight: bold;
+}
+
+.skills-section img {
+  vertical-align: middle;
+}
+
+.skills-section td a {
+  display: inline-block;
+}
+
+@media (max-width: 768px) {
+  .skills-section table {
+    width: 100%;
+
+  }
+
+  .skills-section th, .skills-section td {
+    display: block;
+    width: 100%;
+    text-align: center;
+  }
+
+  .skills-section th {
+    display: none; /* Ocultar los encabezados en móvil para que se vean bien */
+  }
+
+  .skills-section td {
+    border: none;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+  }
+}
+
+.black-dot {
+  display: inline-block;
+  font-size: 1.2em; /* Ajusta el tamaño del punto negro si es necesario */
+  margin-right: 10px; /* Espacio entre el punto y el texto */
+  position: relative; /* Permite mover el punto negro de manera manual */
+  top: -1px; /* Ajusta este valor para mover el punto hacia arriba o abajo */
+}
+
