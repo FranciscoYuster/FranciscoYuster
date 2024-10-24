@@ -568,3 +568,12 @@ footer {
   top: -1px; /* Ajusta este valor para mover el punto hacia arriba o abajo */
 }
 
+.language-selector {
+  display: inline-block;
+  margin-left: 20px;
+}
+
+.language-selector select {
+  padding: 5px;
+  font-size: 14px;
+}
