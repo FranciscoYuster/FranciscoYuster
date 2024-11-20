@@ -5,13 +5,13 @@
         <button class="btn-primary">DESCARGAR CV</button>
     </a>
     <div class="buttons">
-        <a href="#experience" class="btn-primary scroll-link">Ir a Experiencia</a>
-        <a href="#education" class="btn-primary scroll-link">Ir a Educación</a>
-        <a href="#skills" class="btn-primary scroll-link">Ir a Habilidades</a>
+        <button class="btn-primary" onclick="scrollToSection('experience')">Experiencia</button>
+        <button class="btn-primary" onclick="scrollToSection('education')">Educación</button>
+        <button class="btn-primary" onclick="scrollToSection('skills')">Habilidades</button>
     </div>
     <div class="curriculum-container">
         <!-- Experiencia -->
-        <div class="experience-section">
+        <div class="experience-section" id="experience">
             <h3>Experiencia</h3>
             <div class="experience-card">
                 <h4>Abr 2024 - Actualidad</h4>
@@ -46,7 +46,7 @@
         </div>
         
         <!-- Educación -->
-        <div class="education-section">
+        <div class="education-section" id="education">
             <h3>Educación</h3>
             <div class="education-card">
                 <h4>2024 - Actualidad</h4>
@@ -66,7 +66,7 @@
         </div>
     
         <!-- Habilidades -->
-        <div class="skills-section">
+        <div class="skills-section" id="skills">
             <h3>Habilidades</h3>
             <table>
                 <tr>

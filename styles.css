@@ -629,3 +629,7 @@ footer {
   opacity: 2;
   visibility: visible;
 }
+
+[id] {
+  scroll-margin-top: 80px; /* Ajusta el valor según el tamaño del encabezado fijo */
+}

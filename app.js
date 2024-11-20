@@ -161,30 +161,28 @@ window.addEventListener('DOMContentLoaded', () => {
     loadSection(defaultSection, selectedLanguage);
 });
 
-// Scroll suave al hacer clic en enlaces con clase 'scroll-link'
-document.querySelectorAll('.scroll-link').forEach(link => {
-    link.addEventListener('click', (e) => {
-        e.preventDefault(); // Evitar el comportamiento predeterminado del enlace
-        const targetId = e.target.getAttribute('href').substring(1); // Obtener el ID del destino
-        const targetElement = document.getElementById(targetId); // Encontrar el elemento destino
-        if (targetElement) {
-            targetElement.scrollIntoView({ behavior: 'smooth', block: 'start' }); // Scroll suave
-        }
-    });
-});
+
 // Mostrar/Ocultar botón "Ir al Top" según el scroll
 const backToTopButton = document.getElementById('back-to-top');
-
 window.addEventListener('scroll', () => {
-    if (window.scrollY > 200) { // Mostrar el botón si el scroll es mayor a 300px
+    if (window.scrollY > 200) {
         backToTopButton.classList.add('show');
     } else {
         backToTopButton.classList.remove('show');
     }
 });
 
-// Scroll suave al hacer clic en el botón
+// Scroll suave al hacer clic en el botón "Ir al Top"
 backToTopButton.addEventListener('click', () => {
     window.scrollTo({ top: 0, behavior: 'smooth' });
 });
+
+function scrollToSection(sectionId) {
+    const section = document.getElementById(sectionId);
+    if (section) {
+        section.scrollIntoView({ behavior: 'smooth' }); // Desplazamiento suave
+    } else {
+        console.error(`La sección con ID ${sectionId} no existe.`);
+    }
+}
 
