@@ -96,7 +96,7 @@ function changeLanguage(language) {
 }
 
 // Función para cargar la sección según el idioma
-function loadSection(section, language = 'en') {
+function loadSection(section, language = 'es') {
     const content = document.getElementById('content');
     
     // Agrega la clase para el efecto de desvanecimiento
@@ -149,7 +149,7 @@ document.querySelectorAll('nav a').forEach(link => {
 
 // Cargar una sección por defecto al iniciar la página
 window.addEventListener('DOMContentLoaded', () => {
-    const selectedLanguage = 'es'; // Establece 'en' como el idioma predeterminado
+    const selectedLanguage = 'en'; // Establece 'en' como el idioma predeterminado
     const defaultSection = 'about'; // Cambiar esta línea si prefieres cargar otra sección al inicio
 
     // Marcar la sección "about" como activa por defecto
