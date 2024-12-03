@@ -133,9 +133,11 @@ h3 a:hover {
 
 .profile-pic {
   width: 400px;
-  height: 500px;
+  height: 400px;
   border-radius: 3%;
   margin-bottom: 10px;
+  object-fit: cover;
+  object-position: center; 
 }
 
 .social-icons {
@@ -390,13 +392,7 @@ footer {
     text-align: center;
   }
 
-  .profile-pic {
-    width: auto;
-    height: auto;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-  }
+ 
 
   /* Proyectos: Ajustar la disposición de las tarjetas de proyectos */
   .project-card {
@@ -480,13 +476,6 @@ footer {
   .about-card, .about-content {
     margin: 0;
     width: 100%; /* Ocupa todo el ancho disponible */
-  }
-
-  .profile-pic {
-    width: 100%; /* Ajusta el tamaño de la imagen al 100% del contenedor */
-    max-width: 300px; /* Establece un tamaño máximo razonable para que no sea demasiado grande */
-    height: auto;
-    margin-bottom: 20px; /* Añadir un margen inferior para separación */
   }
 
   .about-content {
