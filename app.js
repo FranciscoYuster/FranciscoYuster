@@ -149,7 +149,7 @@ document.querySelectorAll('nav a').forEach(link => {
 
 // Cargar una sección por defecto al iniciar la página
 window.addEventListener('DOMContentLoaded', () => {
-    const selectedLanguage = 'en'; // Establece 'en' como el idioma predeterminado
+    const selectedLanguage = 'es'; // Establece 'en' como el idioma predeterminado
     const defaultSection = 'about'; // Cambiar esta línea si prefieres cargar otra sección al inicio
 
     // Marcar la sección "about" como activa por defecto
