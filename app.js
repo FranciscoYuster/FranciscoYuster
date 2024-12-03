@@ -96,7 +96,7 @@ function changeLanguage(language) {
 }
 
 // Función para cargar la sección según el idioma
-function loadSection(section, language = 'es') {
+function loadSection(section, language = 'en') {
     const content = document.getElementById('content');
     
     // Agrega la clase para el efecto de desvanecimiento
