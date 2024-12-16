@@ -1,0 +1,731 @@
+/* General Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+
+
+body {
+  background-color: #F3EDE3;
+  color: #333;
+  line-height: 1.6;
+  padding-top: 80px; /* Ajusta el contenido para que no quede detrás del header */
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  background-color: white;
+  position: fixed; /* Fija el header en la parte superior */
+  width: 100%; /* Asegura que ocupe el ancho completo de la pantalla */
+  top: 0;
+  z-index: 1000; /* Mantiene el header sobre otros elementos */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Agrega sombra para separar visualmente */
+}
+
+.logo {
+  font-weight: bold;
+  font-size: 1.2em;
+}
+
+.blue-dot {
+  color: #0042FF;
+}
+
+nav a {
+  margin: 0 15px;
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+}
+
+nav a:hover {
+  color: #0042FF;
+}
+
+
+/* Estilo para enlaces dentro del h3 */
+h3 a {
+  text-decoration: none; /* Elimina el subrayado */
+  color: inherit; /* Hereda el color del contenedor padre, en este caso el h3 */
+  font-weight: bold; /* Opcional: Aumenta el grosor de la fuente si lo prefieres */
+}
+
+h4 {
+  text-decoration: none; /* Elimina el subrayado */
+  color: inherit; /* Hereda el color del contenedor padre, en este caso el h3 */
+  font-weight: bold; /* Opcional: Aumenta el grosor de la fuente si lo prefieres */
+  font-size: 17px
+}
+
+h1 {
+  text-decoration: none; /* Elimina el subrayado */
+  color: inherit; /* Hereda el color del contenedor padre, en este caso el h3 */
+  font-size: 35px;
+  font-weight: bold; /* Opcional: Aumenta el grosor de la fuente si lo prefieres */
+}
+
+h3 a:hover {
+  color: #0042FF; /* Opcional: Cambia el color en hover si deseas un efecto al pasar el ratón */
+  text-decoration: underline; /* Opcional: subrayar el texto al hacer hover si deseas */
+}
+
+.section {
+  padding: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+/* About Section */
+.about-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 50px;
+}
+
+.about-card, .about-content {
+  flex: 1;
+  margin: 0 20px;
+}
+
+.about-card {
+  background-color: #e6d6c2;
+  padding: 30px;
+  text-align: center;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 5%;
+  
+}
+
+.about-content p {
+  position: relative;
+  padding: 10px;
+  transition: transform 0.3s ease, background-color 0.3s ease;
+  cursor: default; /* Cambia el cursor para indicar interactividad */
+  background-color: white;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 30px;
+}
+
+.about-content p:hover {
+  transform: scale(1.09); /* Agranda el párrafo un 5% para el efecto de enfoque */
+  background-color: #f0f4ff; /* Color de fondo suave para el efecto de resaltar */
+  box-shadow: 0 4px 8px rgba(0, 66, 255, 0.2); /* Sombra para destacar */
+  border-radius: 30px;
+}
+
+.about-content {
+  max-width: 600px;
+  flex: 2;
+  display: flex;
+  flex-direction: column;
+  gap: 15px; /* Espacio entre los párrafos */
+  line-height: 1,8; /* Aumenta el interlineado */
+}
+
+.profile-pic {
+  width: 400px;
+  height: 400px;
+  border-radius: 3%;
+  margin-bottom: 10px;
+  object-fit: cover;
+  object-position: center; 
+}
+
+.social-icons {
+  margin-top: 15px;
+}
+
+.social-icons a {
+  margin: 0 10px;
+  text-decoration: none;
+  color: #333;
+}
+
+.social-icons a:hover {
+  color: #0042FF;
+}
+
+.buttons {
+  margin-top: 20px;
+}
+
+.btn-primary, .btn-secondary {
+background-color: #007bff;
+        color: #fff;
+        padding: 10px 20px;
+        border: none;
+        cursor: pointer;
+        font-size: 16px;
+        transition: transform 0.3s ease, background-color 0.3s ease;
+        border-radius: 80px
+}
+
+.btn-primary {
+  background-color: #0042FF;
+  color: white;
+ 
+}
+
+.btn-primary:hover {
+  background-color: #0056b3;
+  transform: scale(1.05);
+}
+
+
+
+/* Ajuste general para la sección curriculum */
+.curriculum-container {
+  display: flex;
+  flex-direction: column; /* Apila las secciones en columnas */
+  gap: 40px; /* Espacio entre cada sección */
+  max-width: 800px; /* Ajusta el ancho máximo de la sección */
+  margin: 0 auto;
+  padding-top: 20px;
+}
+
+/* Alineación de las secciones individuales (Experiencia, Educación, Habilidades) */
+.experience-section, .education-section, .skills-section {
+  display: flex;
+  flex-direction: column;
+  gap: 20px; /* Espacio entre tarjetas */
+}
+
+/* Estilo de las tarjetas individuales */
+.experience-card, .education-card, .skills-card {
+  position: relative;
+  padding: 20px;
+  background-color: white;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 30px; /* Cambia el radio del borde */
+  transition: transform 0.3s ease, background-color 0.3s ease;
+  cursor: default; /* Cambia el cursor para indicar que no es interactivo como un botón */
+}
+
+.experience-card:hover, .education-card:hover, .skills-card:hover {
+  transform: scale(1.09); /* Efecto de zoom */
+  background-color: #f0f4ff; /* Color de fondo al hacer hover */
+  box-shadow: 0 4px 8px rgba(0, 66, 255, 0.2); /* Sombra más pronunciada en hover */
+  border-radius: 30px;
+}
+
+
+/* Contenedor del título y logo */
+.education-card h3 {
+  display: flex;
+  align-items: top;
+  justify-content: space-between; /* Alinea el título a la izquierda y el logo a la derecha */
+  font-size: 1.1em;
+}
+
+
+/* Opcional: Ajustes para dispositivos pequeños */
+@media (max-width: 768px) {
+  .curriculum-container {
+      max-width: 100%; /* Ancho completo en dispositivos pequeños */
+      padding: 10px;
+  }
+}
+
+
+/* Projects Section */
+.project-card {
+  display: flex;
+  background-color: white;
+  padding: 15px;
+  margin: 10px 0;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  flex-direction: column;
+    align-items: flex-start; /* Opcional: Alínea el contenido a la izquierda */
+    width: 1000px; /* Asegura que ocupe todo el ancho del contenedor */
+    margin-bottom: 20px; /* Espacio entre cada tarjeta */
+    border-radius: 30px;
+    align-items: center; /* Centra los elementos horizontalmente */
+    font-size: 19px;
+    justify-content: center; /* Centra los elementos verticalmente */
+}
+
+.project-card img {
+  width: 95%; /* Ajusta la imagen al ancho del contenedor */
+  max-width: 95%; /* Controla el tamaño máximo de la imagen */
+  margin-top: 10px; /* Espacio entre el título y la imagen */
+  aspect-ratio: auto;
+}
+
+/* Contact Section */
+.contact-info {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.social-icons {
+  display: flex;
+  justify-content: center;
+  gap: 20px; /* Espacio entre los iconos */
+  margin-top: 10px;
+}
+
+.social-icons a {
+  font-size: 1.5em;
+  color: #333;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.social-icons a:hover {
+  color: #0042FF; /* Cambia el color al pasar el ratón */
+}
+
+/* Estilos para pantallas móviles */
+@media (max-width: 768px) {
+  .social-icons {
+    flex-direction: column; /* Apilar los iconos en pantallas pequeñas */
+    gap: 10px; /* Ajusta el espacio entre los iconos en móviles */
+  }
+
+  .social-icons a {
+    font-size: 1.2em; /* Ajusta el tamaño de los iconos en móviles */
+  }
+}
+
+
+/* end contact section*/
+
+html, body {
+  height: 100%;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+
+
+/* El footer se mantiene al final */
+footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  text-align: center;
+  padding: 20px;
+  background-color: #fff;
+  color: #333;
+  font-size: 0.99em;
+  box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1);
+  z-index: 100;
+}
+
+/* La sección principal ocupa el espacio restante entre el header y el footer */
+#content {
+  flex: 1;
+  padding-bottom: 150px; /* Espacio extra para no tapar contenido con el footer */
+}
+
+/* Efecto de desvanecimiento */
+.fade-in {
+  opacity: 1;
+  transition: opacity 0.3s ease-in; /* Ajusta la duración para un desvanecimiento más rápido o más lento */
+}
+
+.fade-out {
+  opacity: 0;
+  transition: opacity 0.3s ease-out;
+}
+
+/* Ajustes generales para dispositivos móviles */
+@media (max-width: 768px) {
+
+  /* Ajustar el tamaño del logo y los márgenes en el header */
+  header {
+    padding: 15px;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .logo {
+    font-size: 1.5em;
+  }
+
+  nav {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  nav a {
+    margin: 5px 0;
+    font-size: 1.1em;
+  }
+
+  /* Ajustar el padding del contenido principal */
+  main {
+    padding: 10px;
+  }
+
+  /* Ajustar el ancho de las secciones "About" y "Curriculum" para que se apilen */
+  .about-container, .curriculum-container {
+    flex-direction: column;
+    padding: 25px;
+  }
+
+  .about-card, .about-content {
+    margin: 0;
+    width: 100%;
+    padding: 25px;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+ 
+
+  /* Proyectos: Ajustar la disposición de las tarjetas de proyectos */
+  .project-card {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+  }
+
+  .project-card img {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+  }
+
+  /* Formularios: ajustar campos en la sección de contacto */
+  form {
+    max-width: 100%;
+    padding: 10px;
+  }
+
+  input, textarea {
+    padding: 10px;
+    margin: 5px 0;
+  }
+}
+
+/* Estilos para el menú hamburguesa */
+.hamburger-menu {
+  display: none; /* Por defecto, oculto en pantallas grandes */
+  background: none;
+  border: none;
+  font-size: 1.5em;
+  cursor: pointer;
+  color: #333;
+  position: absolute;
+  right: 20px;
+  top: 20px;
+  z-index: 1100; /* Asegura que esté sobre el contenido */
+}
+
+/* Media queries para mostrar el menú hamburguesa en pantallas pequeñas */
+@media (max-width: 768px) {
+  .hamburger-menu {
+      display: block; /* Mostrar en pantallas pequeñas */
+  }
+
+  /* Ocultar el navbar por defecto en pantallas pequeñas */
+  #navbar {
+      display: none;
+      flex-direction: column;
+      position: absolute;
+      top: 60px;
+      right: 0;
+      background-color: white;
+      width: 100%;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      z-index: 1000;
+  }
+
+  #navbar a {
+      padding: 15px;
+      text-align: center;
+      border-bottom: 1px solid #ddd;
+  }
+
+  /* Mostrar el navbar cuando esté activo */
+  #navbar.active {
+      display: flex;
+  }
+}
+
+/* Ajustes para la sección "About" en pantallas pequeñas */
+@media (max-width: 768px) {
+  .about-container {
+    flex-direction: column; /* Apilar los elementos verticalmente */
+    align-items: center; /* Centrar los elementos */
+    padding: 20px; /* Reducir padding */
+  }
+
+  .about-card, .about-content {
+    margin: 0;
+    width: 100%; /* Ocupa todo el ancho disponible */
+  }
+
+  .about-content {
+    text-align: center; /* Centra el texto */
+  }
+}
+
+/* Ajustes para la sección "Proyectos" en pantallas pequeñas */
+@media (max-width: 768px) {
+  .project-card {
+    flex-direction: column; /* Apilar los elementos dentro de la tarjeta de proyectos */
+    align-items: center; /* Centrar el contenido */
+    text-align: center; /* Centrar el texto */
+    padding: 20px; /* Reducir el padding */
+    width: 100%; /* Ocupa todo el ancho disponible */
+  }
+
+  .project-card img {
+    width: 100%; /* La imagen ocupará el 100% del ancho disponible */
+    height: auto; /* Mantén la proporción de la imagen */
+    max-width: 300px; /* Tamaño máximo razonable */
+  }
+
+  footer {
+    padding: 10px; /* Reduce el padding para disminuir el tamaño del footer */
+    font-size: 0.8em; /* Reduce el tamaño de la fuente */
+    height: auto; /* Ajusta automáticamente la altura según el contenido reducido */
+    line-height: 1.2; /* Reduce el espacio entre líneas */
+  }
+
+  footer p {
+    font-size: 0.8em; /* Reduce el tamaño del texto en el contenido del footer */
+  }
+
+  .social-icons {
+    flex-direction: row; /* Mantén los íconos en fila */
+    gap: 10px; /* Reduce el espacio entre los íconos */
+  }
+
+  .social-icons a {
+    font-size: 1em; /* Reduce ligeramente el tamaño de los iconos */
+  }
+  
+}
+
+
+.skills-section table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px 0;
+  text-align: center;
+}
+
+.skills-section th, .skills-section td {
+  padding: 10px;
+  border: 1px solid #ddd;
+  background-color:XXX;
+}
+
+.skills-section th {
+  background-color: #f3f3f3;
+  font-weight: bold;
+}
+
+.skills-section img {
+  vertical-align: middle;
+}
+
+.skills-section td a {
+  display: inline-block;
+}
+
+@media (max-width: 768px) {
+  .skills-section table {
+    width: 100%;
+
+  }
+
+  .skills-section th, .skills-section td {
+    display: block;
+    width: 100%;
+    text-align: center;
+  }
+
+  .skills-section th {
+    display: none; /* Ocultar los encabezados en móvil para que se vean bien */
+  }
+
+  .skills-section td {
+    border: none;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+  }
+}
+
+.black-dot {
+  display: inline-block;
+  font-size: 1.2em; /* Ajusta el tamaño del punto negro si es necesario */
+  margin-right: 10px; /* Espacio entre el punto y el texto */
+  position: relative; /* Permite mover el punto negro de manera manual */
+  top: -1px; /* Ajusta este valor para mover el punto hacia arriba o abajo */
+}
+
+
+.language-selector select {
+  padding: 5px;
+  font-size: 14px;
+  border-radius: 5px;
+  font-family: Arial, sans-serif;
+}
+
+
+
+.buttons {
+  margin-top: 20px;
+  display: flex;
+  gap: 10px; /* Espacio entre los botones */
+  justify-content: center; /* Centra los botones horizontalmente */
+}
+
+.btn-primary {
+  background-color: #0042FF;
+  color: white;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 30px;
+  transition: transform 0.3s ease, background-color 0.3s ease;
+  font-size: 16px;
+}
+
+.btn-primary:hover {
+  background-color: #0056b3;
+  transform: scale(1.05);
+}
+
+#back-to-top {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: #0042FF;
+  color: white;
+  border: none;
+  border-radius: 50%;
+  padding: 15px;
+  font-size: 18px;
+  cursor: pointer;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+  transition: opacity 0.5s ease, transform 0.6s ease;
+  opacity: 0; /* Oculto inicialmente */
+  visibility: hidden; /* Oculto inicialmente */
+  z-index: 1000;
+}
+
+#back-to-top:hover {
+  transform: scale(1.2);
+}
+
+#back-to-top.show {
+  opacity: 2;
+  visibility: visible;
+}
+
+
+[id] {
+  scroll-margin-top: 80px; /* Ajusta el valor según el tamaño del encabezado fijo */
+}
+
+/* Contenedor para alinear selector de idioma y toggle */
+.language-theme-container {
+  display: flex;
+  align-items: center; /* Centra verticalmente */
+  gap: 15px; /* Espacio entre elementos */
+}
+
+/* Ajustes del selector de idioma */
+.language-selector select {
+  padding: 5px 10px;
+  font-size: 14px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+/* Toggle */
+.toggle-container {
+  position: relative;
+  width: 60px;
+  height: 30px;
+}
+
+/* Ocultar input checkbox */
+#theme-toggle {
+  display: none;
+}
+
+/* Estilo del toggle */
+.toggle {
+  background-color: #444;
+  border-radius: 50px;
+  box-shadow: inset 0 2px 5px rgba(0, 0, 0, 0.5);
+  cursor: pointer;
+  display: block;
+  height: 100%;
+  transition: background-color 0.3s ease;
+}
+
+.toggle::before {
+  content: "";
+  position: absolute;
+  top: 3px;
+  left: 3px;
+  width: 24px;
+  height: 24px;
+  background: #111;
+  border-radius: 50%;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+  transition: transform 0.3s ease, background 0.3s ease;
+}
+
+/* Estado activado (modo oscuro) */
+#theme-toggle:checked + .toggle {
+  background-color: #222; /* Fondo más oscuro */
+}
+
+#theme-toggle:checked + .toggle::before {
+  transform: translateX(30px); /* Mover el círculo */
+  background: #f1f1f1; /* Cambiar color del círculo */
+}
+
+body.dark-mode {
+  background-color: #121212;
+  color: #f1f1f1;
+}
+
+.dark-mode header,
+.dark-mode footer,
+.dark-mode .about-card,
+.dark-mode .project-card,
+.dark-mode .experience-card,
+.dark-mode .education-card,
+.dark-mode table td,
+.dark-mode table th,
+.dark-mode .language-selector select  {
+  background-color: #1f1f1f;
+  color: #e0e0e0;
+  box-shadow: 0 2px 5px rgba(255, 255, 255, 0.1);
+}
+
+.dark-mode p,
+.dark-mode a {
+  background-color: #1f1f1f;
+  color: #e0e0e0;
+}
+
+.dark-mode p:hover {
+  background-color: #1f1f1f;
+  color: #e0e0e0;
+}
