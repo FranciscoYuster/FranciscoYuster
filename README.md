@@ -17,7 +17,7 @@
 ## Projects
 - 🔍 [Data exploration with Python](https://github.com/FranciscoYuster/EDAwPy)  
   The repository focuses on data exploration and analysis, using data cleaning, visualization, and transformation techniques.
-- 👩🏻‍💻 [Inventory System](https://github.com/FranciscoYuster/Inventory)  (Cooming Soon)
+- 👩🏻‍💻 [Basic Inventory System](https://github.com/FranciscoYuster/Inventory)  (Cooming Soon)
   A managament inventory system
 - 📊 [World GDP Report ](https://github.com/FranciscoYuster/reportgdp)
   A Python project analyzing global GDP data from 1960 to 2023 using the World Bank API.
