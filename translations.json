@@ -1,0 +1,25 @@
+{
+    "es": {
+      "header": {
+        "about": "Sobre mí",
+        "curriculum": "Currículum",
+        "projects": "Proyectos"
+      },
+      "footer": {
+        "copyright": "© Creado por Francisco Yuster",
+        "social": "Conéctate conmigo en mis redes sociales"
+      }
+    },
+    "en": {
+      "header": {
+        "about": "About Me",
+        "curriculum": "Resume",
+        "projects": "Projects"
+      },
+      "footer": {
+        "copyright": "© Created by Francisco Yuster",
+        "social": "Connect with me on my social networks"
+      }
+    }
+  }
+  
