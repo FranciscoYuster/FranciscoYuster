@@ -3,13 +3,6 @@
 <a href="https://www.linkedin.com/in/francisco-yuster-aa0b06258/" target="_blank"><img src=https://img.shields.io/badge/linkedin-%231E77B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white alt=linkedin style="margin-bottom: 5px;"/></a>  
 <a href="https://github.com/FranciscoYuster" target="_blank"><img src=https://img.shields.io/badge/github-%2324292e.svg?&style=for-the-badge&logo=github&logoColor=white alt=github style="margin-bottom: 5px;"/></a>
 </p>
-
-<div align="center">
-   
-   ![Francisco GitHub stats](https://github-readme-stats.vercel.app/api?username=FranciscoYuster&show_icons=true&locale=es&theme=dark#gh-dark-mode-only)
-   
-</div>
-
 - 🎓 Passionate about **Data Science** and continuously learning new techniques.
 - 📦 Specialist in Logistics and Inventory Management, with a strong background in Warehousing, Distribution Tracking, Stock Control, and Supply Planning and Dispatch.
 - 💻 Currently enhancing my skills in **Python** for data analysis, and automation for solving complex business challenges.
