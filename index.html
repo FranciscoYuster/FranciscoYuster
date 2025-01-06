@@ -125,7 +125,6 @@ h3 a:hover {
   cursor: default; /* Cambia el cursor para indicar interactividad */
   background-color: white;
   padding: 20px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   border-radius: 30px;
 }
 
@@ -138,6 +137,12 @@ h3 a:hover {
 }
 
 .about-content p:hover {
+  transform: scale(1.09); /* Agranda el párrafo un 5% para el efecto de enfoque */
+  background-color: #f0f4ff; /* Color de fondo suave para el efecto de resaltar */
+  border-radius: 30px;
+}
+
+.project-card:hover {
   transform: scale(1.09); /* Agranda el párrafo un 5% para el efecto de enfoque */
   background-color: #f0f4ff; /* Color de fondo suave para el efecto de resaltar */
   box-shadow: 0 4px 8px rgba(0, 66, 255, 0.2); /* Sombra para destacar */
@@ -278,6 +283,7 @@ background-color: #007bff;
   background-color: white;
   padding: 15px;
   margin: 10px 0;
+  transition: transform 0.3s ease, background-color 0.3s ease;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   flex-direction: column;
     align-items: flex-start; /* Opcional: Alínea el contenido a la izquierda */
