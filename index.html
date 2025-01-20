@@ -751,6 +751,133 @@ a {
   }
 }
 
+/* Estilos para pantallas móviles */
+@media (max-width: 768px) {
+    /* Ajuste del header */
+    header {
+        flex-direction: column;
+        align-items: center;
+        padding: 15px;
+    }
+
+    .logo {
+        font-size: 1em;
+        text-align: center;
+    }
+
+    /* Estilos para la navegación */
+    .navbar {
+        display: none; /* Ocultar menú por defecto */
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        background: #fff;
+        position: absolute;
+        top: 60px;
+        left: 0;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    }
+
+    .navbar a {
+        display: block;
+        padding: 15px;
+        font-size: 18px;
+    }
+
+    .navbar.show {
+        display: flex;
+    }
+
+    /* Menú hamburguesa */
+    .hamburger-menu {
+        display: block;
+        font-size: 1.8em;
+        margin-left: auto;
+    }
+
+    /* Ajustes en la sección de "Sobre mí" */
+    .about-container {
+        flex-direction: column;
+        padding: 20px;
+    }
+
+    .about-card, .about-content {
+        margin: 10px 0;
+    }
+
+    .profile-pic {
+        width: 200px;
+        height: 200px;
+    }
+
+    .about-content p {
+        font-size: 14px;
+    }
+
+    /* Sección de proyectos */
+    .project-container {
+        max-width: 100%;
+        padding: 20px;
+    }
+
+    .project-card {
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
+    }
+
+    .project-card img {
+        max-width: 80%;
+    }
+
+    /* Sección de curriculum */
+    .curriculum-container {
+        padding: 20px;
+        gap: 20px;
+    }
+
+    /* Botones centrados */
+    .buttons {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .btn-primary, .btn-secondary {
+        width: 100%;
+        text-align: center;
+        font-size: 14px;
+    }
+
+    /* Pie de página */
+    footer {
+        font-size: 0.9em;
+        padding: 15px;
+    }
+
+    .social-icons {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    /* Ajustes para la tabla de habilidades */
+    .skills-section table {
+        font-size: 14px;
+    }
+
+    .skills-section img {
+        max-width: 40px;
+        height: auto;
+    }
+
+    /* Ajuste del botón de volver arriba */
+    #back-to-top {
+        width: 50px;
+        height: 50px;
+        font-size: 16px;
+        bottom: 15px;
+        right: 15px;
+    }
+}
 
 
 
