@@ -8,7 +8,7 @@
 - 📦 Specialist in Logistics and Inventory Management, with a strong background in Warehousing, Distribution Tracking, Stock Control, and Supply Planning and Dispatch.
 - 💻 Currently enhancing my skills in **Python** for data analysis, and automation for solving complex business challenges.
 - 🌱 I enjoy skateboarding and chess.
-
+ 
 
 ## Projects
 - 🔍 [Data exploration with Python](https://github.com/FranciscoYuster/EDAwPy)  
