@@ -18,13 +18,13 @@
 ![JavaScript](https://img.shields.io/badge/-JavaScript-000?&logo=JavaScript)
 ![TypeScript](https://img.shields.io/badge/-TypeScript-000?&logo=TypeScript)
 
-## Data Analysis
+### Data Analysis
 ![Power BI](https://img.shields.io/badge/-Power%20BI-000?&logo=Power-BI&logoColor=yellow)
 ![Excel](https://img.shields.io/badge/-Excel-000?&logo=microsoft-excel&logoColor=green)
 ![Python](https://img.shields.io/badge/-Python-000?&logo=Python)
 ![Power Query](https://img.shields.io/badge/-Power%20Query-000?&logo=microsoft-excel&logoColor=green)
 
-## Database
+### Database
 ![PostgreSQL](https://img.shields.io/badge/-PostgreSQL-000?&logo=PostgreSQL)
 ![MySQL](https://img.shields.io/badge/-MySQL-000?&logo=MySQL)
 ![SQLAlchemy](https://img.shields.io/badge/-SQLAlchemy-000?&logo=sqlalchemy&logoColor=blue)
