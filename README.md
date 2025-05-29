@@ -20,7 +20,7 @@
 
 
 ### Data Analysis
-![Power BI](https://img.shields.io/badge/-Power%20BI-F2C811?&logo=powerbi&logoColor=black)
+![Power BI](https://img.shields.io/badge/Power%20BI-black?logo=powerbi&logoColor=F2C811)
 ![Excel](https://img.shields.io/badge/-Excel-000?&logo=microsoft-excel&logoColor=green)
 ![Python](https://img.shields.io/badge/-Python-000?&logo=Python)
 ![Power Query](https://img.shields.io/badge/-Power%20Query-000?&logo=microsoft-excel&logoColor=green)
