@@ -9,19 +9,18 @@
 - 💻 Actualmente mejorando mis habilidades para soluciones a desafíos empresariales complejos.
 - 🌱 En mi tiempo libre disfruto del skateboarding y el ajedrez.
 
-### Languages & Technologies
+### Languages
 ![HTML5](https://img.shields.io/badge/-HTML5-000?&logo=HTML5)
 ![CSS3](https://img.shields.io/badge/-CSS3-000?&logo=CSS3)
 ![Google Apps Script](https://img.shields.io/badge/-Google%20Apps%20Script-000?&logo=google)
 ![Python](https://img.shields.io/badge/-Python-000?&logo=Python)
 ![JavaScript](https://img.shields.io/badge/-JavaScript-000?&logo=JavaScript)
 ![TypeScript](https://img.shields.io/badge/-TypeScript-000?&logo=TypeScript)
-![Next](https://img.shields.io/badge/-Next.js-000?&logo=next.js)
 
 
 
 ### Data Analysis
-![Power BI](https://img.shields.io/badge/-Power%20BI-F2C811?&logo=powerbi&logoColor=000)
+![Power BI](https://img.shields.io/badge/-Power%20BI-F2C811?&logo=powerbi&logoColor=0000)
 ![Excel](https://img.shields.io/badge/-Excel-000?&logo=microsoft-excel&logoColor=green)
 ![Python](https://img.shields.io/badge/-Python-000?&logo=Python)
 ![Power Query](https://img.shields.io/badge/-Power%20Query-000?&logo=microsoft-excel&logoColor=green)
