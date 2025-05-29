@@ -9,7 +9,6 @@
 - 💻 Actualmente mejorando mis habilidades para soluciones a desafíos empresariales complejos.
 - 🌱 En mi tiempo libre disfruto del skateboarding y el ajedrez.
 
-
 ### Languages & Technologies
 ![HTML5](https://img.shields.io/badge/-HTML5-000?&logo=HTML5)
 ![CSS3](https://img.shields.io/badge/-CSS3-000?&logo=CSS3)
@@ -43,15 +42,4 @@
 ![Git](https://img.shields.io/badge/-Git-000?&logo=Git)
 
 
-## Proyectos
-- 🔍 [Exploración de Datos con Python](https://github.com/FranciscoYuster/EDAwPy)  
-  Repositorio enfocado en la exploración y análisis de datos mediante técnicas de limpieza, visualización y transformación.
 
-- 👩🏻‍💻 [Sistema de Inventario](https://github.com/FranciscoYuster/Inventory)  
-  Un sistema de gestión de inventario (Próximamente)
-
-- 📊 [Reporte del PIB Mundial](https://github.com/FranciscoYuster/reportgdp)  
-  Proyecto en Python más Power BI que analiza datos del PIB global desde 1960 hasta 2023 usando la API del Banco Mundial.
-
-- 📊 [Análisis Financiero con Power BI](https://github.com/FranciscoYuster/Financial-Analysis-with-Power-BI)  
-  Dashboard en Power BI para el análisis financiero integral de una empresa.
