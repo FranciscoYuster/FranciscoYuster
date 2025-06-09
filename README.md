@@ -31,6 +31,7 @@
 ![SQLAlchemy](https://img.shields.io/badge/-SQLAlchemy-000?&logo=sqlalchemy&logoColor=blue)
 
 ### Technologies
+![Model Context Protocol](https://img.shields.io/badge/Model%20Context%20Protocol-black?logo=modelcontextprotocol&logoColor=F2C811)
 ![Docker](https://img.shields.io/badge/-Docker-000?&logo=Docker)
 ![React](https://img.shields.io/badge/-React-000?&logo=React)
 ![NextJS](https://img.shields.io/badge/-Next.js-000?&logo=Next.js)
