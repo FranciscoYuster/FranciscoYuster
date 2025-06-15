@@ -1,12 +1,12 @@
 # Hola, soy Francisco Yuster 
 <p>
-<a href="https://www.linkedin.com/in/francisco-yuster-aa0b06258/" target="_blank"><img src=https://img.shields.io/badge/linkedin-%231E77B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white alt=linkedin style="margin-bottom: 5px;"/></a>  
-<a href="https://github.com/FranciscoYuster" target="_blank"><img src=https://img.shields.io/badge/github-%2324292e.svg?&style=for-the-badge&logo=github&logoColor=white alt=github style="margin-bottom: 5px;"/></a>
+<a href="https://www.linkedin.com/in/francisco-yuster-aa0b06258/" target="_blank"><img src="https://img.shields.io/badge/linkedin-%231E77B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" alt="linkedin" style="margin-bottom: 5px;"/></a>  
+<a href="https://github.com/FranciscoYuster" target="_blank"><img src="https://img.shields.io/badge/github-%2324292e.svg?&style=for-the-badge&logo=github&logoColor=white" alt="github" style="margin-bottom: 5px;"/></a>
 </p>
 
-- 🎓 Me encanta la informatica, siemper estoy en constante aprendizaje de las nuevas tendencias.
+- 🎓 Estudiante de la Universidad Andrés Bello, siempre en constante aprendizaje de las nuevas tendencias en informática.
 - 📦 Especialista en Logística y Gestión de Inventarios, con sólida experiencia en almacenamiento, seguimiento de distribución, control de stock, planificación y despacho de suministros.
-- 💻 Actualmente mejorando mis habilidades para soluciones a desafíos empresariales complejos.
+- 💻 Actualmente mejorando mis habilidades para brindar soluciones a desafíos empresariales complejos.
 - 🌱 En mi tiempo libre disfruto del skateboarding y el ajedrez.
 
 ### Languages
