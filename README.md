@@ -10,47 +10,45 @@ a# Hola, soy Francisco Yuster
 - 🌱 En mi tiempo libre disfruto del skateboarding y el ajedrez.
 
 ### Lenguajes
-
-| HTML5 | CSS3 | JavaScript | TypeScript | Python | Google Apps Script |
-|-------|------|------------|------------|--------|---------------------|
-| ![HTML5](https://img.shields.io/badge/-HTML5-000?&logo=HTML5) | ![CSS3](https://img.shields.io/badge/-CSS3-000?&logo=CSS3) | ![JavaScript](https://img.shields.io/badge/-JavaScript-000?&logo=JavaScript) | ![TypeScript](https://img.shields.io/badge/-TypeScript-000?&logo=TypeScript) | ![Python](https://img.shields.io/badge/-Python-000?&logo=Python) | ![Google Apps Script](https://img.shields.io/badge/-Google%20Apps%20Script-000?&logo=google) |
-
----
+![HTML5](https://img.shields.io/badge/-HTML5-000?&logo=HTML5)
+![CSS3](https://img.shields.io/badge/-CSS3-000?&logo=CSS3)
+![JavaScript](https://img.shields.io/badge/-JavaScript-000?&logo=JavaScript)
+![TypeScript](https://img.shields.io/badge/-TypeScript-000?&logo=TypeScript)
+![Python](https://img.shields.io/badge/-Python-000?&logo=Python)
+![Google Apps Script](https://img.shields.io/badge/-Google%20Apps%20Script-000?&logo=google)
 
 ### Frameworks y Librerías
-
-| Next.js | React |
-|---------|--------|
-| ![Next.js](https://img.shields.io/badge/-Next.js-000?&logo=nextdotjs) | ![React](https://img.shields.io/badge/-React-000?&logo=react) |
-
----
+![Next.js](https://img.shields.io/badge/-Next.js-000?&logo=nextdotjs)
+![React](https://img.shields.io/badge/-React-000?&logo=react)
 
 ### Análisis de Datos
-
-| Power BI | Excel | Power Query | DAX | Python | Pandas | Matplotlib | SciPy |
-|----------|--------|--------------|-----|--------|--------|-------------|--------|
-| ![Power BI](https://img.shields.io/badge/Power%20BI-black?logo=powerbi&logoColor=F2C811) | ![Excel](https://img.shields.io/badge/-Excel-000?&logo=microsoft-excel&logoColor=green) | ![Power Query](https://img.shields.io/badge/-Power%20Query-000?&logo=microsoft-excel&logoColor=green) | ![DAX](https://img.shields.io/badge/-DAX%20Analytics-000?&logo=microsoft) | ![Python](https://img.shields.io/badge/-Python-000?&logo=Python) | ![Pandas](https://img.shields.io/badge/-Pandas-000?&logo=pandas) | ![Matplotlib](https://img.shields.io/badge/-Matplotlib-000?&logo=matplotlib) | ![SciPy](https://img.shields.io/badge/-SciPy-000?&logo=scipy) |
-
----
+![Power BI](https://img.shields.io/badge/Power%20BI-black?logo=powerbi&logoColor=F2C811)
+![Excel](https://img.shields.io/badge/-Excel-000?&logo=microsoft-excel&logoColor=green)
+![Power Query](https://img.shields.io/badge/-Power%20Query-000?&logo=microsoft-excel&logoColor=green)
+![DAX](https://img.shields.io/badge/-DAX%20Analytics-000?&logo=microsoft)
+![Python](https://img.shields.io/badge/-Python-000?&logo=Python)
+![Pandas](https://img.shields.io/badge/-Pandas-000?&logo=pandas)
+![Matplotlib](https://img.shields.io/badge/-Matplotlib-000?&logo=matplotlib)
+![SciPy](https://img.shields.io/badge/-SciPy-000?&logo=scipy)
 
 ### Bases de Datos
-
-| MySQL | PostgreSQL | SQLAlchemy |
-|-------|------------|------------|
-| ![MySQL](https://img.shields.io/badge/-MySQL-000?&logo=MySQL) | ![PostgreSQL](https://img.shields.io/badge/-PostgreSQL-000?&logo=PostgreSQL) | ![SQLAlchemy](https://img.shields.io/badge/-SQLAlchemy-000?&logo=sqlalchemy&logoColor=blue) |
-
----
+![MySQL](https://img.shields.io/badge/-MySQL-000?&logo=MySQL)
+![PostgreSQL](https://img.shields.io/badge/-PostgreSQL-000?&logo=PostgreSQL)
+![SQLAlchemy](https://img.shields.io/badge/-SQLAlchemy-000?&logo=sqlalchemy&logoColor=blue)
 
 ### Cloud & DevOps
-
-| Hostinger | Cloudflare | Docker |
-|-----------|------------|--------|
-| ![Hostinger](https://img.shields.io/badge/-Hostinger-000?&logo=hostinger) | ![Cloudflare](https://img.shields.io/badge/-Cloudflare-000?&logo=cloudflare) | ![Docker](https://img.shields.io/badge/-Docker-000?&logo=Docker) |
-
----
+![Hostinger](https://img.shields.io/badge/-Hostinger-000?&logo=hostinger)
+![Cloudflare](https://img.shields.io/badge/-Cloudflare-000?&logo=cloudflare)
+![Docker](https://img.shields.io/badge/-Docker-000?&logo=Docker)
 
 ### Herramientas
-
-| Git | GitHub | VS Code | Jupyter | Postman | MCP | ChatGPT | Claude | Perplexity | V0.dev |
-|-----|--------|---------|----------|----------|------|----------|--------|-------------|--------|
-| ![Git](https://img.shields.io/badge/-Git-000?&logo=git) | ![GitHub](https://img.shields.io/badge/-GitHub-000?&logo=github) | ![VS Code](https://img.shields.io/badge/-VS%20Code-000?&logo=visualstudiocode) | ![Jupyter](https://img.shields.io/badge/-Jupyter%20Notebook-000?&logo=jupyter) | ![Postman](https://img.shields.io/badge/-Postman-000?&logo=postman) | ![Model Context Protocol](https://img.shields.io/badge/Model%20Context%20Protocol-black?logo=modelcontextprotocol&logoColor=F2C811) | ![ChatGPT](https://img.shields.io/badge/-ChatGPT-000?&logo=openai) | ![Claude](https://img.shields.io/badge/-Claude-000?&logo=Anthropic) | ![Perplexity](https://img.shields.io/badge/-Perplexity-000?&logo=perplexity) | ![V0.dev](https://img.shields.io/badge/-V0.dev-000?&logo=v0) |
+![GitHub](https://img.shields.io/badge/-GitHub-000?&logo=github)
+![Git](https://img.shields.io/badge/-Git-000?&logo=git)
+![VS Code](https://img.shields.io/badge/-VS%20Code-000?&logo=visualstudiocode)
+![Jupyter](https://img.shields.io/badge/-Jupyter%20Notebook-000?&logo=jupyter)
+![Postman](https://img.shields.io/badge/-Postman-000?&logo=postman)
+![Model Context Protocol](https://img.shields.io/badge/Model%20Context%20Protocol-black?logo=modelcontextprotocol&logoColor=F2C811)
+![ChatGPT](https://img.shields.io/badge/-ChatGPT-000?&logo=openai)
+![Claude](https://img.shields.io/badge/-Claude-000?&logo=Anthropic)
+![Perplexity](https://img.shields.io/badge/-Perplexity-000?&logo=perplexity)
+![V0.dev](https://img.shields.io/badge/-V0.dev-000?&logo=v0)
