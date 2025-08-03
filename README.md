@@ -4,10 +4,10 @@
 <a href="https://github.com/FranciscoYuster" target="_blank"><img src="https://img.shields.io/badge/github-%2324292e.svg?&style=for-the-badge&logo=github&logoColor=white" alt="github" style="margin-bottom: 5px;"/></a>
 </p>
 
-- 🎓 Estudiante de la Universidad Andrés Bello, siempre en constante aprendizaje de las nuevas tendencias en informática.
-- 📦 Especialista en Logística y Gestión de Inventarios, con sólida experiencia en almacenamiento, seguimiento de distribución, control de stock, planificación y despacho de suministros.
-- 💻 Actualmente mejorando mis habilidades para brindar soluciones a desafíos empresariales complejos.
-- 🌱 En mi tiempo libre disfruto del skateboarding y el ajedrez.
+- Estudiante de la Universidad Andrés Bello, siempre en constante aprendizaje de las nuevas tendencias en informática.
+- Especialista en Logística y Gestión de Inventarios, con sólida experiencia en almacenamiento, seguimiento de distribución, control de stock, planificación y despacho de suministros.
+- Actualmente mejorando mis habilidades para brindar soluciones a desafíos empresariales complejos.
+- En mi tiempo libre disfruto del skateboarding y el ajedrez.
 
 ### Lenguajes
 ![HTML5](https://img.shields.io/badge/-HTML5-000?&logo=HTML5)
