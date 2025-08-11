@@ -4,7 +4,7 @@
 <a href="https://github.com/FranciscoYuster" target="_blank"><img src="https://img.shields.io/badge/github-%2324292e.svg?&style=for-the-badge&logo=github&logoColor=white" alt="github" style="margin-bottom: 5px;"/></a>
 </p>
 
-- Apasionado por la informatica, siempre en constante aprendizaje de las nuevas tendencias en informática.
+- Soy un apasionado por la tecnología y la logística, actualmente liderando el desarrollo de **[diler](https://dilerlatam.com)** — la plataforma que conecta personas, repartidores y comercios **sin intermediarios**, 100% pensada para la escalabilidad en Latinoamérica.  
 - Especialista en Logística y Gestión de Inventarios, con sólida experiencia en almacenamiento, seguimiento de distribución, control de stock, planificación y despacho de suministros.
 - Actualmente mejorando mis habilidades para brindar soluciones a desafíos empresariales complejos.
 - En mi tiempo libre disfruto del skateboarding y el ajedrez.
