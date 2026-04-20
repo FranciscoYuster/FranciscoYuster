@@ -1,4 +1,3 @@
-# Hola, soy 
 <img src="https://readme-typing-svg.demolab.com/?font=Poppins&weight=600&size=28&duration=4000&pause=1000&color=1D4ED8&center=true&vCenter=true&width=500&lines=Francisco+Yuster;Koder+SpA" alt="Typing SVG"/>
 <p>
 <a href="https://www.linkedin.com/in/francisco-yuster-aa0b06258/" target="_blank"><img src="https://img.shields.io/badge/linkedin-%231E77B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" alt="linkedin" style="margin-bottom: 5px;"/></a>  
