@@ -5,7 +5,7 @@
 </p>
 
 <img src="https://github-readme-stats.vercel.app/api?username=FranciscoYuster&show_icons=true&theme=github_dark&hide_border=true&count_private=true" height="170" />
-<img src="https://streak-stats.demolab.com/?user=FranciscoYuster&theme=github-dark-blue&hide_border=true" height="170"/>
+<img src="https://streak-stats.demolab.com/?user=FranciscoYuster&theme=github-dark-blue&hide_border=true" height="170" width="100"/>
 
 - Soy un apasionado por la tecnología y la logística, actualmente liderando el desarrollo de **[diler](https://dilerlatam.com)** — la plataforma que conecta personas, repartidores y comercios **sin intermediarios**, 100% pensada para la escalabilidad en Latinoamérica.  
 - Especialista en Logística y Gestión de Inventarios, con sólida experiencia en almacenamiento, seguimiento de distribución, control de stock, planificación y despacho de suministros.
