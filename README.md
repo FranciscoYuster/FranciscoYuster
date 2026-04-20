@@ -1,10 +1,12 @@
-# Hola, soy Francisco Yuster 
+# Hola, soy 
+<img src="https://readme-typing-svg.demolab.com/?font=Poppins&weight=600&size=28&duration=4000&pause=1000&color=1D4ED8&center=true&vCenter=true&width=500&lines=Francisco+Yuster;Koder+SpA" alt="Typing SVG"/>
 <p>
 <a href="https://www.linkedin.com/in/francisco-yuster-aa0b06258/" target="_blank"><img src="https://img.shields.io/badge/linkedin-%231E77B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" alt="linkedin" style="margin-bottom: 5px;"/></a>  
 <a href="https://github.com/FranciscoYuster" target="_blank"><img src="https://img.shields.io/badge/github-%2324292e.svg?&style=for-the-badge&logo=github&logoColor=white" alt="github" style="margin-bottom: 5px;"/></a>
 </p>
 
-<img src="https://streak-stats.demolab.com/?user=FranciscoYuster&theme=github-dark-blue&hide_border=true"/>
+<img src="https://github-readme-stats.vercel.app/api?username=FranciscoYuster&show_icons=true&theme=github_dark&hide_border=true&count_private=true" height="170" />
+<img src="https://streak-stats.demolab.com/?user=FranciscoYuster&theme=github-dark-blue&hide_border=true" height="170"/>
 
 - Soy un apasionado por la tecnología y la logística, actualmente liderando el desarrollo de **[diler](https://dilerlatam.com)** — la plataforma que conecta personas, repartidores y comercios **sin intermediarios**, 100% pensada para la escalabilidad en Latinoamérica.  
 - Especialista en Logística y Gestión de Inventarios, con sólida experiencia en almacenamiento, seguimiento de distribución, control de stock, planificación y despacho de suministros.
