@@ -5,8 +5,9 @@
 <a href="https://github.com/FranciscoYuster" target="_blank"><img src="https://img.shields.io/badge/github-%2324292e.svg?&style=for-the-badge&logo=github&logoColor=white" alt="github" style="margin-bottom: 5px;"/></a>
 </p>
 
-<img src="https://github-readme-stats.vercel.app/api?username=FranciscoYuster&show_icons=true&theme=github_dark&hide_border=true&count_private=true" height="170" />
-<img src="https://streak-stats.demolab.com/?user=FranciscoYuster&theme=github-dark-blue&hide_border=true" height="170"/>
+![GitHub stats](https://github-readme-stats.vercel.app/api?username=FranciscoYuster&show_icons=true&theme=github_dark&hide_border=true&count_private=true)
+
+![GitHub streak](https://streak-stats.demolab.com/?user=FranciscoYuster&theme=github-dark-blue&hide_border=true)
 
 </div>
 - Soy un apasionado de la tecnología y la logística. Actualmente desarrollando www.dilerlatam.com, una plataforma que conecta personas, repartidores y comercios **sin intermediarios**, diseñada para escalar en Latinoamérica. 
