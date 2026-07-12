@@ -53,6 +53,6 @@
 ![Postman](https://img.shields.io/badge/-Postman-000?&logo=postman)
 ![Model Context Protocol](https://img.shields.io/badge/Model%20Context%20Protocol-black?logo=modelcontextprotocol&logoColor=F2C811)
 ![ChatGPT](https://img.shields.io/badge/-ChatGPT-000?&logo=openai)
-![Claude](https://img.shields.io/badge/-Claude-000?&logo=Anthropic)
+![Claude](https://img.shields.io/badge/-Claude-D97757?&logo=anthropic&logoColor=white)
 ![Perplexity](https://img.shields.io/badge/-Perplexity-000?&logo=perplexity)
 ![V0.dev](https://img.shields.io/badge/-V0.dev-000?&logo=v0)
