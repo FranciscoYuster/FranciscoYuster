@@ -5,7 +5,6 @@
 <a href="https://github.com/FranciscoYuster" target="_blank"><img src="https://img.shields.io/badge/github-%2324292e.svg?&style=for-the-badge&logo=github&logoColor=white" alt="github" style="margin-bottom: 5px;"/></a>
 </p>
 
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=FranciscoYuster&show_icons=true&theme=tokyonight)
 ![GitHub streak](https://streak-stats.demolab.com/?user=FranciscoYuster&theme=github-dark-blue&hide_border=true)
 
 </div>
