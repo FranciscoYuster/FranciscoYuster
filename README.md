@@ -10,7 +10,7 @@
 ![GitHub streak](https://streak-stats.demolab.com/?user=FranciscoYuster&theme=github-dark-blue&hide_border=true)
 
 </div>
-- Soy un apasionado de la tecnología y la logística. Actualmente desarrollando www.dilerlatam.com, una plataforma que conecta personas, repartidores y comercios **sin intermediarios**, diseñada para escalar en Latinoamérica. 
+- Soy un apasionado de la tecnología y la logística. Actualmente desarrollando www.dilerlatam.com, una plataforma que conecta personas, repartidores y comercios sin intermediarios, diseñada para escalar en Latinoamérica. 
 - Especialista en Logística y Gestión de Inventarios, con sólida experiencia en almacenamiento, seguimiento de distribución, control de stock, planificación y despacho de suministros.
 - Actualmente mejorando mis habilidades para brindar soluciones a desafíos empresariales complejos.
 - En mi tiempo libre disfruto del skateboarding y el ajedrez.
