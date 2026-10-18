@@ -1,0 +1,23 @@
+name: metrics
+
+on:
+  schedule:
+    - cron: "0 12 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  isocalendar:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Calendario isométrico de commits
+        uses: lowlighter/metrics@v3.34
+        with:
+          filename: isocalendar.svg
+          token: ${{ secrets.METRICS }}
+          committer_token: ${{ secrets.GITHUB_TOKEN }}
+          base: ""
+          plugin_isocalendar: yes
+          plugin_isocalendar_duration: half-year
