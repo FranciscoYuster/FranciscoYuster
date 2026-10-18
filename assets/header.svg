@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 190" width="760" height="190" role="img" aria-label="Francisco Yuster - Koder SpA">
+  <defs>
+    <linearGradient id="rb" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%"   stop-color="#ff0040"/>
+      <stop offset="18%"  stop-color="#ff8a00"/>
+      <stop offset="36%"  stop-color="#ffe600"/>
+      <stop offset="54%"  stop-color="#36ff6b"/>
+      <stop offset="72%"  stop-color="#00c8ff"/>
+      <stop offset="88%"  stop-color="#7a4dff"/>
+      <stop offset="100%" stop-color="#ff00c8"/>
+      <animate attributeName="x1" values="0;-1;0" dur="6s" repeatCount="indefinite"/>
+      <animate attributeName="x2" values="1;0;1"  dur="6s" repeatCount="indefinite"/>
+    </linearGradient>
+    <linearGradient id="chrome" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%"   stop-color="#ffffff"/>
+      <stop offset="45%"  stop-color="#c0c8d8"/>
+      <stop offset="55%"  stop-color="#6b7488"/>
+      <stop offset="100%" stop-color="#e8edf6"/>
+    </linearGradient>
+    <style>
+      .wa { font-family: Impact, "Arial Black", "Helvetica Neue", sans-serif; font-weight: 900; letter-spacing: 2px; }
+    </style>
+  </defs>
+
+  <g class="wa" text-anchor="middle">
+    <!-- sombra dura estilo WordArt -->
+    <text x="386" y="86" font-size="66" fill="#000000" opacity=".55">FRANCISCO YUSTER</text>
+    <!-- contorno grueso -->
+    <text x="380" y="80" font-size="66" fill="none" stroke="#000000" stroke-width="10" stroke-linejoin="round">FRANCISCO YUSTER</text>
+    <!-- relleno arcoiris animado -->
+    <text x="380" y="80" font-size="66" fill="url(#rb)">FRANCISCO YUSTER</text>
+
+    <!-- subtitulo cromado -->
+    <text x="382" y="134" font-size="34" fill="#000000" opacity=".5">KODER SpA</text>
+    <text x="380" y="132" font-size="34" fill="none" stroke="#000" stroke-width="6" stroke-linejoin="round">KODER SpA</text>
+    <text x="380" y="132" font-size="34" fill="url(#chrome)">KODER SpA</text>
+  </g>
+
+  <!-- estrellitas parpadeantes -->
+  <g fill="#ffe600" stroke="#000" stroke-width="2">
+    <polygon points="44,54 51,72 70,72 55,83 61,101 44,90 27,101 33,83 18,72 37,72">
+      <animate attributeName="opacity" values="1;.15;1" dur="1.1s" repeatCount="indefinite"/>
+    </polygon>
+    <polygon points="716,54 723,72 742,72 727,83 733,101 716,90 699,101 705,83 690,72 709,72">
+      <animate attributeName="opacity" values=".15;1;.15" dur="1.1s" repeatCount="indefinite"/>
+    </polygon>
+  </g>
+
+  <!-- barra inferior arcoiris -->
+  <rect x="60" y="166" width="640" height="8" fill="url(#rb)" stroke="#000" stroke-width="2"/>
+</svg>
