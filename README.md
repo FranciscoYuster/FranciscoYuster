@@ -1,7 +1,9 @@
-<a href="https://github.com/FranciscoYuster?achievement=pull-shark&tab=achievements"><img align="left" width="16" height="16" src="assets/achievements/pull-shark.png" alt="Logro de GitHub: Pull Shark x3" title="Pull Shark x3" /></a>
-<a href="https://github.com/FranciscoYuster?achievement=pair-extraordinaire&tab=achievements"><img align="left" width="16" height="16" src="assets/achievements/pair-extraordinaire.png" alt="Logro de GitHub: Pair Extraordinaire x3" title="Pair Extraordinaire x3" /></a>
-<a href="https://github.com/FranciscoYuster?achievement=quickdraw&tab=achievements"><img align="left" width="16" height="16" src="assets/achievements/quickdraw.png" alt="Logro de GitHub: Quickdraw" title="Quickdraw" /></a>
-<a href="https://github.com/FranciscoYuster?achievement=yolo&tab=achievements"><img align="left" width="16" height="16" src="assets/achievements/yolo.png" alt="Logro de GitHub: YOLO" title="YOLO" /></a>
+<a href="https://github.com/FranciscoYuster?tab=achievements">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/medals-spin-dark.gif" />
+    <img align="left" width="64" height="292" src="assets/medals-spin-light.gif" alt="Logros de GitHub girando: Pull Shark x3, Pair Extraordinaire x3, Quickdraw, YOLO" title="Logros de GitHub girando: Pull Shark x3, Pair Extraordinaire x3, Quickdraw, YOLO" />
+  </picture>
+</a>
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/ascii-spin-block-dark.gif" />
