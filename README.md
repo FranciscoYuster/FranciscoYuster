@@ -1,26 +1,17 @@
 <div align="center">
-
-<img src="assets/header.svg" width="720" alt="Francisco Yuster — Koder SpA">
-
-<img src="assets/globe.gif" width="96" alt="globo terráqueo girando">
-
+  <img src="https://readme-typing-svg.demolab.com/?font=Poppins&weight=600&size=28&duration=4000&pause=1000&color=1D4ED8&center=true&vCenter=true&width=500&lines=Francisco+Yuster;Koder+SpA" alt="Typing SVG"/>
 <p>
-<a href="https://www.linkedin.com/in/francisco-yuster-aa0b06258/" target="_blank"><img src="https://img.shields.io/badge/linkedin-%231E77B5.svg?&style=for-the-badge&logoColor=white" alt="linkedin" style="margin-bottom: 5px;"/></a>
+<a href="https://www.linkedin.com/in/francisco-yuster-aa0b06258/" target="_blank"><img src="https://img.shields.io/badge/linkedin-%231E77B5.svg?&style=for-the-badge&logoColor=white" alt="linkedin" style="margin-bottom: 5px;"/></a>  
 <a href="https://github.com/FranciscoYuster" target="_blank"><img src="https://img.shields.io/badge/github-%2324292e.svg?&style=for-the-badge&logo=github&logoColor=white" alt="github" style="margin-bottom: 5px;"/></a>
 </p>
 
 ![GitHub streak](https://streak-stats.demolab.com/?user=FranciscoYuster&theme=github-dark-blue&hide_border=true)
 
-<img src="assets/divider.gif" width="92%" alt="">
-
 </div>
-
 - Soy un apasionado de la tecnología y la logística. Actualmente desarrollando www.dilerlatam.com, una plataforma que conecta personas, repartidores y comercios sin intermediarios, diseñada para escalar en Latinoamérica. 
 - Especialista en Logística y Gestión de Inventarios, con sólida experiencia en almacenamiento, seguimiento de distribución, control de stock, planificación y despacho de suministros.
 - Actualmente mejorando mis habilidades para brindar soluciones a desafíos empresariales complejos.
 - En mi tiempo libre disfruto del skateboarding y el ajedrez.
-
-<div align="center"><img src="assets/divider.gif" width="92%" alt=""></div>
 
 ### Lenguajes
 ![HTML5](https://img.shields.io/badge/-HTML5-000?&logo=HTML5)
@@ -65,19 +56,3 @@
 ![Claude](https://img.shields.io/badge/-Claude-D97757?&logo=anthropic&logoColor=white)
 ![Perplexity](https://img.shields.io/badge/-Perplexity-000?&logo=perplexity)
 ![V0.dev](https://img.shields.io/badge/-V0.dev-000?&logo=v0)
-
-<div align="center">
-
-<img src="assets/divider.gif" width="92%" alt="">
-
-<img src="assets/btn-anybrowser.gif" alt="Best viewed with any browser">
-<img src="assets/btn-built_notepad.gif" alt="Built with Notepad">
-<img src="assets/btn-css.gif" alt="CSS">
-<img src="assets/btn-coffee.gif" alt="Powered by coffee">
-<img src="assets/btn-construction.gif" alt="Under construction">
-
-<br><br>
-
-<img src="https://komarev.com/ghpvc/?username=FranciscoYuster&style=flat&color=1D4ED8&label=visitantes" alt="visitantes">
-
-</div>
