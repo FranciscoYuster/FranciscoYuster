@@ -1,10 +1,3 @@
-<a href="https://github.com/FranciscoYuster?tab=achievements">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="assets/logros-spin-dark.gif" />
-    <img align="left" width="200" height="389" src="assets/logros-spin-light.gif" alt="Logros de GitHub en arte ASCII girando: Pull Shark x3, Pair Extraordinaire x3, Quickdraw, YOLO" />
-  </picture>
-</a>
-
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/ascii-spin-block-dark.gif" />
   <img align="right" alt="I love APIs, en arte ASCII girando" width="160" height="99" src="assets/ascii-spin-block-light.gif" />
@@ -30,6 +23,17 @@
   <img alt="Lenguajes más usados" width="300" height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=FranciscoYuster&layout=compact&langs_count=6&hide_border=true&title_color=1D4ED8&theme=default&bg_color=FFFFFF" />
 </picture>
 
+</div>
+
+## Logros
+
+<div align="center">
+<a href="https://github.com/FranciscoYuster?tab=achievements">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/logros-medals-dark.gif" />
+    <img width="699" height="642" src="assets/logros-medals-light.gif" alt="Logros de GitHub en arte ASCII girando: Pull Shark x3, Pair Extraordinaire x3, Quickdraw, YOLO" />
+  </picture>
+</a>
 </div>
 
 ## Tecnologías
