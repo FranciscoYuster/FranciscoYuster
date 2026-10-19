@@ -20,11 +20,14 @@
 
 </div>
 
-## Sobre mí
+## Logros
 
-- Construyendo **[dilerlatam.com](https://www.dilerlatam.com)** — conecta personas, repartidores y comercios sin intermediarios, pensada para escalar en Latinoamérica.
-- Especialista en logística y gestión de inventarios: almacenamiento, seguimiento de distribución, control de stock, planificación y despacho.
-- Fuera del código: skateboarding y ajedrez.
+- **Fundé [Koder SpA](https://koderspa.com)** — software factory propia, donde desarrollo producto y soluciones a medida.
+- **Construí [dilerlatam.com](https://www.dilerlatam.com)** — plataforma que conecta personas, repartidores y comercios sin intermediarios, pensada para escalar en Latinoamérica.
+- **Publiqué un paquete en npm**: [`@koderspa/mcp-skills`](https://www.npmjs.com/package/@koderspa/mcp-skills) — servidor MCP que permite a agentes de IA descubrir, recomendar e instalar skills del ecosistema abierto de skills.sh.
+- **Tres herramientas open source para agentes de IA** sobre Model Context Protocol: [mcp-skills](https://github.com/FranciscoYuster/mcp-skills), [claude-client-gmail-mcp](https://github.com/FranciscoYuster/claude-client-gmail-mcp) y [agent-google-sheets](https://github.com/FranciscoYuster/agent-google-sheets).
+- **Integré la API del Banco Central de Chile** en [api-bcch](https://github.com/FranciscoYuster/api-bcch), una app en Next.js que visualiza indicadores económicos en tiempo real.
+- **Especialista en logística y gestión de inventarios**: almacenamiento, seguimiento de distribución, control de stock, planificación y despacho.
 
 ## Lenguajes
 
