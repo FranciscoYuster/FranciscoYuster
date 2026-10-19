@@ -1,8 +1,8 @@
 <div align="center">
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/ascii-spin-dark.gif" />
-  <img alt="I love APIs, en arte ASCII girando" width="471" height="290" src="assets/ascii-spin-light.gif" />
+  <source media="(prefers-color-scheme: dark)" srcset="assets/ascii-spin-block-dark.gif" />
+  <img alt="I love APIs, en arte ASCII girando" width="471" height="290" src="assets/ascii-spin-block-light.gif" />
 </picture>
 
 <img alt="Francisco Yuster — Koder SpA" src="https://readme-typing-svg.demolab.com/?font=Poppins&weight=600&size=32&duration=4000&pause=1000&color=1D4ED8&center=true&vCenter=true&width=600&height=70&lines=Francisco+Yuster;Koder+SpA" />
