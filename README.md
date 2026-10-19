@@ -1,13 +1,17 @@
 <div align="center">
-  <img src="https://readme-typing-svg.demolab.com/?font=Poppins&weight=600&size=28&duration=4000&pause=1000&color=1D4ED8&center=true&vCenter=true&width=500&lines=Francisco+Yuster;Koder+SpA" alt="Typing SVG"/>
+
+<img alt="Francisco Yuster — Koder SpA" src="https://readme-typing-svg.demolab.com/?font=Poppins&weight=600&size=32&duration=4000&pause=1000&color=1D4ED8&center=true&vCenter=true&width=600&height=70&lines=Francisco+Yuster;Koder+SpA" />
+
 <p>
-<a href="https://www.linkedin.com/in/francisco-yuster-aa0b06258/" target="_blank"><img src="https://img.shields.io/badge/linkedin-%231E77B5.svg?&style=for-the-badge&logoColor=white" alt="linkedin" style="margin-bottom: 5px;"/></a>  
-<a href="https://github.com/FranciscoYuster" target="_blank"><img src="https://img.shields.io/badge/github-%2324292e.svg?&style=for-the-badge&logo=github&logoColor=white" alt="github" style="margin-bottom: 5px;"/></a>
+<a href="https://www.linkedin.com/in/francisco-yuster-aa0b06258/" target="_blank"><img alt="LinkedIn de Francisco Yuster" height="28" src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logoColor=white" /></a>
+&nbsp;&nbsp;
+<a href="https://github.com/FranciscoYuster" target="_blank"><img alt="GitHub de Francisco Yuster" height="28" src="https://img.shields.io/badge/GitHub-24292e?style=for-the-badge&logo=github&logoColor=white" /></a>
 </p>
 
-![GitHub streak](https://streak-stats.demolab.com/?user=FranciscoYuster&theme=github-dark-blue&hide_border=true)
+<img alt="Racha de contribuciones en GitHub" src="https://streak-stats.demolab.com/?user=FranciscoYuster&theme=github-dark-blue&hide_border=true&ring=1D4ED8&fire=1D4ED8&currStreakLabel=1D4ED8" />
 
 </div>
+
 - Soy un apasionado de la tecnología y la logística. Actualmente desarrollando www.dilerlatam.com, una plataforma que conecta personas, repartidores y comercios sin intermediarios, diseñada para escalar en Latinoamérica. 
 - Especialista en Logística y Gestión de Inventarios, con sólida experiencia en almacenamiento, seguimiento de distribución, control de stock, planificación y despacho de suministros.
 - Actualmente mejorando mis habilidades para brindar soluciones a desafíos empresariales complejos.
