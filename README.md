@@ -1,3 +1,10 @@
+<a href="https://github.com/FranciscoYuster?tab=achievements">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/logros-ascii-dark.png" />
+    <img align="left" width="186" height="110" src="assets/logros-ascii-light.png" alt="Logros de GitHub: Pull Shark x3, Pair Extraordinaire x3, Quickdraw, YOLO" />
+  </picture>
+</a>
+
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/ascii-spin-block-dark.gif" />
   <img align="right" alt="I love APIs, en arte ASCII girando" width="160" height="99" src="assets/ascii-spin-block-light.gif" />
@@ -24,17 +31,6 @@
 </picture>
 
 </div>
-
-## Logros
-
-<table align="center">
-<tr>
-<td align="center" width="140"><a href="https://github.com/FranciscoYuster?achievement=pull-shark&tab=achievements"><img src="assets/achievements/pull-shark.png" alt="Logro de GitHub: Pull Shark" width="64" height="64" /></a><br /><sub><b>Pull Shark</b><br />x3</sub></td>
-<td align="center" width="140"><a href="https://github.com/FranciscoYuster?achievement=pair-extraordinaire&tab=achievements"><img src="assets/achievements/pair-extraordinaire.png" alt="Logro de GitHub: Pair Extraordinaire" width="64" height="64" /></a><br /><sub><b>Pair Extraordinaire</b><br />x3</sub></td>
-<td align="center" width="140"><a href="https://github.com/FranciscoYuster?achievement=quickdraw&tab=achievements"><img src="assets/achievements/quickdraw.png" alt="Logro de GitHub: Quickdraw" width="64" height="64" /></a><br /><sub><b>Quickdraw</b></sub></td>
-<td align="center" width="140"><a href="https://github.com/FranciscoYuster?achievement=yolo&tab=achievements"><img src="assets/achievements/yolo.png" alt="Logro de GitHub: YOLO" width="64" height="64" /></a><br /><sub><b>YOLO</b></sub></td>
-</tr>
-</table>
 
 ## Tecnologías
 
