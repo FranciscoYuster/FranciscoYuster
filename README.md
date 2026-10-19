@@ -1,3 +1,8 @@
+<a href="https://github.com/FranciscoYuster?achievement=pull-shark&tab=achievements"><img align="left" width="16" height="16" src="assets/achievements/pull-shark.png" alt="Logro de GitHub: Pull Shark x3" title="Pull Shark x3" /></a>
+<a href="https://github.com/FranciscoYuster?achievement=pair-extraordinaire&tab=achievements"><img align="left" width="16" height="16" src="assets/achievements/pair-extraordinaire.png" alt="Logro de GitHub: Pair Extraordinaire x3" title="Pair Extraordinaire x3" /></a>
+<a href="https://github.com/FranciscoYuster?achievement=quickdraw&tab=achievements"><img align="left" width="16" height="16" src="assets/achievements/quickdraw.png" alt="Logro de GitHub: Quickdraw" title="Quickdraw" /></a>
+<a href="https://github.com/FranciscoYuster?achievement=yolo&tab=achievements"><img align="left" width="16" height="16" src="assets/achievements/yolo.png" alt="Logro de GitHub: YOLO" title="YOLO" /></a>
+
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/ascii-spin-block-dark.gif" />
   <img align="right" alt="I love APIs, en arte ASCII girando" width="160" height="99" src="assets/ascii-spin-block-light.gif" />
@@ -23,17 +28,6 @@
   <img alt="Lenguajes más usados" width="300" height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=FranciscoYuster&layout=compact&langs_count=6&hide_border=true&title_color=1D4ED8&theme=default&bg_color=FFFFFF" />
 </picture>
 
-</div>
-
-## Logros
-
-<div align="center">
-<a href="https://github.com/FranciscoYuster?tab=achievements">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="assets/logros-medals-dark.gif" />
-    <img width="699" height="642" src="assets/logros-medals-light.gif" alt="Logros de GitHub en arte ASCII girando: Pull Shark x3, Pair Extraordinaire x3, Quickdraw, YOLO" />
-  </picture>
-</a>
 </div>
 
 ## Tecnologías
