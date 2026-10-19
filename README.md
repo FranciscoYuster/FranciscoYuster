@@ -13,6 +13,16 @@
 - Actualmente mejorando mis habilidades para brindar soluciones a desafíos empresariales complejos.
 - En mi tiempo libre disfruto del skateboarding y el ajedrez.
 
+<div align="center">
+<img src="https://techstack-generator.vercel.app/ts-icon.svg" alt="TypeScript" width="62" height="62">&nbsp;&nbsp;
+<img src="https://techstack-generator.vercel.app/js-icon.svg" alt="JavaScript" width="62" height="62">&nbsp;&nbsp;
+<img src="https://techstack-generator.vercel.app/python-icon.svg" alt="Python" width="62" height="62">&nbsp;&nbsp;
+<img src="https://techstack-generator.vercel.app/react-icon.svg" alt="React" width="62" height="62">&nbsp;&nbsp;
+<img src="https://techstack-generator.vercel.app/mysql-icon.svg" alt="MySQL" width="62" height="62">&nbsp;&nbsp;
+<img src="https://techstack-generator.vercel.app/docker-icon.svg" alt="Docker" width="62" height="62">&nbsp;&nbsp;
+<img src="https://techstack-generator.vercel.app/github-icon.svg" alt="GitHub" width="62" height="62">
+</div>
+
 ### Lenguajes
 ![HTML5](https://img.shields.io/badge/-HTML5-000?&logo=HTML5)
 ![CSS3](https://img.shields.io/badge/-CSS3-000?&logo=css)
