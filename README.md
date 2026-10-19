@@ -1,7 +1,7 @@
 <a href="https://github.com/FranciscoYuster?tab=achievements">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="assets/medals-spin-3-dark.gif" />
-    <img align="left" width="64" height="292" src="assets/medals-spin-3-light.gif" alt="Logros de GitHub girando: Pull Shark x3, Pair Extraordinaire x3, Quickdraw, YOLO" title="Logros de GitHub girando: Pull Shark x3, Pair Extraordinaire x3, Quickdraw, YOLO" />
+    <source media="(prefers-color-scheme: dark)" srcset="assets/medals-spin-4-dark.gif" />
+    <img align="left" width="64" height="292" src="assets/medals-spin-4-light.gif" alt="Logros de GitHub girando: Pull Shark x3, Pair Extraordinaire x3, Quickdraw, YOLO" title="Logros de GitHub girando: Pull Shark x3, Pair Extraordinaire x3, Quickdraw, YOLO" />
   </picture>
 </a>
 
