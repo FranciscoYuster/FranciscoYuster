@@ -1,5 +1,10 @@
 <div align="center">
 
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/banner-apis-dark.png" />
+  <img alt="I love APIs" width="150" height="103" src="assets/banner-apis-light.png" />
+</picture>
+
 <img alt="Francisco Yuster — Koder SpA" src="https://readme-typing-svg.demolab.com/?font=Poppins&weight=600&size=32&duration=4000&pause=1000&color=1D4ED8&center=true&vCenter=true&width=600&height=70&lines=Francisco+Yuster;Koder+SpA" />
 
 <p>
