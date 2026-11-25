@@ -84,11 +84,11 @@
 <p>
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/quotes-dark.gif" />
-  <img alt="Citas que se escriben solas: Feynman, Dijkstra, Torvalds, Grace Hopper, Marie Curie y Carl Sagan" width="480" height="84" src="assets/quotes-light.gif" />
+  <img alt="Citas que se escriben solas: Feynman, Dijkstra, Torvalds, Grace Hopper, Marie Curie y Carl Sagan" width="460" height="88" src="assets/quotes-light.gif" />
 </picture>
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/clock-chile-dark.gif" />
-  <img alt="Reloj ASCII con la hora de Santiago de Chile del momento en que se generó la imagen" width="280" height="84" src="assets/clock-chile-light.gif" />
+  <img alt="Reloj ASCII con la hora de Santiago de Chile del momento en que se generó la imagen" width="300" height="88" src="assets/clock-chile-light.gif" />
 </picture>
 </p>
 
