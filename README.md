@@ -15,7 +15,7 @@
   <img align="right" alt="Skater haciendo un kickflip, en arte de bloques" width="102" height="99" src="assets/skater-kickflip-light.gif" />
 </picture>
 
-<img align="right" alt="Tablero de ajedrez isométrico de nogal y arce, piezas de boj y palisandro, jugando el mate del pastor" width="155" height="95" src="assets/chess-wood.gif" />
+<img align="right" alt="Tablero de ajedrez isométrico de nogal y arce, piezas de boj y palisandro, jugando el mate del pastor" width="147" height="90" src="assets/chess-wood.gif" />
 
 <img align="right" alt="Mis mascotas: gata gris, gata romana de pecho crema, gata romana de pecho y patas blancas, y perro poodle con cocker color damasco" width="250" height="99" src="assets/pets.gif" />
 
