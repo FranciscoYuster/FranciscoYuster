@@ -16,19 +16,18 @@
 </picture>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/chess-iso-dark.gif" />
-  <img align="right" alt="Tablero de ajedrez isométrico jugando el mate del pastor" width="147" height="99" src="assets/chess-iso-light.gif" />
+  <img align="right" alt="Tablero de ajedrez isométrico de nogal y arce, piezas de boj y palisandro, jugando el mate del pastor" width="147" height="90" src="assets/chess-wood.gif" />
 </picture>
 
-<img align="right" alt="Tres gatas (gris, romana y romana de pecho y patas blancas) y un perro poodle con cocker rubio" width="250" height="99" src="assets/pets.gif" />
+<img align="right" alt="Mis mascotas: gata gris, gata romana de pecho crema, gata romana de pecho y patas blancas, y perro poodle con cocker color damasco" width="250" height="99" src="assets/pets.gif" />
 
 <div align="center">
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/ascii-black-hole-dark.gif" />
-  <img align="right" alt="Agujero negro en arte ASCII con su disco de acreción girando" width="97" height="99" src="assets/ascii-black-hole-light.gif" />
+  <img align="right" alt="Agujero negro estilo Gargantua en arte ASCII: arco de luz sobre la sombra, disco delgado y anillo de fotones" width="147" height="99" src="assets/ascii-black-hole-light.gif" />
 </picture>
-<img alt="Francisco Yuster — Koder SpA" src="https://readme-typing-svg.demolab.com/?font=Poppins&weight=600&size=32&duration=4000&pause=1000&color=1D4ED8&center=true&vCenter=true&width=600&height=70&lines=Francisco+Yuster;Koder+SpA" />
+<img alt="Francisco Yuster — Koder SpA" src="https://readme-typing-svg.demolab.com/?font=Poppins&weight=600&size=32&duration=4000&pause=1000&color=1D4ED8&center=true&vCenter=true&width=540&height=70&lines=Francisco+Yuster;Koder+SpA" />
 
 <p>
 <a href="https://www.linkedin.com/in/francisco-yuster-aa0b06258/" target="_blank"><img alt="LinkedIn de Francisco Yuster" height="28" src="https://img.shields.io/badge/LinkedIn-0A66C2?logo=data:image/svg%2Bxml;base64,PHN2ZyBmaWxsPSIjRkZGRkZGIiB2aWV3Qm94PSIwIDAgMjQgMjQiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI%2BPHBhdGggZD0iTTIwLjQ0NyAyMC40NTJoLTMuNTU0di01LjU2OWMwLTEuMzI4LS4wMjctMy4wMzctMS44NTItMy4wMzctMS44NTMgMC0yLjEzNiAxLjQ0NS0yLjEzNiAyLjkzOXY1LjY2N0g5LjM1MVY5aDMuNDE0djEuNTYxaC4wNDZjLjQ3Ny0uOSAxLjYzNy0xLjg1IDMuMzctMS44NSAzLjYwMSAwIDQuMjY3IDIuMzcgNC4yNjcgNS40NTV2Ni4yODZ6TTUuMzM3IDcuNDMzYy0xLjE0NCAwLTIuMDYzLS45MjYtMi4wNjMtMi4wNjUgMC0xLjEzOC45Mi0yLjA2MyAyLjA2My0yLjA2MyAxLjE0IDAgMi4wNjQuOTI1IDIuMDY0IDIuMDYzIDAgMS4xMzktLjkyNSAyLjA2NS0yLjA2NCAyLjA2NXptMS43ODIgMTMuMDE5SDMuNTU1VjloMy41NjR2MTEuNDUyek0yMi4yMjUgMEgxLjc3MUMuNzkyIDAgMCAuNzc0IDAgMS43Mjl2MjAuNTQyQzAgMjMuMjI3Ljc5MiAyNCAxLjc3MSAyNGgyMC40NTFDMjMuMiAyNCAyNCAyMy4yMjcgMjQgMjIuMjcxVjEuNzI5QzI0IC43NzQgMjMuMiAwIDIyLjIyMiAwaC4wMDN6Ii8%2BPC9zdmc%2B" /></a>
