@@ -15,18 +15,15 @@
   <img align="right" alt="Skater haciendo un kickflip, en arte de bloques" width="102" height="99" src="assets/skater-kickflip-light.gif" />
 </picture>
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/chess-iso-dark.gif" />
-  <img align="right" alt="Tablero de ajedrez isométrico jugando el mate del pastor" width="147" height="99" src="assets/chess-iso-light.gif" />
-</picture>
+<img align="right" alt="Tablero de ajedrez isométrico de nogal y arce, piezas de boj y palisandro, jugando el mate del pastor" width="155" height="95" src="assets/chess-wood.gif" />
 
-<img align="right" alt="Tres gatas (gris, romana y romana de pecho y patas blancas) y un perro poodle con cocker rubio" width="250" height="99" src="assets/pets.gif" />
+<img align="right" alt="Mis mascotas: gata gris, gata romana de pecho crema, gata romana de pecho y patas blancas, y perro poodle con cocker color damasco" width="250" height="99" src="assets/pets.gif" />
 
 <div align="center">
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/ascii-black-hole-dark.gif" />
-  <img align="right" alt="Agujero negro en arte ASCII con su disco de acreción girando" width="97" height="99" src="assets/ascii-black-hole-light.gif" />
+  <img align="right" alt="Agujero negro estilo Gargantua en arte ASCII: arco de luz sobre la sombra, disco delgado y anillo de fotones" width="147" height="99" src="assets/ascii-black-hole-light.gif" />
 </picture>
 <img alt="Francisco Yuster — Koder SpA" src="https://readme-typing-svg.demolab.com/?font=Poppins&weight=600&size=32&duration=4000&pause=1000&color=1D4ED8&center=true&vCenter=true&width=600&height=70&lines=Francisco+Yuster;Koder+SpA" />
 
