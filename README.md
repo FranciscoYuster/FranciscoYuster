@@ -2,16 +2,18 @@
 
 <p>
 <picture>
-  <img alt="Atardecer synthwave sobre la cordillera de los Andes vista desde Santiago: un sol a franjas se pone entre cumbres nevadas, con la Gran Torre Santiago en el horizonte. En el cielo flotan un agujero negro tipo Gargantua en ASCII y el texto «I ♥ APIs» girando con el corazón azul. Sobre un piso de cuadrícula neón azul, un tablero de ajedrez de madera juega el mate del pastor, y cruzan un skater haciendo un 360 flip seguido por un perro poodle-cocker damasco y tres gatos: uno gris de pelo semilargo, un atigrado de pecho canela y un atigrado de pecho y patas blancas." width="860" src="assets/synthwave-hero.gif" />
+  <img alt="Atardecer synthwave sobre la cordillera de los Andes vista desde Santiago: en el cielo se escribe, letra a letra y con cursor parpadeante, «Francisco Yuster» y debajo «Koder SpA» en letras pixeladas azul neón; más abajo, un sol a franjas se pone entre cumbres nevadas, con la Gran Torre Santiago en el horizonte. En el cielo flotan un agujero negro tipo Gargantua en ASCII y el texto «I ♥ APIs» girando con el corazón azul. Sobre un piso de cuadrícula neón azul, un tablero de ajedrez de madera juega el mate del pastor, y cruzan un skater haciendo un 360 flip seguido por un perro poodle-cocker damasco y tres gatos: uno gris de pelo semilargo, un atigrado de pecho canela y un atigrado de pecho y patas blancas." width="860" src="assets/synthwave-hero.gif" />
 </picture>
 </p>
-
-<img alt="Francisco Yuster — Koder SpA" src="https://readme-typing-svg.demolab.com/?font=Poppins&weight=600&size=32&duration=4000&pause=1000&color=1D4ED8&center=true&vCenter=true&width=540&height=70&lines=Francisco+Yuster;Koder+SpA" />
 
 <p>
 <a href="https://www.linkedin.com/in/francisco-yuster-aa0b06258/" target="_blank"><img alt="LinkedIn de Francisco Yuster" height="28" src="https://img.shields.io/badge/LinkedIn-0A66C2?logo=data:image/svg%2Bxml;base64,PHN2ZyBmaWxsPSIjRkZGRkZGIiB2aWV3Qm94PSIwIDAgMjQgMjQiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI%2BPHBhdGggZD0iTTIwLjQ0NyAyMC40NTJoLTMuNTU0di01LjU2OWMwLTEuMzI4LS4wMjctMy4wMzctMS44NTItMy4wMzctMS44NTMgMC0yLjEzNiAxLjQ0NS0yLjEzNiAyLjkzOXY1LjY2N0g5LjM1MVY5aDMuNDE0djEuNTYxaC4wNDZjLjQ3Ny0uOSAxLjYzNy0xLjg1IDMuMzctMS44NSAzLjYwMSAwIDQuMjY3IDIuMzcgNC4yNjcgNS40NTV2Ni4yODZ6TTUuMzM3IDcuNDMzYy0xLjE0NCAwLTIuMDYzLS45MjYtMi4wNjMtMi4wNjUgMC0xLjEzOC45Mi0yLjA2MyAyLjA2My0yLjA2MyAxLjE0IDAgMi4wNjQuOTI1IDIuMDY0IDIuMDYzIDAgMS4xMzktLjkyNSAyLjA2NS0yLjA2NCAyLjA2NXptMS43ODIgMTMuMDE5SDMuNTU1VjloMy41NjR2MTEuNDUyek0yMi4yMjUgMEgxLjc3MUMuNzkyIDAgMCAuNzc0IDAgMS43Mjl2MjAuNTQyQzAgMjMuMjI3Ljc5MiAyNCAxLjc3MSAyNGgyMC40NTFDMjMuMiAyNCAyNCAyMy4yMjcgMjQgMjIuMjcxVjEuNzI5QzI0IC43NzQgMjMuMiAwIDIyLjIyMiAwaC4wMDN6Ii8%2BPC9zdmc%2B" /></a>
 &nbsp;&nbsp;
 <a href="https://github.com/FranciscoYuster" target="_blank"><img alt="GitHub de Francisco Yuster" height="28" src="https://img.shields.io/badge/GitHub-24292e?style=for-the-badge&logo=github&logoColor=white" /></a>
+</p>
+
+<p>
+<a href="https://github.com/FranciscoYuster?tab=achievements"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/blue-achievement-pull-shark-dark.gif" /><img alt="Logro de GitHub Pull Shark x3: PRs mergeados" width="196" height="84" src="assets/blue-achievement-pull-shark-light.gif" /></picture></a><a href="https://github.com/FranciscoYuster?tab=achievements"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/blue-achievement-pair-extraordinaire-dark.gif" /><img alt="Logro de GitHub Pair Extraordinaire x3: PRs en coautoría" width="196" height="84" src="assets/blue-achievement-pair-extraordinaire-light.gif" /></picture></a><a href="https://github.com/FranciscoYuster?tab=achievements"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/blue-achievement-quickdraw-dark.gif" /><img alt="Logro de GitHub Quickdraw: cierre en <5 min" width="196" height="84" src="assets/blue-achievement-quickdraw-light.gif" /></picture></a><a href="https://github.com/FranciscoYuster?tab=achievements"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/blue-achievement-yolo-dark.gif" /><img alt="Logro de GitHub YOLO: merge sin review" width="196" height="84" src="assets/blue-achievement-yolo-light.gif" /></picture></a>
 </p>
 
 <p>
@@ -78,24 +80,13 @@
 </picture>
 </p>
 
-</div>
-
-<a href="https://github.com/FranciscoYuster?tab=achievements">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="assets/medals-spin-4-dark.gif" />
-    <img align="left" width="64" height="292" src="assets/medals-spin-4-light.gif" alt="Logros de GitHub girando: Pull Shark x3, Pair Extraordinaire x3, Quickdraw, YOLO" title="Logros de GitHub girando: Pull Shark x3, Pair Extraordinaire x3, Quickdraw, YOLO" />
-  </picture>
-</a>
-
-<div align="center">
-
 <p>
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/blue-deck-dark.gif" />
   <img alt="Tabla de skate girando con el gráfico KODER y rayos en azul" width="220" height="140" src="assets/blue-deck-light.gif" />
 </picture>
 <picture>
-  <img alt="Placa de nogal y arce para mi ELO de ajedrez en Lichess, aún sin usuario configurado" width="220" height="140" src="assets/chess-rating.gif" />
+  <img alt="Placa de nogal y arce con mi ELO de ajedrez en Chess.com: 182 en blitz, usuario @franciscoyuster" width="220" height="140" src="assets/chess-rating.gif" />
 </picture>
 <picture>
   <img alt="Puzzle de ajedrez del día de Lichess en un tablero de nogal y arce, resuelto jugada a jugada" width="124" height="140" src="assets/chess-puzzle.gif" />
@@ -119,14 +110,6 @@
   <source media="(prefers-color-scheme: dark)" srcset="assets/blue-element-of-the-day-dark.gif" />
   <img alt="Tabla periódica con el elemento del día en azul: 86, Rn, Radón" width="300" height="120" src="assets/blue-element-of-the-day-light.gif" />
 </picture>
-</p>
-
-</div>
-
-<div align="center">
-
-<p>
-<a href="https://github.com/FranciscoYuster?tab=achievements"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/blue-achievement-pull-shark-dark.gif" /><img alt="Logro de GitHub Pull Shark x3: PRs mergeados" width="196" height="84" src="assets/blue-achievement-pull-shark-light.gif" /></picture></a><a href="https://github.com/FranciscoYuster?tab=achievements"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/blue-achievement-pair-extraordinaire-dark.gif" /><img alt="Logro de GitHub Pair Extraordinaire x3: PRs en coautoría" width="196" height="84" src="assets/blue-achievement-pair-extraordinaire-light.gif" /></picture></a><a href="https://github.com/FranciscoYuster?tab=achievements"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/blue-achievement-quickdraw-dark.gif" /><img alt="Logro de GitHub Quickdraw: cierre en <5 min" width="196" height="84" src="assets/blue-achievement-quickdraw-light.gif" /></picture></a><a href="https://github.com/FranciscoYuster?tab=achievements"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/blue-achievement-yolo-dark.gif" /><img alt="Logro de GitHub YOLO: merge sin review" width="196" height="84" src="assets/blue-achievement-yolo-light.gif" /></picture></a>
 </p>
 
 </div>
