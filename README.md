@@ -44,11 +44,6 @@
   <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=FranciscoYuster&layout=compact&langs_count=6&hide_border=true&title_color=1D4ED8&theme=github_dark&bg_color=0D1117" />
   <img alt="Lenguajes más usados" width="300" height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=FranciscoYuster&layout=compact&langs_count=6&hide_border=true&title_color=1D4ED8&theme=default&bg_color=FFFFFF" />
 </picture>
-&nbsp;
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/lava-lamp-dark.gif" />
-  <img alt="Lámpara de lava en pixel art: burbujas rojas que suben, se juntan y vuelven a bajar" width="50" height="164" src="assets/lava-lamp-light.gif" />
-</picture>
 
 </div>
 
@@ -68,6 +63,11 @@
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/bonsai-dark.gif" />
   <img alt="Bonsái en arte ASCII: el follaje se mece y de vez en cuando cae una hoja" width="150" height="150" src="assets/bonsai-light.gif" />
+</picture>
+&nbsp;&nbsp;
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/lava-lamp-dark.gif" />
+  <img alt="Lámpara de lava en pixel art: burbujas rojas que suben, se juntan y vuelven a bajar" width="50" height="150" src="assets/lava-lamp-light.gif" />
 </picture>
 &nbsp;&nbsp;
 <picture>
