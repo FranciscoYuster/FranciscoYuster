@@ -51,6 +51,7 @@
 
 <div align="center">
 
+<p>
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/tech-city-dark.gif" />
   <img alt="Mis contribuciones del último año como una ciudad isométrica de madera de nogal y arce: un edificio por día, más alto cuantas más contribuciones, con ventanas que se encienden en barrido y el techo de hoy parpadeando en rojo" width="413" height="222" src="assets/tech-city-light.gif" />
@@ -58,7 +59,9 @@
 <picture>
   <img alt="Terminal en pixel art que escribe whoami y luego lista mis repositorios públicos con push más reciente, con cursor parpadeante" width="340" height="222" src="assets/tech-terminal.gif" />
 </picture>
+</p>
 
+<p>
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/tech-life-dark.gif" />
   <img alt="Juego de la vida de Conway: la palabra KODER en bloques evoluciona hacia el caos y luego se vuelve a formar" width="240" height="120" src="assets/tech-life-light.gif" />
@@ -74,7 +77,9 @@
 <picture>
   <img alt="Lluvia de caracteres rojos al estilo Matrix en un panel oscuro" width="120" height="120" src="assets/tech-rain.gif" />
 </picture>
+</p>
 
+<p>
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/tech-langs-dark.gif" />
   <img alt="Grafo flotante de los lenguajes de mis repositorios públicos: TypeScript, JavaScript, Python, HTML, CSS y otros, con nodos del tamaño de sus bytes" width="250" height="150" src="assets/tech-langs-light.gif" />
@@ -91,6 +96,7 @@
   <source media="(prefers-color-scheme: dark)" srcset="assets/tech-flame-dark.gif" />
   <img alt="Llama en pixel art que crece con mi racha actual de commits: 24 días" width="90" height="150" src="assets/tech-flame-light.gif" />
 </picture>
+</p>
 
 </div>
 
