@@ -47,6 +47,53 @@
 
 </div>
 
+## Ciencia
+
+<div align="center">
+<p>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/lorenz-ascii-dark.gif" />
+  <img alt="Atractor de Lorenz, la mariposa del caos, dibujándose en arte ASCII con una estela que se desvanece" width="160" height="120" src="assets/lorenz-ascii-light.gif" />
+</picture>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/dna-helix-dark.gif" />
+  <img alt="Doble hélice de ADN girando sobre su eje, en bloques ASCII sombreados" width="90" height="120" src="assets/dna-helix-light.gif" />
+</picture>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/mandelbrot-zoom-dark.gif" />
+  <img alt="Zoom infinito en arte ASCII hacia una copia del conjunto de Mandelbrot en su antena" width="200" height="120" src="assets/mandelbrot-zoom-light.gif" />
+</picture>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/atom-orbits-dark.gif" />
+  <img alt="Átomo en píxeles: núcleo de protones y neutrones con electrones girando en tres órbitas inclinadas" width="130" height="120" src="assets/atom-orbits-light.gif" />
+</picture>
+<br />
+<picture>
+  <img alt="Sistema solar en píxeles: ocho planetas orbitando el Sol con períodos reales comprimidos, los interiores rápidos y los exteriores lentos" width="260" height="120" src="assets/solar-system.gif" />
+</picture>
+<picture>
+  <img alt="Luna de hoy en Santiago de Chile, 25 de noviembre de 2026: gibosa menguante, 97 % iluminada" width="240" height="120" src="assets/moon-santiago.gif" />
+</picture>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/double-pendulum-dark.gif" />
+  <img alt="Péndulo doble caótico dejando una estela roja, simulado con física real" width="130" height="120" src="assets/double-pendulum-light.gif" />
+</picture>
+<br />
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/double-slit-dark.gif" />
+  <img alt="Experimento de la doble rendija: ondas que interfieren y franjas de intensidad en la pantalla" width="220" height="120" src="assets/double-slit-light.gif" />
+</picture>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/element-of-the-day-dark.gif" />
+  <img alt="Mini tabla periódica con el elemento del día en rojo: 86, Rn, radón" width="300" height="120" src="assets/element-of-the-day-light.gif" />
+</picture>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/barnsley-fern-dark.gif" />
+  <img alt="Helecho de Barnsley creciendo punto a punto y volviendo a crecer" width="100" height="120" src="assets/barnsley-fern-light.gif" />
+</picture>
+</p>
+</div>
+
 ## Tecnologías
 
 | Área | Stack |
