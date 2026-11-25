@@ -1,32 +1,11 @@
-<a href="https://github.com/FranciscoYuster?tab=achievements">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="assets/medals-spin-4-dark.gif" />
-    <img align="left" width="64" height="292" src="assets/medals-spin-4-light.gif" alt="Logros de GitHub girando: Pull Shark x3, Pair Extraordinaire x3, Quickdraw, YOLO" title="Logros de GitHub girando: Pull Shark x3, Pair Extraordinaire x3, Quickdraw, YOLO" />
-  </picture>
-</a>
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/ascii-spin-block-dark.gif" />
-  <img align="right" alt="I love APIs, en arte ASCII girando" width="160" height="99" src="assets/ascii-spin-block-light.gif" />
-</picture>
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/skater-360flip-dark.gif" />
-  <img align="right" alt="Skater haciendo un 360 flip, en arte de bloques" width="102" height="99" src="assets/skater-360flip-light.gif" />
-</picture>
-
-<picture>
-  <img align="right" alt="Tablero de ajedrez isométrico de nogal y arce, piezas de boj y palisandro, jugando el mate del pastor" width="147" height="90" src="assets/chess-wood.gif" />
-</picture>
-
-<img align="right" alt="Mis mascotas: gata gris de pelo semilargo, gata romana de pecho canela, gata romana de pecho y patas blancas, y perro poodle con cocker color damasco" width="250" height="99" src="assets/pets.gif" />
-
 <div align="center">
 
+<p>
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/ascii-black-hole-dark.gif" />
-  <img align="right" alt="Agujero negro estilo Gargantua en arte ASCII: arco de luz sobre la sombra, disco delgado y anillo de fotones" width="147" height="99" src="assets/ascii-black-hole-light.gif" />
+  <img alt="Atardecer synthwave sobre la cordillera de los Andes vista desde Santiago: un sol a franjas se pone entre cumbres nevadas, con la Gran Torre Santiago en el horizonte. En el cielo flotan un agujero negro tipo Gargantua en ASCII y el texto «I ♥ APIs» girando con el corazón azul. Sobre un piso de cuadrícula neón azul, un tablero de ajedrez de madera juega el mate del pastor, y cruzan un skater haciendo un 360 flip seguido por un perro poodle-cocker damasco y tres gatos: uno gris de pelo semilargo, un atigrado de pecho canela y un atigrado de pecho y patas blancas." width="860" src="assets/synthwave-hero.gif" />
 </picture>
+</p>
+
 <img alt="Francisco Yuster — Koder SpA" src="https://readme-typing-svg.demolab.com/?font=Poppins&weight=600&size=32&duration=4000&pause=1000&color=1D4ED8&center=true&vCenter=true&width=540&height=70&lines=Francisco+Yuster;Koder+SpA" />
 
 <p>
@@ -35,15 +14,120 @@
 <a href="https://github.com/FranciscoYuster" target="_blank"><img alt="GitHub de Francisco Yuster" height="28" src="https://img.shields.io/badge/GitHub-24292e?style=for-the-badge&logo=github&logoColor=white" /></a>
 </p>
 
+<p>
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://streak-stats.demolab.com/?user=FranciscoYuster&hide_border=true&ring=1D4ED8&fire=1D4ED8&currStreakLabel=1D4ED8&theme=github-dark-blue" />
-  <img alt="Racha de contribuciones en GitHub" width="419" height="165" src="https://streak-stats.demolab.com/?user=FranciscoYuster&hide_border=true&ring=1D4ED8&fire=1D4ED8&currStreakLabel=1D4ED8&theme=default" />
+  <img alt="Fogata ASCII bajo la Cruz del Sur con la racha de contribuciones: racha actual 24 días (desde el 2 nov), racha más larga 40 días, 6.170 contribuciones en el último año" width="419" height="165" src="assets/blue-campfire-streak.gif" />
 </picture>
-&nbsp;
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=FranciscoYuster&layout=compact&langs_count=6&hide_border=true&title_color=1D4ED8&theme=github_dark&bg_color=0D1117" />
-  <img alt="Lenguajes más usados" width="300" height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=FranciscoYuster&layout=compact&langs_count=6&hide_border=true&title_color=1D4ED8&theme=default&bg_color=FFFFFF" />
+  <source media="(prefers-color-scheme: dark)" srcset="assets/blue-langs-dark.gif" />
+  <img alt="Grafo flotante de los lenguajes de mis repos públicos, con chispas azules entre los que comparten repo" width="250" height="150" src="assets/blue-langs-light.gif" />
 </picture>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/blue-flame-dark.gif" />
+  <img alt="Llama azul de píxeles: 394 contribuciones esta semana" width="90" height="160" src="assets/blue-flame-light.gif" />
+</picture>
+</p>
+
+<p>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/blue-city-dark.gif" />
+  <img alt="Ciudad isométrica de madera: un edificio por día con mis 6.170 contribuciones del último año; el techo de hoy parpadea en azul" width="413" height="222" src="assets/blue-city-light.gif" />
+</picture>
+<picture>
+  <img alt="Terminal que escribe whoami y gh stats: 6.170 contribuciones el último año, 325 commits públicos, 21 pull requests, 77 repos públicos, 16 estrellas, racha de 24 días (máx. 40) y TypeScript como lenguaje principal (55%)" width="340" height="237" src="assets/blue-terminal.gif" />
+</picture>
+</p>
+
+<p>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/blue-lorenz-ascii-dark.gif" />
+  <img alt="Atractor de Lorenz en ASCII dibujándose con una estela que se desvanece y la cabeza en azul" width="160" height="120" src="assets/blue-lorenz-ascii-light.gif" />
+</picture>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/blue-dna-helix-dark.gif" />
+  <img alt="Doble hélice de ADN girando en bloques ASCII, con pares de bases en azul y gris" width="90" height="120" src="assets/blue-dna-helix-light.gif" />
+</picture>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/blue-mandelbrot-zoom-dark.gif" />
+  <img alt="Zoom infinito en ASCII dentro del conjunto de Mandelbrot, con el borde en azul" width="200" height="120" src="assets/blue-mandelbrot-zoom-light.gif" />
+</picture>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/blue-atom-orbits-dark.gif" />
+  <img alt="Átomo en píxeles: tres órbitas inclinadas con electrones y un núcleo de protones azules" width="130" height="120" src="assets/blue-atom-orbits-light.gif" />
+</picture>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/blue-double-pendulum-dark.gif" />
+  <img alt="Péndulo doble caótico en píxeles dejando una estela azul" width="130" height="120" src="assets/blue-double-pendulum-light.gif" />
+</picture>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/blue-barnsley-fern-dark.gif" />
+  <img alt="Helecho de Barnsley creciendo punto a punto, los puntos nuevos en azul" width="100" height="120" src="assets/blue-barnsley-fern-light.gif" />
+</picture>
+</p>
+
+<p>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/blue-circuit-dark.gif" />
+  <img alt="Placa de circuito con pulsos de luz azul que viajan por las pistas hasta el chip KODER" width="150" height="150" src="assets/blue-circuit-light.gif" />
+</picture>
+<picture>
+  <img alt="Sistema solar en píxeles con los ocho planetas orbitando un sol con corona azul" width="260" height="120" src="assets/blue-solar-system.gif" />
+</picture>
+<picture>
+  <img alt="Luna de hoy sobre Santiago, 25 nov 2026: gibosa menguante, 97% iluminada" width="240" height="120" src="assets/blue-moon-santiago.gif" />
+</picture>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/blue-bonsai-dark.gif" />
+  <img alt="Bonsái en ASCII en una maceta esmaltada azul, con el follaje meciéndose y una hoja que cae" width="150" height="150" src="assets/blue-bonsai-light.gif" />
+</picture>
+</p>
+
+</div>
+
+<a href="https://github.com/FranciscoYuster?tab=achievements">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/medals-spin-4-dark.gif" />
+    <img align="left" width="64" height="292" src="assets/medals-spin-4-light.gif" alt="Logros de GitHub girando: Pull Shark x3, Pair Extraordinaire x3, Quickdraw, YOLO" title="Logros de GitHub girando: Pull Shark x3, Pair Extraordinaire x3, Quickdraw, YOLO" />
+  </picture>
+</a>
+
+<div align="center">
+
+<p>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/blue-deck-dark.gif" />
+  <img alt="Tabla de skate girando con el gráfico KODER y rayos en azul" width="220" height="140" src="assets/blue-deck-light.gif" />
+</picture>
+<picture>
+  <img alt="Placa de nogal y arce para mi ELO de ajedrez en Lichess, aún sin usuario configurado" width="220" height="140" src="assets/chess-rating.gif" />
+</picture>
+<picture>
+  <img alt="Puzzle de ajedrez del día de Lichess en un tablero de nogal y arce, resuelto jugada a jugada" width="124" height="140" src="assets/chess-puzzle.gif" />
+</picture>
+</p>
+
+<p>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/blue-now-playing-dark.gif" />
+  <img alt="Sonando ahora: butterflies. de Brent Faiyaz, Icon · 2026, en un vinilo que gira" width="300" height="112" src="assets/blue-now-playing-light.gif" />
+</picture>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/blue-coffee-dark.gif" />
+  <img alt="Taza de café azul con un contador de cafés que termina en infinito" width="120" height="112" src="assets/blue-coffee-light.gif" />
+</picture>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/blue-element-of-the-day-dark.gif" />
+  <img alt="Tabla periódica con el elemento del día en azul: 86, Rn, Radón" width="300" height="120" src="assets/blue-element-of-the-day-light.gif" />
+</picture>
+</p>
+
+</div>
+
+<div align="center">
+
+<p>
+<a href="https://github.com/FranciscoYuster?tab=achievements"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/blue-achievement-pull-shark-dark.gif" /><img alt="Logro de GitHub Pull Shark x3: PRs mergeados" width="196" height="84" src="assets/blue-achievement-pull-shark-light.gif" /></picture></a><a href="https://github.com/FranciscoYuster?tab=achievements"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/blue-achievement-pair-extraordinaire-dark.gif" /><img alt="Logro de GitHub Pair Extraordinaire x3: PRs en coautoría" width="196" height="84" src="assets/blue-achievement-pair-extraordinaire-light.gif" /></picture></a><a href="https://github.com/FranciscoYuster?tab=achievements"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/blue-achievement-quickdraw-dark.gif" /><img alt="Logro de GitHub Quickdraw: cierre en <5 min" width="196" height="84" src="assets/blue-achievement-quickdraw-light.gif" /></picture></a><a href="https://github.com/FranciscoYuster?tab=achievements"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/blue-achievement-yolo-dark.gif" /><img alt="Logro de GitHub YOLO: merge sin review" width="196" height="84" src="assets/blue-achievement-yolo-light.gif" /></picture></a>
+</p>
 
 </div>
 
