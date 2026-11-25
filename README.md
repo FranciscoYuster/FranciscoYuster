@@ -67,7 +67,8 @@
   <source media="(prefers-color-scheme: dark)" srcset="assets/atom-orbits-dark.gif" />
   <img alt="Átomo en píxeles: núcleo de protones y neutrones con electrones girando en tres órbitas inclinadas" width="130" height="120" src="assets/atom-orbits-light.gif" />
 </picture>
-<br />
+</p>
+<p>
 <picture>
   <img alt="Sistema solar en píxeles: ocho planetas orbitando el Sol con períodos reales comprimidos, los interiores rápidos y los exteriores lentos" width="260" height="120" src="assets/solar-system.gif" />
 </picture>
@@ -78,7 +79,8 @@
   <source media="(prefers-color-scheme: dark)" srcset="assets/double-pendulum-dark.gif" />
   <img alt="Péndulo doble caótico dejando una estela roja, simulado con física real" width="130" height="120" src="assets/double-pendulum-light.gif" />
 </picture>
-<br />
+</p>
+<p>
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/double-slit-dark.gif" />
   <img alt="Experimento de la doble rendija: ondas que interfieren y franjas de intensidad en la pantalla" width="220" height="120" src="assets/double-slit-light.gif" />
