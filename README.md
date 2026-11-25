@@ -59,10 +59,6 @@
   <source media="(prefers-color-scheme: dark)" srcset="assets/blue-double-pendulum-dark.gif" />
   <img alt="Péndulo doble caótico en píxeles dejando una estela azul" width="130" height="120" src="assets/blue-double-pendulum-light.gif" />
 </picture>
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/blue-barnsley-fern-dark.gif" />
-  <img alt="Helecho de Barnsley creciendo punto a punto, los puntos nuevos en azul" width="100" height="120" src="assets/blue-barnsley-fern-light.gif" />
-</picture>
 </p>
 
 <p>
@@ -77,8 +73,8 @@
   <img alt="Luna de hoy sobre Santiago, 25 nov 2026: gibosa menguante, 97% iluminada" width="240" height="120" src="assets/blue-moon-santiago.gif" />
 </picture>
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/blue-bonsai-dark.gif" />
-  <img alt="Bonsái en ASCII en una maceta esmaltada azul, con el follaje meciéndose y una hoja que cae" width="150" height="150" src="assets/blue-bonsai-light.gif" />
+  <source media="(prefers-color-scheme: dark)" srcset="assets/blue-barnsley-fern-dark.gif" />
+  <img alt="Helecho de Barnsley creciendo punto a punto, los puntos nuevos en azul" width="100" height="120" src="assets/blue-barnsley-fern-light.gif" />
 </picture>
 </p>
 
@@ -103,6 +99,10 @@
 </picture>
 <picture>
   <img alt="Puzzle de ajedrez del día de Lichess en un tablero de nogal y arce, resuelto jugada a jugada" width="124" height="140" src="assets/chess-puzzle.gif" />
+</picture>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/blue-bonsai-dark.gif" />
+  <img alt="Bonsái en ASCII en una maceta esmaltada azul, con el follaje meciéndose y una hoja que cae" width="150" height="150" src="assets/blue-bonsai-light.gif" />
 </picture>
 </p>
 
