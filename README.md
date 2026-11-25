@@ -11,8 +11,8 @@
 </picture>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/skater-kickflip-dark.gif" />
-  <img align="right" alt="Skater haciendo un kickflip, en arte de bloques" width="102" height="99" src="assets/skater-kickflip-light.gif" />
+  <source media="(prefers-color-scheme: dark)" srcset="assets/skater-360flip-dark.gif" />
+  <img align="right" alt="Skater haciendo un 360 flip, en arte de bloques" width="102" height="99" src="assets/skater-360flip-light.gif" />
 </picture>
 
 <picture>
