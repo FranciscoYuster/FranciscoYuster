@@ -18,25 +18,25 @@
 
 <p>
 <picture>
-  <img alt="Fogata ASCII bajo la Cruz del Sur con la racha de contribuciones: racha actual 24 días (desde el 2 nov), racha más larga 40 días, 6.170 contribuciones en el último año" width="419" height="165" src="assets/blue-campfire-streak.gif" />
+  <img alt="Fogata ASCII bajo la Cruz del Sur con mi racha de contribuciones en GitHub: racha actual, racha más larga y contribuciones del último año" width="419" height="165" src="https://fy-readme-live.vercel.app/campfire.gif" />
 </picture>
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/blue-langs-dark.gif" />
-  <img alt="Grafo flotante de los lenguajes de mis repos públicos, con chispas azules entre los que comparten repo" width="250" height="150" src="assets/blue-langs-light.gif" />
+  <source media="(prefers-color-scheme: dark)" srcset="https://fy-readme-live.vercel.app/langs.gif?theme=dark" />
+  <img alt="Grafo flotante de los lenguajes de mis repos públicos, con chispas azules entre los que comparten repo" width="250" height="150" src="https://fy-readme-live.vercel.app/langs.gif?theme=light" />
 </picture>
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/blue-flame-dark.gif" />
-  <img alt="Llama azul de píxeles: 394 contribuciones esta semana" width="90" height="160" src="assets/blue-flame-light.gif" />
+  <source media="(prefers-color-scheme: dark)" srcset="https://fy-readme-live.vercel.app/flame.gif?theme=dark" />
+  <img alt="Llama azul de píxeles que crece con mis contribuciones de esta semana" width="90" height="160" src="https://fy-readme-live.vercel.app/flame.gif?theme=light" />
 </picture>
 </p>
 
 <p>
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/blue-city-dark.gif" />
-  <img alt="Ciudad isométrica de madera: un edificio por día con mis 6.170 contribuciones del último año; el techo de hoy parpadea en azul" width="413" height="222" src="assets/blue-city-light.gif" />
+  <source media="(prefers-color-scheme: dark)" srcset="https://fy-readme-live.vercel.app/city.gif?theme=dark" />
+  <img alt="Ciudad isométrica de madera: un edificio por día con mis contribuciones del último año; el techo de hoy parpadea en azul" width="413" height="222" src="https://fy-readme-live.vercel.app/city.gif?theme=light" />
 </picture>
 <picture>
-  <img alt="Terminal que escribe whoami y gh stats: 6.170 contribuciones el último año, 325 commits públicos, 21 pull requests, 77 repos públicos, 16 estrellas, racha de 24 días (máx. 40) y TypeScript como lenguaje principal (55%)" width="340" height="237" src="assets/blue-terminal.gif" />
+  <img alt="Terminal que escribe whoami y gh stats con mis estadísticas públicas de GitHub: contribuciones, commits, pull requests, repos, estrellas, racha y lenguaje principal" width="340" height="237" src="https://fy-readme-live.vercel.app/terminal.gif" />
 </picture>
 </p>
 
@@ -72,7 +72,7 @@
   <img alt="Sistema solar en píxeles con los ocho planetas orbitando un sol con corona azul" width="260" height="120" src="assets/blue-solar-system.gif" />
 </picture>
 <picture>
-  <img alt="Luna de hoy sobre Santiago, 25 nov 2026: gibosa menguante, 97% iluminada" width="240" height="120" src="assets/blue-moon-santiago.gif" />
+  <img alt="Luna de hoy sobre Santiago de Chile, con su fase y el porcentaje iluminado" width="240" height="120" src="https://fy-readme-live.vercel.app/moon.gif" />
 </picture>
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/blue-barnsley-fern-dark.gif" />
@@ -86,10 +86,10 @@
   <img alt="Tabla de skate girando con el gráfico KODER y rayos en azul" width="220" height="140" src="assets/blue-deck-light.gif" />
 </picture>
 <picture>
-  <img alt="Placa de nogal y arce con mi ELO de ajedrez en Chess.com: 182 en blitz, usuario @franciscoyuster" width="220" height="140" src="assets/chess-rating.gif" />
+  <img alt="Placa de nogal y arce con mi ELO de ajedrez en Chess.com, usuario @franciscoyuster" width="220" height="140" src="https://fy-readme-live.vercel.app/rating.gif" />
 </picture>
 <picture>
-  <img alt="Puzzle de ajedrez del día de Lichess en un tablero de nogal y arce, resuelto jugada a jugada" width="124" height="140" src="assets/chess-puzzle.gif" />
+  <img alt="Puzzle de ajedrez del día de Lichess en un tablero de nogal y arce, resuelto jugada a jugada" width="124" height="140" src="https://fy-readme-live.vercel.app/puzzle.gif" />
 </picture>
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/blue-bonsai-dark.gif" />
@@ -107,8 +107,8 @@
   <img alt="Taza de café azul con un contador de cafés que termina en infinito" width="120" height="112" src="assets/blue-coffee-light.gif" />
 </picture>
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/blue-element-of-the-day-dark.gif" />
-  <img alt="Tabla periódica con el elemento del día en azul: 86, Rn, Radón" width="300" height="120" src="assets/blue-element-of-the-day-light.gif" />
+  <source media="(prefers-color-scheme: dark)" srcset="https://fy-readme-live.vercel.app/element.gif?theme=dark" />
+  <img alt="Tabla periódica con el elemento del día en azul" width="300" height="120" src="https://fy-readme-live.vercel.app/element.gif?theme=light" />
 </picture>
 </p>
 
