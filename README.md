@@ -20,7 +20,7 @@
   <img align="right" alt="Tablero de ajedrez isométrico jugando el mate del pastor" width="147" height="99" src="assets/chess-iso-light.gif" />
 </picture>
 
-<img align="right" alt="Tres gatas (gris, romana y romana de pecho y patas blancas) y un perro poodle con cocker rubio" width="253" height="100" src="assets/pets.gif" />
+<img align="right" alt="Tres gatas (gris, romana y romana de pecho y patas blancas) y un perro poodle con cocker rubio" width="250" height="99" src="assets/pets.gif" />
 
 <div align="center">
 
