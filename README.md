@@ -19,7 +19,7 @@
   <img align="right" alt="Tablero de ajedrez isométrico de nogal y arce, piezas de boj y palisandro, jugando el mate del pastor" width="147" height="90" src="assets/chess-wood.gif" />
 </picture>
 
-<img align="right" alt="Mis mascotas: gata gris, gata romana de pecho crema, gata romana de pecho y patas blancas, y perro poodle con cocker color damasco" width="250" height="99" src="assets/pets.gif" />
+<img align="right" alt="Mis mascotas: gata gris de pelo semilargo, gata romana de pecho canela, gata romana de pecho y patas blancas, y perro poodle con cocker color damasco" width="250" height="99" src="assets/pets.gif" />
 
 <div align="center">
 
