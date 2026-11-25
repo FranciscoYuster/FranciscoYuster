@@ -47,6 +47,72 @@
 
 </div>
 
+## Un poco de todo
+
+<div align="center">
+
+<p>
+<picture>
+  <img alt="Placa de nogal y arce para mi ELO de ajedrez en Lichess, aún sin usuario configurado" width="220" height="140" src="assets/chess-rating.gif" />
+</picture>
+<picture>
+  <img alt="Puzzle de ajedrez del día de Lichess en un tablero de nogal y arce, resuelto jugada a jugada" width="124" height="140" src="assets/chess-puzzle.gif" />
+</picture>
+<picture>
+  <img alt="Tabla de skate girando en 3D: lija negra arriba y gráfica roja KODER con rayos abajo" width="220" height="140" src="assets/skate-deck.gif" />
+</picture>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/chile-map-dark.gif" />
+  <img alt="Mapa de Chile en píxeles, de Arica a Punta Arenas, con Santiago latiendo en rojo" width="122" height="140" src="assets/chile-map-light.gif" />
+</picture>
+</p>
+
+<p>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/now-playing-dark.gif" />
+  <img alt="Sonando ahora: butterflies. de Brent Faiyaz, del álbum Icon (2026), con un vinilo girando" width="300" height="112" src="assets/now-playing-light.gif" />
+</picture>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/coffee-dark.gif" />
+  <img alt="Taza de café roja humeante con un contador de cafés de hoy que termina en infinito" width="120" height="112" src="assets/coffee-light.gif" />
+</picture>
+<picture>
+  <img alt="Estante de nogal con lomos de libros de colores, una planta, un rey de ajedrez y una gata gris durmiendo" width="300" height="112" src="assets/bookshelf.gif" />
+</picture>
+</p>
+
+<p>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/quotes-dark.gif" />
+  <img alt="Citas que se escriben solas: Feynman, Dijkstra, Torvalds, Grace Hopper, Marie Curie y Carl Sagan" width="480" height="84" src="assets/quotes-light.gif" />
+</picture>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/clock-chile-dark.gif" />
+  <img alt="Reloj ASCII con la hora de Santiago de Chile del momento en que se generó la imagen" width="280" height="84" src="assets/clock-chile-light.gif" />
+</picture>
+</p>
+
+<p>
+<a href="https://github.com/FranciscoYuster/api-bcch"><picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/repo-api-bcch-dark.gif" />
+  <img alt="Repositorio api-bcch: indicadores económicos del Banco Central de Chile, en TypeScript" width="190" height="84" src="assets/repo-api-bcch-light.gif" />
+</picture></a>
+<a href="https://github.com/FranciscoYuster/mcp-skills"><picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/repo-mcp-skills-dark.gif" />
+  <img alt="Repositorio mcp-skills: servidor MCP para descubrir e instalar skills, en TypeScript" width="190" height="84" src="assets/repo-mcp-skills-light.gif" />
+</picture></a>
+<a href="https://github.com/FranciscoYuster/claude-client-gmail-mcp"><picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/repo-claude-client-gmail-mcp-dark.gif" />
+  <img alt="Repositorio claude-client-gmail-mcp: acceso de asistentes de IA a Gmail con MCP, en Python" width="190" height="84" src="assets/repo-claude-client-gmail-mcp-light.gif" />
+</picture></a>
+<a href="https://github.com/FranciscoYuster/Logigo"><picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/repo-logigo-dark.gif" />
+  <img alt="Repositorio Logigo: sistema de control de stock con React, Vite y Flask, en JavaScript" width="190" height="84" src="assets/repo-logigo-light.gif" />
+</picture></a>
+</p>
+
+</div>
+
 ## Tecnologías
 
 | Área | Stack |
