@@ -15,6 +15,16 @@
   <img align="right" alt="Skater haciendo un kickflip, en arte de bloques" width="102" height="99" src="assets/skater-kickflip-light.gif" />
 </picture>
 
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/chess-scholars-mate-dark.gif" />
+  <img align="right" alt="Tablero de ajedrez jugando el mate del pastor" width="99" height="99" src="assets/chess-scholars-mate-light.gif" />
+</picture>
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/ascii-black-hole-dark.gif" />
+  <img align="right" alt="Agujero negro en arte ASCII con su disco de acreción girando" width="97" height="99" src="assets/ascii-black-hole-light.gif" />
+</picture>
+
 <div align="center">
 
 <img alt="Francisco Yuster — Koder SpA" src="https://readme-typing-svg.demolab.com/?font=Poppins&weight=600&size=32&duration=4000&pause=1000&color=1D4ED8&center=true&vCenter=true&width=600&height=70&lines=Francisco+Yuster;Koder+SpA" />
