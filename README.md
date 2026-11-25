@@ -47,6 +47,53 @@
 
 </div>
 
+## Tech
+
+<div align="center">
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/tech-city-dark.gif" />
+  <img alt="Mis contribuciones del último año como una ciudad isométrica de madera de nogal y arce: un edificio por día, más alto cuantas más contribuciones, con ventanas que se encienden en barrido y el techo de hoy parpadeando en rojo" width="413" height="222" src="assets/tech-city-light.gif" />
+</picture>
+<picture>
+  <img alt="Terminal en pixel art que escribe whoami y luego lista mis repositorios públicos con push más reciente, con cursor parpadeante" width="340" height="222" src="assets/tech-terminal.gif" />
+</picture>
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/tech-life-dark.gif" />
+  <img alt="Juego de la vida de Conway: la palabra KODER en bloques evoluciona hacia el caos y luego se vuelve a formar" width="240" height="120" src="assets/tech-life-light.gif" />
+</picture>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/tech-quicksort-dark.gif" />
+  <img alt="Barras ordenándose con quicksort, con el pivote resaltado en rojo" width="180" height="120" src="assets/tech-quicksort-light.gif" />
+</picture>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/tech-astar-dark.gif" />
+  <img alt="Algoritmo A* resolviendo un laberinto de bloques: conjuntos abierto y cerrado en gris y el camino final en rojo" width="120" height="120" src="assets/tech-astar-light.gif" />
+</picture>
+<picture>
+  <img alt="Lluvia de caracteres rojos al estilo Matrix en un panel oscuro" width="120" height="120" src="assets/tech-rain.gif" />
+</picture>
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/tech-langs-dark.gif" />
+  <img alt="Grafo flotante de los lenguajes de mis repositorios públicos: TypeScript, JavaScript, Python, HTML, CSS y otros, con nodos del tamaño de sus bytes" width="250" height="150" src="assets/tech-langs-light.gif" />
+</picture>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/tech-status-dark.gif" />
+  <img alt="Placa de estado con mi último commit público, su fecha relativa y el estado del último CI y deploy del repositorio" width="270" height="150" src="assets/tech-status-light.gif" />
+</picture>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/tech-circuit-dark.gif" />
+  <img alt="Placa de circuito en pixel art con pulsos de luz roja recorriendo las pistas desde y hacia un chip KODER" width="150" height="150" src="assets/tech-circuit-light.gif" />
+</picture>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/tech-flame-dark.gif" />
+  <img alt="Llama en pixel art que crece con mi racha actual de commits: 24 días" width="90" height="150" src="assets/tech-flame-light.gif" />
+</picture>
+
+</div>
+
 ## Tecnologías
 
 | Área | Stack |
